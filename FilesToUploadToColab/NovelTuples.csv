@@ -1,0 +1,3000 @@
+HasSubevent	sit	take notice	11	0.8250179533290001
+HasSubevent	soil moisture	temperature	9	0.6354110280659999
+HasSubevent	increase	population growth	19	0.479648408295
+HasSubevent	term	art history	10	0.461975585095
+HasSubevent	gold	silver mining	16	0.411587880338
+HasSubevent	air	noise pollution	19	0.410728913435
+HasSubevent	roller hockey	ice	9	0.37198343041500004
+HasSubevent	play	hockey league	7	0.362605887748
+HasSubevent	wind power	energy	17	0.335371569703
+HasSubevent	be part	process	12	0.258690070908
+HasSubevent	rescue	law enforcement	15	0.25308301228700003
+HasSubevent	job satisfaction	commitment	13	0.235894414115
+HasSubevent	activity	carbon dioxide	12	0.222184435398
+HasSubevent	dopamine	norepinephrine transporter	7	0.22084232953000002
+HasSubevent	water ice	surface	23	0.19396677098700002
+HasSubevent	science fiction	success	9	0.185573302661
+HasSubevent	shop	post office	38	0.166598231664
+HasSubevent	hydrogen atom	carbon	10	0.153925633033
+HasSubevent	source software	use	8	0.149965332586
+HasSubevent	cytochrome b	dehydrogenase subunit	9	0.13833932298499999
+HasSubevent	company	bus service	12	0.129781577368
+HasSubevent	rest	take place	7	0.127408407004
+HasSubevent	baseball	softball team	7	0.122794988824
+HasSubevent	capita allowance	dm	8	0.117987408047
+HasSubevent	death	monoxide poisoning	8	0.104815143538
+HasSubevent	opening	ending theme	7	0.10303741911900001
+HasSubevent	beta decay	emission	16	0.102017709462
+HasSubevent	flash drive	system	10	0.09683200826749999
+HasSubevent	alcohol content	wine	7	0.0889442117555
+HasSubevent	show	season premiere	13	0.0888678732398
+HasSubevent	climate change	warming	63	0.0780936191198
+HasSubevent	basketball coach	team	7	0.0757119318654
+HasSubevent	freshwater lake	water	8	0.0703641718218
+HasSubevent	graduate program	master	7	0.06826337283890001
+HasSubevent	application programming	user	8	0.0679930523587
+HasSubevent	shear stress	rate	11	0.0670474120005
+HasSubevent	air base	aircraft	15	0.06486218921749999
+HasSubevent	film	hit song	9	0.0640038833934
+HasSubevent	set theory	choice	33	0.0630638584104
+HasSubevent	ice hockey	football	53	0.0630014216175
+HasSubevent	survivor	assassination attempt	15	0.0607821709179
+HasSubevent	be part	trilogy	7	0.057892334533900004
+HasSubevent	amusement park	coaster	9	0.0556955469938
+HasSubevent	convolution theorem	fourier	8	0.0553787592055
+HasSubevent	law enforcement	period	8	0.05029201737430001
+HasSubevent	power	v8 engine	7	0.050221926788800005
+HasSubevent	host	television series	16	0.0495330027208
+HasSubevent	idea	operating system	10	0.049396884689800004
+HasSubevent	quality	customer satisfaction	7	0.0486016646476
+HasSubevent	state	firing squad	8	0.047493872997599995
+HasSubevent	set theory	logic	31	0.0440186965638
+HasSubevent	köppen climate	cwa	7	0.0439618699523
+HasSubevent	world	law enforcement	7	0.0430598851066
+HasSubevent	speed	rail link	7	0.0396331022504
+HasSubevent	field hockey	ice hockey	20	0.0370383764851
+HasSubevent	be part	line	12	0.036947520958599996
+HasSubevent	mail	domain name	22	0.036320843531499995
+HasSubevent	harm reduction	use	9	0.0361540517095
+HasSubevent	airport	air base	11	0.0353215363111
+HasSubevent	piano	music theory	11	0.0344613100271
+HasSubevent	call sign	time	7	0.034147773587000003
+HasSubevent	video	rf modulator	11	0.0302104736368
+HasSubevent	part	reform movement	7	0.029958983623
+HasSubevent	covariance matrix	ensemble	7	0.024607151770900004
+HasSubevent	line	see section	9	0.023754330304099996
+HasSubevent	death	take possession	8	0.022442928369
+HasSubevent	signal	phase shift	7	0.021043796257099998
+HasSubevent	world title	bout	8	0.020729113384799998
+HasSubevent	beginning	world war	20	0.0196499065585
+HasSubevent	city park	center	7	0.019096458337599997
+HasSubevent	body size	shape	8	0.0190759249901
+HasSubevent	performance	television show	11	0.0183957259154
+HasSubevent	take care	son	18	0.0176742639836
+HasSubevent	solution	calcium hydroxide	9	0.0175076573284
+HasSubevent	telephone company	customer	7	0.016890703163100002
+HasSubevent	attack	police station	8	0.0167201235041
+HasSubevent	greenhouse	water vapor	10	0.0158864846902
+HasSubevent	planning	birth control	13	0.015796294353200003
+HasSubevent	testing	wind tunnel	9	0.015350598561799999
+HasSubevent	barrier island	coast	12	0.015203972353700001
+HasSubevent	publishing	page layout	8	0.0146327583391
+HasSubevent	group	record deal	12	0.0136398445462
+HasSubevent	television host	comedian	9	0.0134644281405
+HasSubevent	season	league championship	18	0.0132312962296
+HasSubevent	mating system	polygyny	7	0.0131743297896
+HasSubevent	point	field goal	8	0.013160294545100001
+HasSubevent	blacksmith shop	store	28	0.013044492886099998
+HasSubevent	art collector	collection	10	0.012246996632
+HasSubevent	heart disease	cause	12	0.0117645930705
+HasSubevent	summer	take place	9	0.0116306059147
+HasSubevent	coalition government	way	8	0.011248365210899999
+HasSubevent	income	level approval	85	0.011150918207
+HasSubevent	text	user interface	7	0.010837593834500002
+HasSubevent	degree	field extension	9	0.0106883642769
+HasSubevent	reconnaissance	ground attack	8	0.0104873020838
+HasSubevent	ice age	land	13	0.0100983782569
+HasSubevent	testing	program evaluation	7	0.0100793323015
+HasSubevent	education program	kindergarten	8	0.0100468545644
+HasSubevent	football league	competition	10	0.010026484936
+HasSubevent	trading	waste disposal	12	0.0100202940071
+HasSubevent	soil	climate change	9	0.009489016731840001
+HasSubevent	humidity	dew point	10	0.00942587887021
+HasSubevent	tv movie	film	12	0.00931560920059
+HasSubevent	convention	draft constitution	8	0.009031205382450001
+HasSubevent	trade deadline	draft pick	7	0.00870876113129
+HasSubevent	tick	lyme disease	7	0.00832054298014
+HasSubevent	quantum chemistry	theory	8	0.00796753251368
+HasSubevent	part	shopping center	8	0.00786661664033
+HasSubevent	air show	place	8	0.00774230486837
+HasSubevent	memorial	bronze statue	7	0.0076771949895
+HasSubevent	way home	work	10	0.00737897343605
+HasSubevent	chief marshal	air	7	0.00730560355965
+HasSubevent	construction	blast furnace	7	0.00724719664967
+HasSubevent	meaning	river name	17	0.00713878181783
+HasSubevent	peanut sauce	rice	7	0.006957720534569999
+HasSubevent	food	body weight	11	0.006910348751760001
+HasSubevent	season	guest star	14	0.00684602865882
+HasSubevent	cast member	series	56	0.00674101176013
+HasSubevent	office building	world	8	0.00655718371367
+HasSubevent	science fiction	variety	10	0.006478155609319999
+HasSubevent	documentary film	album	13	0.00636975353178
+HasSubevent	emitter	input voltage	8	0.00627089979467
+HasSubevent	difference	water level	8	0.00550702671815
+HasSubevent	pressure curve	line	7	0.005331166811750001
+HasSubevent	population	lingua franca	7	0.00508451409994
+HasSubevent	printer	dot matrix	9	0.00494204011734
+HasSubevent	flood control	generation	19	0.00483039504964
+HasSubevent	something	write home	14	0.00480733101355
+HasSubevent	field	gauge symmetry	12	0.00461050804195
+HasSubevent	team	playoff contention	7	0.00460176313557
+HasSubevent	trade name	peptidase-4 inhibitor	7	0.004511684965699999
+HasSubevent	colony	exist encompassing	8	0.004373224693180001
+HasSubevent	breakup	solo career	7	0.004339828729640001
+HasSubevent	aluminium	carbon fiber	9	0.00429556637071
+HasSubevent	part	compilation album	10	0.00424406774486
+HasSubevent	power vacuum	death	7	0.00422584101607
+HasSubevent	fire protection	ambulance transport	14	0.00419805369731
+HasSubevent	councillor	deputy leader	7	0.004192676699199999
+HasSubevent	time	oil crisis	7	0.004120959208619999
+HasSubevent	flight deck	landing	17	0.003943773111070001
+HasSubevent	restriction enzyme	dna	7	0.00387001178917
+HasSubevent	insurance	property damage	7	0.00383056643981
+HasSubevent	mathematics	set x	7	0.00379941715123
+HasSubevent	place	video game	7	0.0037675655491399996
+HasSubevent	feature film	production	35	0.00375323131062
+HasSubevent	association football	field	14	0.0036316159850799997
+HasSubevent	team	head coach	239	0.0036254288142
+HasSubevent	classification	wheel arrangement	8	0.00362521623922
+HasSubevent	pop singer	music	9	0.00332438525323
+HasSubevent	award winner	year	7	0.0033227947901300005
+HasSubevent	revenue curve	price	8	0.0031252779575700004
+HasSubevent	lung	heart failure	9	0.0030943657834299997
+HasSubevent	state	unemployment rate	26	0.0030409769513800003
+HasSubevent	food security	access	9	0.0030332064923099997
+HasSubevent	architect	landscape designer	7	0.00296566782764
+HasSubevent	theme	concept album	7	0.00293141277062
+HasSubevent	court	swimming pool	13	0.00278098652651
+HasSubevent	marketing	market research	10	0.0026946186646699998
+HasSubevent	take possession	island	7	0.00267453092092
+HasSubevent	teddy bear	toy	7	0.0026297494916
+HasSubevent	planning	community development	8	0.00261976569846
+HasSubevent	band	cameo appearance	7	0.0025819523718499998
+HasSubevent	home	soccer team	29	0.0025745085569099995
+HasSubevent	guidance	launching aircraft	9	0.0024697413920799997
+HasSubevent	way	take control	7	0.00242944543014
+HasSubevent	association football	field hockey	7	0.0023992849391
+HasSubevent	ice	hockey team	28	0.002395801286
+HasSubevent	headphone	card reader	10	0.00235621030399
+HasSubevent	railroad	rail service	10	0.0023108145142399996
+HasSubevent	constitution	state government	17	0.00230235310799
+HasSubevent	sea level	result	8	0.00226814550686
+HasSubevent	prominence	television series	10	0.00222928897717
+HasSubevent	signal box	railway	7	0.00222321722245
+HasSubevent	operating system	server	37	0.00221776829921
+HasSubevent	ground	air support	17	0.00215172856628
+HasSubevent	army	invasion force	10	0.00206629984667
+HasSubevent	railway	motive power	7	0.00202891710504
+HasSubevent	artillery	air attack	7	0.0019820863779
+HasSubevent	style	debut album	16	0.00195379303211
+HasSubevent	chemical	polymer chemistry	7	0.0018450247501199998
+HasSubevent	trade	draft pick	24	0.00182361935257
+HasSubevent	server	cipher suite	8	0.0018229081829300002
+HasSubevent	part	peace deal	7	0.00182025135081
+HasSubevent	community	police force	9	0.00178425767667
+HasSubevent	concourse a	terminal	8	0.0016876673266099998
+HasSubevent	series	book form	16	0.0016295992445999998
+HasSubevent	identity	gender role	8	0.00160950484126
+HasSubevent	state route	highway	8	0.00159945148082
+HasSubevent	seek admission	child	30	0.0015353726573900002
+HasSubevent	standing wave	line	8	0.00152990350348
+HasSubevent	heart attack	mother	11	0.00148990714721
+HasSubevent	voting system	number	7	0.0014165772891500002
+HasSubevent	gold	name state	9	0.00130918774471
+HasSubevent	crime scene	dna	7	0.00130069428666
+HasSubevent	wallpaper group	symmetry	13	0.00123784668571
+HasSubevent	popularity	video game	8	0.00121034070409
+HasSubevent	part	testing program	8	0.0011910366325
+HasSubevent	source code	hardware	11	0.0011847173224500001
+HasSubevent	theme	music video	7	0.00113636714268
+HasSubevent	century ce	kingdom	7	0.0011119233742
+HasSubevent	town	shopping centre	54	0.00108080016099
+HasSubevent	hockey	box lacrosse	7	0.00105556861858
+HasSubevent	theme song	anime	9	0.0009618381000750001
+HasSubevent	part	development program	9	0.000953763995607
+HasSubevent	wind power	generation	10	0.000906994794599
+HasSubevent	scene	theme song	7	0.0008896113846190001
+HasSubevent	style	guitar playing	15	0.000862398794489
+HasSubevent	chemical symbol	element	7	0.000857039524404
+HasSubevent	cartoon	television series	11	0.000797182249224
+HasSubevent	horse racing	state	7	0.000780828896332
+HasSubevent	tennis player	world	15	0.0007096553394890001
+HasSubevent	browser	operating system	19	0.0006908510994110001
+HasSubevent	blacksmith shop	school	18	0.000642720154704
+HasSubevent	song	solo artist	8	0.000617504419766
+HasSubevent	establishment	police force	8	0.000613215850714
+HasSubevent	blood pressure	risk	14	0.000611794295236
+HasSubevent	air	waste disposal	11	0.0006082895194210001
+HasSubevent	centre	textile production	7	0.0005772834099670001
+HasSubevent	capital punishment	life	19	0.000546543206213
+HasSubevent	image	farm life	7	0.0005201749991069999
+HasSubevent	blood	type o	9	0.000514550009988
+HasSubevent	county	population density	112	0.000506257143116
+HasSubevent	sie	person plural	9	0.000496510457391
+HasSubevent	county	minimum wage	9	0.00047642120360500003
+HasSubevent	chemical formula	oh	8	0.00047477408437
+HasSubevent	cover	lie group	11	0.000467601583016
+HasSubevent	development	number theory	8	0.000459782913987
+HasSubevent	time	concert tour	10	0.000454497055951
+HasSubevent	field hockey	title	7	0.00044779405821099993
+HasSubevent	castle town	edo period	8	0.000444488095367
+HasSubevent	grist mill	saw	13	0.00043421491657799995
+HasSubevent	water	paper mill	15	0.0004215097510909999
+HasSubevent	audience	radio show	7	0.000319819221931
+HasSubevent	county seat	hub	9	0.00028901035994400003
+HasSubevent	fishing technique	line	7	0.000274596917759
+HasSubevent	county town	settlement	7	0.00026921246437299997
+HasSubevent	element	vector space	13	0.00024072848908
+HasSubevent	compilation album	work	8	0.00023939442829
+HasSubevent	world premiere	opera	8	0.00023764373195599996
+HasSubevent	center	office building	9	0.000234688405304
+HasSubevent	town centre	council	13	0.00023187864451199998
+HasSubevent	rail line	passenger	16	0.000228885243273
+HasSubevent	plane wave	lens	11	0.00022391875888299999
+HasSubevent	election victory	party	11	0.000200887836432
+HasSubevent	city	subway system	18	0.00020048590469
+HasSubevent	business district	city	94	0.000191984044266
+HasSubevent	pilot	control column	10	0.000190327231009
+HasSubevent	arcade game	music	8	0.000188060817823
+HasSubevent	device driver	computer	8	0.000171446834644
+HasSubevent	police force	community	8	0.000160683154901
+HasSubevent	antenna	feed line	18	0.000155604385735
+HasSubevent	food court	area	7	0.000154741996307
+HasSubevent	film	detective fiction	7	0.000148523905488
+HasSubevent	spanning tree	network	7	0.00014268177815600003
+HasSubevent	system	death penalty	10	0.00014094337804100002
+HasSubevent	carrier	strike group	23	0.00012745253685299997
+HasSubevent	tourist attraction	century	7	0.00012739956759999998
+HasSubevent	field theory	value	7	0.000119890389745
+HasSubevent	cell	radio network	10	0.00011387717210100002
+HasSubevent	example	field theory	8	0.000112828144532
+HasSubevent	population pressure	belief	12	0.00011191196987700001
+HasSubevent	missile	launch site	7	0.00010460429233600002
+HasSubevent	county seat	majority	11	0.0001019773234
+HasSubevent	neighbourhood	city centre	9	9.78854482294e-05
+HasSubevent	producer	studio executive	7	9.41758047947e-05
+HasSubevent	section	trunk road	7	9.05335346849e-05
+HasSubevent	basketball team	bronze	7	8.79232884125e-05
+HasSubevent	head coach	football	74	8.06284850471e-05
+HasSubevent	series	animation studio	7	7.04354738358e-05
+HasSubevent	part	garage rock	8	6.84337889742e-05
+HasSubevent	fluid	vector field	7	6.79210885971e-05
+HasSubevent	shopping district	city	12	6.39513718018e-05
+HasSubevent	system	telephone company	8	6.30709674039e-05
+HasSubevent	roadway	city line	7	4.46374603897e-05
+HasSubevent	downtown section	city	7	4.11990498917e-05
+HasSubevent	office space	downtown	12	4.03511917491e-05
+HasSubevent	role	film debut	10	3.72988638578e-05
+HasSubevent	man	movie camera	8	3.40564788151e-05
+HasSubevent	county	court house	14	3.27099824163e-05
+HasSubevent	acid sequence	structure	8	3.17781732192e-05
+HasSubevent	ray tube	television	16	2.55104978811e-05
+HasSubevent	county	health department	7	2.50162655682e-05
+HasSubevent	hardware store	company	7	2.40527315452e-05
+HasSubevent	system	radio station	7	2.03525154248e-05
+HasSubevent	album	arena tour	9	1.87808967222e-05
+HasSubevent	coalition government	cabinet	10	1.71240635729e-05
+HasSubevent	fort	powder magazine	7	1.4778500674000002e-05
+HasSubevent	exit	service area	8	1.43209608684e-05
+HasSubevent	edge	county seat	7	1.32347110593e-05
+HasSubevent	downtown area	music	8	1.11384198711e-05
+HasSubevent	motorway	trunk road	14	1.00620093979e-05
+HasSubevent	silver medal	team	23	9.53047884687e-06
+HasSubevent	studio	solo album	15	9.481972148610001e-06
+HasSubevent	student population	city	13	5.15126394068e-06
+HasSubevent	history	county seat	8	4.22682964519e-06
+HasSubevent	student body	campus	24	3.56787128915e-06
+HasSubevent	series	station wagon	13	3.3670835392700002e-06
+HasSubevent	radio station	week	8	3.2002621505400002e-06
+HasSubevent	revenue collection	county	70	1.04088532725e-06
+HasSubevent	director	box office	14	8.22887134885e-07
+AtLocation	stock exchange	market	20	0.993669590882
+AtLocation	white hole	black hole	9	0.980471093986
+AtLocation	site	history museum	7	0.956108316586
+AtLocation	7th century	9th century	21	0.9268044060870001
+AtLocation	police officer	law	14	0.872442028941
+AtLocation	dramatic feature	film	7	0.868714725545
+AtLocation	main route	north	16	0.8359396198450001
+AtLocation	league	football team	19	0.830135016303
+AtLocation	college	student government	7	0.812739131399
+AtLocation	crc handbook	edition	9	0.768325849759
+AtLocation	hockey association	national hockey	9	0.749859057719
+AtLocation	session musician	band	15	0.7417608040289999
+AtLocation	column rank	row	14	0.69587190183
+AtLocation	other band	album	7	0.693507429158
+AtLocation	rule	of peace	12	0.6782539989290001
+AtLocation	small town	land	8	0.677656855187
+AtLocation	north side	front	11	0.603735926579
+AtLocation	service	local news	10	0.585808094826
+AtLocation	village	northern end	15	0.576937933148
+AtLocation	mass	center of gravity	11	0.558250352524
+AtLocation	snow	of ice	10	0.547987839614
+AtLocation	steel	coal mining	10	0.526324036379
+AtLocation	bass clarinet	trombone	7	0.5223635355749999
+AtLocation	state	new constitution	53	0.47777526196900005
+AtLocation	book	public domain	29	0.475342102798
+AtLocation	fossil record	history	7	0.47301650205
+AtLocation	coach	national team	46	0.464172564691
+AtLocation	black hole	accretion disk	7	0.457346180875
+AtLocation	control	natural gas	8	0.448966814435
+AtLocation	city council	department	14	0.447054983068
+AtLocation	form	of air	14	0.424511228941
+AtLocation	track	swimming pool	19	0.41053588276
+AtLocation	opera	on stage	10	0.40893001134900003
+AtLocation	law	legal framework	8	0.39541730056100005
+AtLocation	great detail	book	9	0.37090016855499996
+AtLocation	northern section	town	26	0.368819577466
+AtLocation	school	national curriculum	10	0.36726511219700003
+AtLocation	important role	peace	10	0.360767587111
+AtLocation	system	particular state	8	0.358732462135
+AtLocation	non-governmental organization	government	7	0.351565136011
+AtLocation	second division	league	7	0.34893359641500005
+AtLocation	character	of text	18	0.348759841392
+AtLocation	mass	of magnitude	18	0.342367142069
+AtLocation	consensus	in order	12	0.338650293133
+AtLocation	mathematical field	space	7	0.327018212418
+AtLocation	nobility	middle class	11	0.31661437061299996
+AtLocation	large number	20th century	9	0.31176266432300004
+AtLocation	central portion	side	8	0.30876913037799997
+AtLocation	right atrium	heart	25	0.306169017049
+AtLocation	point	plane wave	7	0.30357953768
+AtLocation	part	conventional medicine	7	0.299177916186
+AtLocation	part	production process	15	0.282743523431
+AtLocation	way	field theory	7	0.268679774533
+AtLocation	act of succession	throne	10	0.265249343882
+AtLocation	other hand	ground	16	0.257182031274
+AtLocation	statue	on top	17	0.25592152301300003
+AtLocation	name	their group	7	0.252274124631
+AtLocation	lead guitarist	bassist	35	0.25037746227200003
+AtLocation	small amount	money	35	0.249624210779
+AtLocation	area	of color	9	0.247696506597
+AtLocation	example	instruction set	11	0.23198716071999997
+AtLocation	theorem	of a	8	0.23179172430300002
+AtLocation	21st century	bc	9	0.226793450603
+AtLocation	real line	space	18	0.22643844102699998
+AtLocation	number	per unit	89	0.219239592325
+AtLocation	novel	book form	23	0.21889627324000002
+AtLocation	doctor	podiatric medicine	13	0.216558448188
+AtLocation	south side	airport	21	0.212852341078
+AtLocation	railway	under construction	31	0.210127144401
+AtLocation	outer space	life	9	0.208679834115
+AtLocation	division	in accordance	10	0.19977782575300002
+AtLocation	water power	industry	35	0.19854834937600002
+AtLocation	important contribution	philosophy	12	0.189043068378
+AtLocation	land	housing estate	8	0.186528124599
+AtLocation	dual carriageway	single carriageway	13	0.181427906674
+AtLocation	homomorphism	orthogonal group	7	0.179973555803
+AtLocation	immigration	19th century	46	0.178957808153
+AtLocation	actual number	year	7	0.17665527077100002
+AtLocation	control	7th century	14	0.173044079588
+AtLocation	tradition	century bc	18	0.170425156297
+AtLocation	electromagnetic radiation	electromagnetic spectrum	8	0.170423674947
+AtLocation	market	of law	9	0.170006154744
+AtLocation	6th century	book	8	0.161028665678
+AtLocation	coral	great barrier	8	0.152589192761
+AtLocation	american singer	player	44	0.15187368645500002
+AtLocation	coin	legal tender	16	0.14766029460000002
+AtLocation	sulfur dioxide	trioxide	11	0.144771396667
+AtLocation	grape	with merlot	7	0.132843804299
+AtLocation	record	pop music	8	0.130097381998
+AtLocation	lead singer	player	11	0.12941337944
+AtLocation	novel	16th century	7	0.12903025092599998
+AtLocation	fire station	post office	14	0.128108541274
+AtLocation	treatment	mechanical ventilation	7	0.127290097676
+AtLocation	animal	its head	13	0.12630598469499998
+AtLocation	last year	school	32	0.124697485125
+AtLocation	function	set a	9	0.124069769583
+AtLocation	band	eponymous debut	30	0.122933245145
+AtLocation	way	by sea	12	0.12194547244100001
+AtLocation	potential difference	conductor	8	0.119136235003
+AtLocation	building	northern edge	8	0.118080647564
+AtLocation	first goal	team	8	0.11471388083900001
+AtLocation	inlet port	exhaust	7	0.11410641461
+AtLocation	swiss heritage	significance	35	0.11280895957499999
+AtLocation	temperature	melting point	33	0.112732569011
+AtLocation	film version	album	7	0.10953442304500001
+AtLocation	oil	in cooking	11	0.105088134209
+AtLocation	parish	district council	30	0.10457970185799999
+AtLocation	coupe	station wagon	12	0.103244431388
+AtLocation	16th century	mill	7	0.10270509922900001
+AtLocation	exchange	in order	34	0.10266410555500001
+AtLocation	strip of land	border	16	0.102610776362
+AtLocation	award for best	presentation	42	0.10064429188400001
+AtLocation	delivery atmospheric	balloon	12	0.100187232864
+AtLocation	year	main event	7	0.09890918468360001
+AtLocation	education	local economy	8	0.0977100406404
+AtLocation	quantum field	gauge	8	0.0951371171717
+AtLocation	time	first class	15	0.094391188966
+AtLocation	computer programming	source code	12	0.092828622697
+AtLocation	title	crown prince	24	0.0925729251608
+AtLocation	journalist	political commentator	8	0.0921692236056
+AtLocation	century	its origin	8	0.0905306905546
+AtLocation	large number	battle	16	0.08980634070480001
+AtLocation	beginning	political career	11	0.08847806478739999
+AtLocation	security	old age	8	0.0869381464524
+AtLocation	word meaning	earth	8	0.08581871856699999
+AtLocation	village	township line	9	0.08471602473480001
+AtLocation	impact	his life	14	0.08401940297180001
+AtLocation	band	electronic music	28	0.0825244186042
+AtLocation	order	in case	30	0.0818173478118
+AtLocation	technology	19th century	19	0.08168539044760001
+AtLocation	cover version	band	15	0.08112087278749999
+AtLocation	series	in science	13	0.0805779322364
+AtLocation	age	in place	7	0.08046151283610001
+AtLocation	depth entry	water	7	0.07232401517880001
+AtLocation	space combat	game	8	0.06994654278199999
+AtLocation	storage	high speed	7	0.0691321419895
+AtLocation	large part	decision	7	0.0675570394693
+AtLocation	record producer	recording	18	0.0656436484629
+AtLocation	symbol	in fact	11	0.0656392947623
+AtLocation	law enforcement	field	7	0.06475272117519999
+AtLocation	form	separate species	7	0.064252487183
+AtLocation	search engine	seo	8	0.0641079263921
+AtLocation	laser	in order	12	0.0608348920914
+AtLocation	book	first person	18	0.060146139370099994
+AtLocation	health	in retirement	7	0.0581000500396
+AtLocation	same year	opposition	15	0.057814292910900004
+AtLocation	cause of death	water	8	0.05767884315780001
+AtLocation	magnetic moment	direction	7	0.0560979265435
+AtLocation	technique	gel electrophoresis	7	0.0554477626779
+AtLocation	thermal energy	phase	7	0.0551688745514
+AtLocation	press	political system	10	0.0549611314784
+AtLocation	company	passenger traffic	7	0.054710241238900004
+AtLocation	system	in entropy	13	0.054435399671
+AtLocation	work	its development	7	0.053456019042100004
+AtLocation	pianist	his career	10	0.0510263598405
+AtLocation	last minute	election	8	0.0507436860061
+AtLocation	hard disk	software	17	0.0493268827202
+AtLocation	form	chinese opera	8	0.0483846565144
+AtLocation	work	law enforcement	10	0.0466831789842
+AtLocation	run-up	presidential election	9	0.045322910170300004
+AtLocation	society	in relation	12	0.0451765819811
+AtLocation	wet season	precipitation	11	0.044566131389899996
+AtLocation	basis	home school district	70	0.0435560490692
+AtLocation	history	his account	11	0.0435126486825
+AtLocation	focus	character development	8	0.0426198640944
+AtLocation	vitamin c	risk	11	0.0415553215099
+AtLocation	decline	second half	22	0.0406207459498
+AtLocation	energy	exotic matter	7	0.040375975902
+AtLocation	significant influence	development	17	0.040331106968400005
+AtLocation	6th century	tradition	7	0.039603380945300005
+AtLocation	number theory	ring	11	0.0386755358102
+AtLocation	17th century	life	22	0.0381206624914
+AtLocation	mitosis	cell division	20	0.038002919773
+AtLocation	atomic number	uranium	9	0.037774490384400006
+AtLocation	economic development	environmental protection	7	0.0359352671502
+AtLocation	stock	of money	7	0.034481106063
+AtLocation	firm	his name	10	0.0343649405925
+AtLocation	military	coup d	22	0.0332442204057
+AtLocation	word order	language	10	0.0327718416895
+AtLocation	election victory	government	13	0.0322376687677
+AtLocation	missile	in service	20	0.031813856044
+AtLocation	resignation	removal from office	12	0.0315056951785
+AtLocation	character	first time	25	0.0310051416867
+AtLocation	water	their life	9	0.030448908955
+AtLocation	film festival	place	15	0.029457588173000003
+AtLocation	sand	calcium carbonate	8	0.029313970956
+AtLocation	example	free energy	10	0.028484041669
+AtLocation	career	drama series	7	0.027518179931600002
+AtLocation	constitution	independent judiciary	23	0.027325401671199998
+AtLocation	input	paper tape	8	0.0273224277859
+AtLocation	first step	theory	11	0.026089598374
+AtLocation	building	historic interest	8	0.0260826359863
+AtLocation	party	his candidacy	16	0.026030038566400005
+AtLocation	growth	industrial development	12	0.0256359357147
+AtLocation	fuel	of compression	7	0.0255374018115
+AtLocation	initiative	cell research	38	0.025179037917999997
+AtLocation	early development	group	9	0.024131373377400005
+AtLocation	heart failure	edema	10	0.023990576573900003
+AtLocation	car	production line	10	0.0239442997034
+AtLocation	soft mud	food	8	0.0230764974604
+AtLocation	medal	asiatic-pacific campaign	8	0.0230156585795
+AtLocation	lake	eastern part	13	0.0229094063488
+AtLocation	melting point	iron	12	0.022588736515799998
+AtLocation	formal language	grammar	15	0.0222986043415
+AtLocation	existence	nineteenth century	9	0.0214536899865
+AtLocation	album	by artist	10	0.021063005621
+AtLocation	school	his uncle	13	0.0201926167753
+AtLocation	call	return address	7	0.0186666569953
+AtLocation	song	new version	9	0.018454948084900002
+AtLocation	university	undergraduate program	10	0.0182017413091
+AtLocation	design	13th century	7	0.0181804037342
+AtLocation	collection	for example	20	0.0180772107403
+AtLocation	downtown	at night	9	0.0178521456265
+AtLocation	give birth	year	14	0.0170938708203
+AtLocation	new airport	runway	7	0.015283354496799998
+AtLocation	6th century	island	11	0.0145744806992
+AtLocation	system	of gold	13	0.014496407409700002
+AtLocation	18th century	basis	16	0.0139820746007
+AtLocation	text	oral tradition	7	0.013558424696700001
+AtLocation	use	of cloth	7	0.0133966569285
+AtLocation	indie rock	success	8	0.013360252162799999
+AtLocation	twentieth century	study	10	0.0131553356917
+AtLocation	vice president	counsel	9	0.0126759080928
+AtLocation	ambiguity	for example	11	0.012664831670399999
+AtLocation	death	other hand	7	0.0124102627511
+AtLocation	world champion	time	38	0.012289115974999999
+AtLocation	scheme	for example	21	0.0122868478612
+AtLocation	markup language	xml	28	0.012140171463299999
+AtLocation	first test	design	8	0.011714671159600001
+AtLocation	racial segregation	discrimination	13	0.011583783939
+AtLocation	use	its application	8	0.0115098957011
+AtLocation	engine	power output	51	0.0114614433619
+AtLocation	soap	television series	9	0.011319080072000002
+AtLocation	war	significant role	10	0.011057266860400001
+AtLocation	aspirin	salicylic acid	11	0.0109305146625
+AtLocation	voltage	its input	10	0.010883358615000002
+AtLocation	century bc	power	24	0.010779229826200002
+AtLocation	island	other side	15	0.0107515695616
+AtLocation	reactive power	load	7	0.010621808391499999
+AtLocation	station	narrow gauge	17	0.0105789852879
+AtLocation	album	american hip	17	0.0101582320161
+AtLocation	regna tria	cum	8	0.00931624275026
+AtLocation	emperor	in order	27	0.00931435978224
+AtLocation	battleship	her sister	7	0.0090700892604
+AtLocation	wide field	view	17	0.00872545345058
+AtLocation	high level	influence	7	0.00853536599708
+AtLocation	country	second half	14	0.00818797615154
+AtLocation	best new	album	12	0.00807592171815
+AtLocation	member	bass player	8	0.007361997526840001
+AtLocation	school	civil engineering	13	0.00720374372853
+AtLocation	industrial revolution	iron	7	0.007103162171189999
+AtLocation	first book	form	9	0.00701663600749
+AtLocation	8th century	part	14	0.006701075898600001
+AtLocation	year	film industry	8	0.00668075400227
+AtLocation	productivity	of input	7	0.0065172810364
+AtLocation	report	in response	7	0.006491445039220001
+AtLocation	supply	demand side	9	0.006466756104060001
+AtLocation	medal	relay team	8	0.00644960854689
+AtLocation	only child	death	12	0.00624918775654
+AtLocation	return	following year	22	0.006179187147800001
+AtLocation	war	major issue	11	0.00587805916526
+AtLocation	neural network	layer	7	0.005809740638869999
+AtLocation	criticism	sexual abuse	7	0.00566715546422
+AtLocation	southern shore	part	9	0.00531489318459
+AtLocation	star	in use	11	0.00476838403472
+AtLocation	lithic reduction	stone	8	0.0047327832684799995
+AtLocation	take place	point	10	0.00471325185291
+AtLocation	medal	ice hockey	8	0.00460070615926
+AtLocation	recession	economic growth	13	0.00446346929708
+AtLocation	protein	signal transduction	10	0.004306398577350001
+AtLocation	care	wide range	10	0.00403130306538
+AtLocation	atp	electron transport	20	0.0032737170798400003
+AtLocation	first time	strength	7	0.00314368404371
+AtLocation	road	for use	9	0.00310580360075
+AtLocation	instance	her husband	8	0.00310361494191
+AtLocation	second round	pick	27	0.0030851990304899997
+AtLocation	farm	present day	8	0.00296541521869
+AtLocation	military service	year	25	0.00263177988854
+AtLocation	honor society	language	8	0.0024594456841
+AtLocation	state	domestic product	7	0.00235453626583
+AtLocation	style	strong influence	7	0.0020167955364100002
+AtLocation	land use	analysis	7	0.0019595322983
+AtLocation	decay chain	uranium	10	0.00169151258127
+AtLocation	castle	her death	9	0.00156005267517
+AtLocation	16th century	knowledge	9	0.0012148749228399998
+AtLocation	basis	national security	7	0.000991400962952
+AtLocation	company	competitive advantage	9	0.0009226205443139999
+AtLocation	award as best	actor	10	0.0008543965071889998
+AtLocation	first day	term	11	0.0007946022853080001
+AtLocation	high school	influence	7	0.0006887483196389999
+AtLocation	music	long time	14	0.000582098856181
+AtLocation	music	extreme metal	8	0.00043020938685500005
+AtLocation	street	in turn	9	0.000353828436981
+AtLocation	trial	sexual assault	9	0.000343837082619
+AtLocation	studio	release date	8	0.00030844933209
+AtLocation	fire station	unit	7	0.00029850300458899995
+AtLocation	air mobility	support	7	0.000122128404922
+AtLocation	concept	with respect	14	0.000113403298129
+AtLocation	village	access from exit	15	9.98114303281e-05
+AtLocation	television movie	name	12	7.34083319967e-05
+UsedFor	post	mail delivery	11	0.978349631391
+UsedFor	school	junior college	23	0.8412021834219999
+UsedFor	term	transfer function	7	0.826106033923
+UsedFor	appearance	look like	9	0.783254925148
+UsedFor	clarinet	french horn	8	0.710702477251
+UsedFor	lake	recreation area	7	0.659981854717
+UsedFor	pen name	author	40	0.649584212364
+UsedFor	blood pressure	circulation	8	0.629892867637
+UsedFor	mayor	town council	52	0.609282784807
+UsedFor	state	provide for	20	0.582160393253
+UsedFor	space travel	time	14	0.571855366807
+UsedFor	rest mass	body	15	0.559257863514
+UsedFor	game	world champion	11	0.545566240705
+UsedFor	québécois	langue française	9	0.538633095661
+UsedFor	audio	video recording	7	0.533969071406
+UsedFor	population	official census	12	0.523648561619
+UsedFor	route	participate in	7	0.519345507448
+UsedFor	number	prime factorization	12	0.501252282572
+UsedFor	eye	ultraviolet light	7	0.47906134839500003
+UsedFor	line	freight in	7	0.478445955334
+UsedFor	drug use	abuse	11	0.47372668843500004
+UsedFor	science	evolutionary biology	14	0.44247176074199995
+UsedFor	question	deal with	8	0.43913749262699997
+UsedFor	law	foreign policy	8	0.426938715458
+UsedFor	machine gun	support	19	0.39901405558700004
+UsedFor	university	secondary education	12	0.393526715794
+UsedFor	rotation	centrifugal force	9	0.36085061703500004
+UsedFor	heat	thermal energy	58	0.354846271779
+UsedFor	gasoline	fuel economy	9	0.34942414806100003
+UsedFor	draft	first-round pick	11	0.345352304374
+UsedFor	language	software engineering	11	0.333732780665
+UsedFor	number	telephone network	9	0.333354369221
+UsedFor	area	high population	8	0.332248035211
+UsedFor	fee	public service	8	0.309644500652
+UsedFor	law enforcement	person	18	0.305039889727
+UsedFor	piece	other side	11	0.29828961692600003
+UsedFor	computer program	system	31	0.296629220949
+UsedFor	gas	high temperature	17	0.28964815481999995
+UsedFor	town	small community	10	0.289372269733
+UsedFor	son	follow in	7	0.283048517448
+UsedFor	market	ensure that	7	0.269943940319
+UsedFor	number	operating system	21	0.251640848677
+UsedFor	dopamine	norepinephrine transporter	7	0.247922371405
+UsedFor	team	new coach	13	0.240443751428
+UsedFor	köppen	classification dfa	44	0.230339353663
+UsedFor	species	significant proportion	9	0.22365419481899998
+UsedFor	air travel	growth	7	0.20901031694400002
+UsedFor	atp	cyclic amp	7	0.206857803247
+UsedFor	angle	incident ray	8	0.198865960728
+UsedFor	project	begin in	12	0.189611076386
+UsedFor	promise	refrain from	7	0.189189936965
+UsedFor	form	important part	7	0.18145926253400002
+UsedFor	president	supreme court	14	0.181051521216
+UsedFor	department	fire service	8	0.17850052311099998
+UsedFor	temperature change	heat	12	0.177383444615
+UsedFor	staunch support	abolitionism	16	0.17246486435400002
+UsedFor	moon	lunar month	70	0.16903798628400002
+UsedFor	part	depend on	7	0.167181921869
+UsedFor	term	horse racing	9	0.16555663341600002
+UsedFor	dvd release	broadcast	9	0.16414522085
+UsedFor	militia	martial law	8	0.152644127384
+UsedFor	best actor	actress	120	0.152003870452
+UsedFor	number	first time	97	0.150948528645
+UsedFor	kingdom	12th century	13	0.15006084791899998
+UsedFor	command	control center	10	0.148293969222
+UsedFor	album	re-recorded version	7	0.145261130919
+UsedFor	noise	high frequency	9	0.143386527432
+UsedFor	word	be from	10	0.137941578909
+UsedFor	television adaptation	play	18	0.133641454644
+UsedFor	preselection	eurovision song	22	0.133532774616
+UsedFor	edition	greek new	9	0.13093041597400001
+UsedFor	drug	period of time	9	0.128792966773
+UsedFor	health	general public	11	0.127120309101
+UsedFor	school	learning environment	11	0.125631808265
+UsedFor	prayer	holy spirit	14	0.12524348861
+UsedFor	bass player	drummer	36	0.12347168370200001
+UsedFor	album	executive producer	19	0.12067362056700001
+UsedFor	music video	cameo	10	0.12035383305099999
+UsedFor	law enforcement	chief	7	0.120112556159
+UsedFor	launch complex	vehicle	11	0.119015406396
+UsedFor	science fiction	gender	21	0.11707849401699999
+UsedFor	length overall	load	33	0.115371338024
+UsedFor	radar	stealth technology	7	0.113687568003
+UsedFor	government	court order	11	0.113537536819
+UsedFor	art	hard-edge painting	15	0.11343926773600001
+UsedFor	state	majority vote	9	0.109335618912
+UsedFor	fertility rate	age	9	0.10914440251499999
+UsedFor	addition	live in	10	0.10830274139799999
+UsedFor	expansion	byzantine empire	7	0.104609839255
+UsedFor	area	eastern coast	9	0.104364880772
+UsedFor	town	north-south highway	7	0.10295301932
+UsedFor	actor	television director	15	0.10106586005200001
+UsedFor	reflux disease	acid	10	0.0990401155025
+UsedFor	education	associate degree	10	0.09826503173380001
+UsedFor	capital city	nation	7	0.0979946565938
+UsedFor	system	commuter rail	17	0.09659811222850001
+UsedFor	conservation	control volume	9	0.09612615757689999
+UsedFor	party	consist of	7	0.08941710933779999
+UsedFor	example	word processing	7	0.0890521285158
+UsedFor	instruction set	execution	7	0.08886327289359999
+UsedFor	government	function as	8	0.08830779723139999
+UsedFor	resource planning	erp	13	0.08669237949169999
+UsedFor	dvd commentary	role	9	0.08634763840399999
+UsedFor	sausage	hot dog	7	0.08526261329870001
+UsedFor	flash drive	system	10	0.0848808624782
+UsedFor	company	present name	11	0.0839284264325
+UsedFor	oil	vitamin d	8	0.0830939911328
+UsedFor	work	copyright law	18	0.0790132635407
+UsedFor	bar	law practice	16	0.07897686576169999
+UsedFor	fighter	air-to-air combat	11	0.07748836382919999
+UsedFor	result	be that	12	0.0771079024237
+UsedFor	voice	film series	7	0.0768815452197
+UsedFor	housing	single family	19	0.0761458925803
+UsedFor	vitamin a	a deficiency	7	0.0752587300418
+UsedFor	production	distribution of mill	7	0.0737188823864
+UsedFor	state	boundary dispute	7	0.0726472521661
+UsedFor	precedent	common law	16	0.0724816409726
+UsedFor	baseball	spring training	17	0.0722129904444
+UsedFor	room	parking lot	10	0.0679631484544
+UsedFor	music	distinctive style	9	0.06768278437769999
+UsedFor	function	smooth muscle	8	0.0659661463085
+UsedFor	season	be in	14	0.06582087971530001
+UsedFor	dc	third rail	7	0.0648646994803
+UsedFor	supernovae	type ia	7	0.0637262669047
+UsedFor	swimming	rock climbing	10	0.06319841200519999
+UsedFor	elector	vote for	10	0.0631546958242
+UsedFor	government	judicial oversight	41	0.0629096078644
+UsedFor	uv	production of vitamin	8	0.062245404540800006
+UsedFor	punk band	clash	7	0.062187055361099995
+UsedFor	cotton gin	cultivation	12	0.061567274289999994
+UsedFor	emergency department	care	21	0.0610269890746
+UsedFor	town council	term	11	0.059978636774000005
+UsedFor	book	first biography	7	0.059782983654
+UsedFor	lake shore	north	7	0.0585052958698
+UsedFor	chance	work on	7	0.0583935884022
+UsedFor	newspaper	first issue	19	0.057709159564500005
+UsedFor	television film	series	25	0.0576872404084
+UsedFor	inscription	rex date	9	0.0566407835581
+UsedFor	example	strict liability	7	0.0564099168085
+UsedFor	emperor	be in	7	0.0509730313536
+UsedFor	city	alluvial plain	11	0.05060062875080001
+UsedFor	age	family history	10	0.0496938232252
+UsedFor	party	level of support	8	0.0489854031406
+UsedFor	immigration	metropolitan area	8	0.0487649857029
+UsedFor	office	economic growth	8	0.0465770448904
+UsedFor	radio	long wave	8	0.0463742473041
+UsedFor	curry	coconut milk	15	0.0454362323888
+UsedFor	take place	point	10	0.044132103316199996
+UsedFor	list	same time	7	0.043708278731699995
+UsedFor	creation	economic development	7	0.0429913675607
+UsedFor	sea level	bridge	7	0.042826214991499995
+UsedFor	extinction event	impact	10	0.042678274969300004
+UsedFor	series	save for	7	0.0416438388256
+UsedFor	succession	vice president	8	0.0410747692125
+UsedFor	base station	phone	11	0.040621224817499996
+UsedFor	stadium	first time	16	0.0403105952876
+UsedFor	trio	debut album	7	0.0402244152096
+UsedFor	league	championship series	7	0.03944626892130001
+UsedFor	5p	whole shield	8	0.0394146630201
+UsedFor	ribbon	left shoulder	13	0.037454151362400004
+UsedFor	crisis	sovereign debt	7	0.0372063998308
+UsedFor	motion picture	producer	12	0.0371797418962
+UsedFor	diver	air supply	7	0.0368425736868
+UsedFor	tv show	radio	11	0.0368187430669
+UsedFor	name	new party	9	0.0367501312525
+UsedFor	sense	say that	8	0.0365166630356
+UsedFor	gunpowder	touch hole	9	0.0350516940164
+UsedFor	reality	physical world	7	0.0342439039088
+UsedFor	law school	exam	11	0.033817615853
+UsedFor	government	national debt	16	0.0336555932581
+UsedFor	tuition fee	cyber charter	14	0.0332468267098
+UsedFor	way	nineteenth century	11	0.0328778798146
+UsedFor	be part	community	9	0.0317368051719
+UsedFor	band	new direction	16	0.031089025044
+UsedFor	government	city manager	63	0.0296898339744
+UsedFor	fbw	flight control	8	0.0289136087354
+UsedFor	society	nineteenth century	7	0.0285050498592
+UsedFor	governor	state capital	9	0.027304827089200002
+UsedFor	law	universal suffrage	11	0.026989951367
+UsedFor	nucleus	atomic number	12	0.0268637063286
+UsedFor	family	public service	13	0.026730946387400003
+UsedFor	year	perform in	10	0.0267277935544
+UsedFor	doubleheader	second game	7	0.0266508160016
+UsedFor	soy	pancreatic cancer	7	0.02489464875
+UsedFor	site	present town	16	0.02449213001
+UsedFor	team	high school	79	0.0235491925905
+UsedFor	entrance examination	school	11	0.0233652083834
+UsedFor	group	cretaceous period	7	0.0233043580399
+UsedFor	office building	architect	7	0.0221109248847
+UsedFor	band	forthcoming album	14	0.0220236233958
+UsedFor	mechanism	magnetic field	14	0.0215183817509
+UsedFor	head coach	college	22	0.0206456040445
+UsedFor	comedy	political satire	7	0.020144335222
+UsedFor	television series	producer	16	0.0193868364862
+UsedFor	development	set theory	8	0.0193565937467
+UsedFor	hip hop	reggae	34	0.019045873850499998
+UsedFor	community center	town	10	0.0190455942743
+UsedFor	film actress	producer	10	0.0190410271139
+UsedFor	signal box	station	10	0.0189765897885
+UsedFor	oxidation state	charge	7	0.0182639351307
+UsedFor	input voltage	threshold	24	0.0170034490295
+UsedFor	father	paternal grandfather	34	0.015828651403700003
+UsedFor	part	public school	41	0.015703207613299998
+UsedFor	message	public key	30	0.015592709793700001
+UsedFor	penalty shot	player	10	0.0146029920394
+UsedFor	leap year	week	11	0.014250344510600001
+UsedFor	filmfare	actor award	9	0.0131823559974
+UsedFor	poet	close friend	9	0.012794599044600001
+UsedFor	power plant	government	7	0.0125987717936
+UsedFor	dr	northbound branch	8	0.0124515344061
+UsedFor	talent	young age	11	0.011882147488799998
+UsedFor	site	state park	14	0.0118100277079
+UsedFor	end	liberal democracy	8	0.0117853289395
+UsedFor	night fighter	war	7	0.0112575625006
+UsedFor	town	main road	42	0.011012889388899999
+UsedFor	breed	cat fancy	7	0.0106953909408
+UsedFor	version	lead vocal	7	0.0101286673161
+UsedFor	series	space mission	12	0.0100336346176
+UsedFor	fleet	line of battle	8	0.00976799750609
+UsedFor	lambda calculus	application	8	0.009750437653059999
+UsedFor	overhead cam	engine	8	0.00955268367309
+UsedFor	infant	life expectancy	12	0.009167685304520001
+UsedFor	decade	nineteenth century	9	0.00908253588115
+UsedFor	bassist	metal band	15	0.008954713156030001
+UsedFor	weather	heavy rain	10	0.008877988791100001
+UsedFor	history	long term	7	0.00875538584784
+UsedFor	proof	algebraic geometry	7	0.00855709659536
+UsedFor	housing	town centre	23	0.00839864189792
+UsedFor	success	music video	12	0.00825230412905
+UsedFor	time	new construction	7	0.00794291032864
+UsedFor	vehicle	combustion engine	14	0.00789235311858
+UsedFor	identity	20th century	19	0.007675166660439999
+UsedFor	spanning tree	network	7	0.007526649742439999
+UsedFor	trail	western part	7	0.007497542147829999
+UsedFor	reserve clause	player	9	0.00740487306032
+UsedFor	home port	year	8	0.007233108179060001
+UsedFor	percent	labour force	11	0.00721470933059
+UsedFor	book series	name	13	0.00689621689817
+UsedFor	video game	cartridge	7	0.00681533247796
+UsedFor	application	web browser	23	0.00680040023258
+UsedFor	production company	tv	17	0.00677461650103
+UsedFor	street	large number	13	0.0067174538142600005
+UsedFor	atheism	other type	7	0.0065905674754200005
+UsedFor	version	bonus track	23	0.0061321028246
+UsedFor	unit	air mobility	8	0.00593245200694
+UsedFor	aircraft	serious damage	10	0.00588845254679
+UsedFor	series	married couple	7	0.0052049696266499995
+UsedFor	year	annual event	7	0.00496127079364
+UsedFor	time	drug use	20	0.00483726661162
+UsedFor	aircraft	following year	13	0.00471718743184
+UsedFor	time	austrian empire	11	0.0043470258016
+UsedFor	time	come by	7	0.00430395867563
+UsedFor	mass	main sequence	13	0.00420427432487
+UsedFor	city centre	street	14	0.00380509178329
+UsedFor	football team	town	17	0.00367880685802
+UsedFor	mass	dry air	15	0.00366867150528
+UsedFor	take part	band	7	0.0036277449231
+UsedFor	voip	traditional telephone	7	0.00355732756787
+UsedFor	time	chamber music	9	0.00309347283564
+UsedFor	notation	wheel arrangement	11	0.0030523667379
+UsedFor	pressure	middle ear	15	0.00302620318796
+UsedFor	community	city council	9	0.00296663677323
+UsedFor	station	ground level	32	0.0026533950410399998
+UsedFor	time	other band	8	0.00250286514396
+UsedFor	video signal	line	9	0.00248582554986
+UsedFor	cricket team	home	9	0.00242839565132
+UsedFor	series	main antagonist	12	0.00237787393923
+UsedFor	comedy	live music	7	0.0021706278262399997
+UsedFor	group	hard rock	8	0.00216127252797
+UsedFor	music industry	number	12	0.00205016445528
+UsedFor	defeat	confidence motion	8	0.00195606689916
+UsedFor	mother	german descent	16	0.00188143459707
+UsedFor	turn	17th century	20	0.00184154315024
+UsedFor	baseball player	mlb hall	31	0.0017995436925999997
+UsedFor	flag	green background	7	0.00154885198513
+UsedFor	legend	4th century	7	0.00152409724445
+UsedFor	air force	dress	8	0.00149591104678
+UsedFor	network	same time	26	0.0012113366153699999
+UsedFor	loss	water quality	14	0.0011831764073800002
+UsedFor	passenger accommodation	deck	14	0.00110266549523
+UsedFor	wealth	20th century	13	0.000991610540032
+UsedFor	north	opposite side	9	0.00099028377958
+UsedFor	state senator	district	11	0.000975589659269
+UsedFor	year	head coach	41	0.0008715689180269999
+UsedFor	television series	voice	13	0.0008691649415339999
+UsedFor	conflict	british government	12	0.0008339796659510001
+UsedFor	version	same song	14	0.0007552330424119999
+UsedFor	plural form	word	21	0.000679987013306
+UsedFor	fire department	year	9	0.000672287242956
+UsedFor	film	studio album	10	0.00061722166019
+UsedFor	city	ice hockey	32	0.0006113986524319999
+UsedFor	gene	stem cell	9	0.00041917493284800004
+UsedFor	hunger strike	prison	17	0.00025278656617600003
+UsedFor	network	see below	8	0.00021535383959799998
+UsedFor	community	northern edge	10	0.00019195737936099998
+UsedFor	defense team	trial	10	0.00018499109881599997
+UsedFor	radiation therapy	tissue	7	0.000126660710822
+UsedFor	region	county government	7	7.497653951199998e-05
+UsedFor	day	hotel room	8	6.78348438075e-05
+UsedFor	bass player	studio	7	4.32823900421e-05
+ReceivesAction	mass	divided by c2	8	0.919994481491
+ReceivesAction	disease	cause of cancer death	11	0.908489223609
+ReceivesAction	frequency	speed of light	8	0.9061673709999999
+ReceivesAction	value	amount of labour	8	0.9002748970029999
+ReceivesAction	law	reasoning by analogy	8	0.8987532463169999
+ReceivesAction	law	take into account	8	0.844886562903
+ReceivesAction	example	point of view	18	0.813131781022
+ReceivesAction	theory	evolution by natural selection	31	0.797648972823
+ReceivesAction	any world	duplicate of w	8	0.771128822115
+ReceivesAction	mass	center of gravity	11	0.769210321154
+ReceivesAction	statue	cast in bronze	8	0.752144957681
+ReceivesAction	honor society	society in psychology	7	0.7460637966920001
+ReceivesAction	resolution	use of force	13	0.738344747201
+ReceivesAction	seat	year as part	27	0.7337775072689999
+ReceivesAction	effect	speed of light	10	0.727674840318
+ReceivesAction	income	standard of living	17	0.720244355277
+ReceivesAction	number	named in honor	8	0.702259870195
+ReceivesAction	best	award for excellence	9	0.701081437922
+ReceivesAction	pressure	speed of sound	18	0.697539003606
+ReceivesAction	technology	quality of life	12	0.674855677924
+ReceivesAction	school	ranked by u	7	0.662694231152
+ReceivesAction	name	given in honor	11	0.661197689311
+ReceivesAction	education	language of instruction	10	0.6511113637389999
+ReceivesAction	government	control over financial policy	14	0.640496455846
+ReceivesAction	society	rule of law	13	0.624002577136
+ReceivesAction	part	access from exit	14	0.620831016194
+ReceivesAction	energy	dissipated as heat	12	0.6187040470499999
+ReceivesAction	center	intersection of u	8	0.577833375352
+ReceivesAction	investment	cost of capital	7	0.5764995850060001
+ReceivesAction	staggered basis	year as part	125	0.5715994906549999
+ReceivesAction	plant	destroyed by fire	10	0.571085985265
+ReceivesAction	night	cover of darkness	14	0.5699807833839999
+ReceivesAction	life expectancy	population by age	13	0.568940907331
+ReceivesAction	end	period of time	15	0.565125905459
+ReceivesAction	fire	brought under control	20	0.56463911015
+ReceivesAction	grammy	nomination for best	8	0.544853489647
+ReceivesAction	importance	rule of law	8	0.544371773674
+ReceivesAction	history	award for best	14	0.5414049389760001
+ReceivesAction	life	amount of time	7	0.5294083845090001
+ReceivesAction	law	interference with privacy	27	0.525147344083
+ReceivesAction	player	field of play	11	0.524793721281
+ReceivesAction	part	destroyed by fire	11	0.51677383867
+ReceivesAction	population	standard of living	15	0.5099426853360001
+ReceivesAction	statue	erected in front	9	0.5092665428750001
+ReceivesAction	energy	divided by c2	11	0.501269084784
+ReceivesAction	city	part of town	13	0.500123675117
+ReceivesAction	time	taken into consideration	7	0.499598510521
+ReceivesAction	law	cause of action	9	0.491817696435
+ReceivesAction	value	period of time	10	0.477960337738
+ReceivesAction	town	name in honor	7	0.469237717288
+ReceivesAction	century	theory of relativity	7	0.46701977997500005
+ReceivesAction	model	point of view	7	0.463492616582
+ReceivesAction	population	taken into account	14	0.453168844621
+ReceivesAction	monarchy	form of government	32	0.44770217251
+ReceivesAction	democracy	freedom of speech	7	0.441503478872
+ReceivesAction	film	planned for release	7	0.433889192646
+ReceivesAction	song	award for best pop	9	0.426898310045
+ReceivesAction	role	nomination for best	30	0.423862553729
+ReceivesAction	portrait	oil on canvas	9	0.42383131155000003
+ReceivesAction	religion	spirit of capitalism	7	0.418760108729
+ReceivesAction	mayor	term on committee	64	0.41794784111
+ReceivesAction	government	referendum on independence	11	0.41427127321
+ReceivesAction	pressure	point of water	10	0.413856356319
+ReceivesAction	speed	unit of time	9	0.412787480779
+ReceivesAction	axis	moment of inertia	16	0.406334196198
+ReceivesAction	series	man from u	17	0.39931063145400003
+ReceivesAction	intrepidity	call of duty	13	0.393870797945
+ReceivesAction	area	based on agriculture	8	0.390045786729
+ReceivesAction	ace	killed in action	18	0.389932590504
+ReceivesAction	color	displayed at right	8	0.385475581339
+ReceivesAction	route	interchange with u	18	0.383679036536
+ReceivesAction	democracy	head of government	15	0.382275155508
+ReceivesAction	category theory	branch of mathematics	12	0.374982227878
+ReceivesAction	example	amount of time	17	0.358194946922
+ReceivesAction	current	flow of electric charge	8	0.352038652715
+ReceivesAction	president	governor for unexpired term	7	0.35182336787
+ReceivesAction	velocity	rate of change	10	0.351558247458
+ReceivesAction	distance	center of gravity	7	0.343046473329
+ReceivesAction	theory	model of particle	7	0.34207040394500005
+ReceivesAction	poll	placed at number	7	0.341614966593
+ReceivesAction	expectancy	population by age	13	0.33587935908
+ReceivesAction	right	form of government	10	0.331793313506
+ReceivesAction	performance	award for best	147	0.33124433010800003
+ReceivesAction	approximation	speed of light	7	0.330318127729
+ReceivesAction	commentary	point of view	7	0.329325174464
+ReceivesAction	science degree	master of science	8	0.320669402308
+ReceivesAction	money	rate of interest	7	0.319162325732
+ReceivesAction	energy	speed of light	31	0.31513896919
+ReceivesAction	house	part of town	7	0.311803331764
+ReceivesAction	experience	mode of presentational immediacy	7	0.306794105273
+ReceivesAction	health	based on population	7	0.30453987676600003
+ReceivesAction	director	nominated for best	16	0.29759273097100003
+ReceivesAction	mayor	form of government	34	0.296681411623
+ReceivesAction	movie	award for best	64	0.296591280894
+ReceivesAction	monopoly	use of physical force	11	0.295474394764
+ReceivesAction	death	point of view	11	0.295306756848
+ReceivesAction	court	bill of attainder	7	0.288892829476
+ReceivesAction	life expectancy	distribution of population	13	0.287299958972
+ReceivesAction	category	award for best	20	0.27841209534600003
+ReceivesAction	new claim	degree of west	8	0.276948425943
+ReceivesAction	cdp	access from exit	7	0.27400023183
+ReceivesAction	performance	nomination as best	7	0.273441447987
+ReceivesAction	hamlet	town on us-11	7	0.26612854389199997
+ReceivesAction	government	vote of confidence	34	0.266109218177
+ReceivesAction	winter season	form of snow	10	0.266012752929
+ReceivesAction	isotope	chain of actinium	8	0.263092476461
+ReceivesAction	part	town on ny-30	8	0.262510481228
+ReceivesAction	life	award for best	10	0.260762993741
+ReceivesAction	analysis	branch of mathematics	10	0.25897012955800003
+ReceivesAction	icd-10	set of general personality	7	0.256181773444
+ReceivesAction	winter	form of snow	17	0.256026221246
+ReceivesAction	award	category of best	32	0.253701145487
+ReceivesAction	revival	award for best	12	0.248323166839
+ReceivesAction	legion	founded in ad	8	0.24636400422
+ReceivesAction	bachelor	degree in sociology	8	0.24624448688099998
+ReceivesAction	body	center of gravity	11	0.24517429437
+ReceivesAction	plane	point at infinity	15	0.244321322471
+ReceivesAction	love	point of view	13	0.238875520969
+ReceivesAction	commander	rank of captain	7	0.237960937381
+ReceivesAction	the right	stand for election	11	0.237847075809
+ReceivesAction	sequel	award for best	8	0.237711428584
+ReceivesAction	road	part of european route	7	0.236988254313
+ReceivesAction	comedyindependent spirit	award for best	12	0.23490405356
+ReceivesAction	metre	speed of light	14	0.23313952514400002
+ReceivesAction	place	amount of time	9	0.23185873434700002
+ReceivesAction	album	put on hold	9	0.22662015355300003
+ReceivesAction	movie	filmed in downtown	8	0.224045384342
+ReceivesAction	year	serve as mayor	7	0.221930366618
+ReceivesAction	continuum	axiom of choice	14	0.22109232251699998
+ReceivesAction	center	angle of attack	21	0.217042597727
+ReceivesAction	society	award for best	91	0.21681620836100002
+ReceivesAction	policy	point of view	16	0.21436197425700002
+ReceivesAction	concept	theory of relativity	7	0.214299053534
+ReceivesAction	aircraft	speed of sound	28	0.21342334539799998
+ReceivesAction	exhibition	online as pdf	7	0.213422942704
+ReceivesAction	judge	contempt of court	8	0.210525057282
+ReceivesAction	approximation	degree of accuracy	7	0.208194762431
+ReceivesAction	actor	nominated for best	23	0.20529464502099998
+ReceivesAction	west	center of town	21	0.204991053347
+ReceivesAction	command	rank of captain	7	0.203720543192
+ReceivesAction	year	state of emergency	8	0.19905304511799998
+ReceivesAction	management	quality of life	17	0.193434786972
+ReceivesAction	parliament	head of state	14	0.19054164778000002
+ReceivesAction	movement	way of life	7	0.18522869560199998
+ReceivesAction	fraction	speed of light	17	0.18276540524300003
+ReceivesAction	town	intersection of u	21	0.179587599253
+ReceivesAction	article	use of force	8	0.17782864381299998
+ReceivesAction	representative	head of government	14	0.176303885843
+ReceivesAction	religion	way of life	17	0.172236171292
+ReceivesAction	mass	frame of reference	9	0.169232301954
+ReceivesAction	period	increase in population	7	0.167974336269
+ReceivesAction	corruption	abuse of power	14	0.167790024071
+ReceivesAction	name	order of flowering	24	0.166197913644
+ReceivesAction	range	rate of fire	12	0.165205980287
+ReceivesAction	wave	speed of light	15	0.163698500959
+ReceivesAction	battalion	order of battle	7	0.163616205581
+ReceivesAction	documentary	decline of western civilization	7	0.160628130948
+ReceivesAction	object	field of view	8	0.156496920815
+ReceivesAction	album	grammy for best	16	0.156176650364
+ReceivesAction	example	period of time	16	0.150980164108
+ReceivesAction	line	point of view	7	0.150483241707
+ReceivesAction	pain	shortness of breath	27	0.14616903359000002
+ReceivesAction	redshift	expansion of space	7	0.146098680823
+ReceivesAction	best	year for science fiction	8	0.143410667352
+ReceivesAction	regiment	medal of honor	7	0.14206041240800002
+ReceivesAction	building	place of worship	13	0.140125242213
+ReceivesAction	award	year for science	8	0.13909204400800002
+ReceivesAction	adaptation	award for best	19	0.132905949211
+ReceivesAction	spirit	evidence of speaking	8	0.13116998631500001
+ReceivesAction	century	quality of life	8	0.130903262414
+ReceivesAction	art	award for best	9	0.128876438083
+ReceivesAction	something	point of view	7	0.127226994074
+ReceivesAction	constituency	member of parliament	11	0.124617889411
+ReceivesAction	protection	quality of life	7	0.122367704892
+ReceivesAction	brigade	support of operation	13	0.122147326054
+ReceivesAction	show	period of time	7	0.121497551041
+ReceivesAction	mp	system of election	29	0.12127319194599999
+ReceivesAction	member	use of force	7	0.118461569278
+ReceivesAction	minister	member of parliament	9	0.117454219386
+ReceivesAction	year	reign of terror	8	0.117041913399
+ReceivesAction	entry	amount of radioactivity	14	0.114034234503
+ReceivesAction	species	danger of extinction	10	0.114024390024
+ReceivesAction	copyright	period of time	7	0.113764743256
+ReceivesAction	science	point of view	11	0.113663216336
+ReceivesAction	leader	killed in battle	8	0.10945737979499999
+ReceivesAction	treasurer	part of county	25	0.107980070869
+ReceivesAction	executive branch	head of government	10	0.105690701042
+ReceivesAction	county	seat of government	7	0.104009113152
+ReceivesAction	incidence	angle of reflection	7	0.103745186094
+ReceivesAction	care	end of life	12	0.103437198951
+ReceivesAction	park	side of town	10	0.10179005595000001
+ReceivesAction	constitutional monarchy	head of state	29	0.101581615901
+ReceivesAction	minute	rate of fire	7	0.0959898717093
+ReceivesAction	system	quality of life	7	0.0949501111375
+ReceivesAction	council	form of government	15	0.09280503644999999
+ReceivesAction	hunting	way of life	8	0.0927586560213
+ReceivesAction	library	named in honor	7	0.09261486434709999
+ReceivesAction	number	speed of light	16	0.0869892898206
+ReceivesAction	right	freedom of religion	35	0.0857555759563
+ReceivesAction	governor	removed from office	11	0.0852259501894
+ReceivesAction	character	point of death	8	0.08496471139879999
+ReceivesAction	poisoning	period of time	7	0.0828413052793
+ReceivesAction	independence	system of government	8	0.08014570072369999
+ReceivesAction	system	difficulty for anybody	18	0.0769656977427
+ReceivesAction	control	clan of sendai domain	7	0.07412653040839999
+ReceivesAction	debate	point of view	7	0.07371038800030001
+ReceivesAction	housing	quality of life	7	0.07098138551580001
+ReceivesAction	record	award for best	9	0.070118907379
+ReceivesAction	blood	amount of oxygen	7	0.0690513333832
+ReceivesAction	belief	life after death	8	0.0683350804626
+ReceivesAction	government	war of independence	7	0.0665282602886
+ReceivesAction	19th century	period of time	8	0.0649255912481
+ReceivesAction	art	period of time	7	0.0636143494493
+ReceivesAction	atp	source of energy	7	0.05727407058950001
+ReceivesAction	court	life in prison	8	0.0544629570294
+ReceivesAction	name	language of everyday life	9	0.053670196579599996
+ReceivesAction	proof	theorem of arithmetic	7	0.0528405935159
+ReceivesAction	first season	dvd in region	11	0.052725361621
+ReceivesAction	hearing	sense of smell	10	0.0526471998278
+ReceivesAction	table	order of population	41	0.0519338150562
+ReceivesAction	version	released on home	7	0.0516523686587
+ReceivesAction	reference	speed of light	13	0.05109577314140001
+ReceivesAction	term	field of study	7	0.0509772940029
+ReceivesAction	show	end of season	14	0.050581753730600004
+ReceivesAction	prime minister	head of state	17	0.049437878176
+ReceivesAction	asthma	shortness of breath	8	0.049044035858
+ReceivesAction	plan	put into place	7	0.0475764667595
+ReceivesAction	element	universe by mass	8	0.04719924680819999
+ReceivesAction	state	time of commission	11	0.0469221969228
+ReceivesAction	rocket	mass of propellant	7	0.0464225526797
+ReceivesAction	resignation	removal from office	12	0.045392760147699995
+ReceivesAction	set	element of s	13	0.045234605754899994
+ReceivesAction	murder	award for best	9	0.042789400229400004
+ReceivesAction	man	selection in relation	8	0.0396877800765
+ReceivesAction	study	period of time	15	0.0392213244243
+ReceivesAction	number	amount of money	7	0.0372832863095
+ReceivesAction	torque	center of mass	7	0.0370651946388
+ReceivesAction	case	lack of evidence	12	0.036988629603699995
+ReceivesAction	assembly	freedom of association	7	0.0361857643396
+ReceivesAction	network	period of time	9	0.0347856611358
+ReceivesAction	communication	speed of light	7	0.0339598173208
+ReceivesAction	set	subset of x	11	0.0337943376046
+ReceivesAction	lens	angle of view	18	0.0333661297816
+ReceivesAction	intersection	terminus of route	7	0.0327570241443
+ReceivesAction	frame	state of motion	8	0.0325174609347
+ReceivesAction	failure	shortness of breath	7	0.0321692665226
+ReceivesAction	shoulder	range of motion	7	0.0319886659022
+ReceivesAction	account	period of time	8	0.0313252439987
+ReceivesAction	contribution	art of film	15	0.0307088540063
+ReceivesAction	flower	effect on health	10	0.0306484207158
+ReceivesAction	river	head of navigation	9	0.0306397449592
+ReceivesAction	function	element of a	7	0.0302424505821
+ReceivesAction	surface	time of year	10	0.029743839574599997
+ReceivesAction	system	amount of heat	7	0.0289905948575
+ReceivesAction	energy	line of sight	8	0.0286540684867
+ReceivesAction	nationality	date of birth	7	0.026582211049599996
+ReceivesAction	right	pursuit of happiness	8	0.0265478366236
+ReceivesAction	land	way of life	15	0.0257400010085
+ReceivesAction	program	bachelor of science degree	7	0.025613447527900002
+ReceivesAction	takeoff	crew on board	15	0.0248972851052
+ReceivesAction	town	seat of government	17	0.024703603496300002
+ReceivesAction	time	philosophy of science	7	0.0231265579134
+ReceivesAction	degree	doctor of divinity	7	0.022637373955
+ReceivesAction	government	way of life	9	0.0219978013848
+ReceivesAction	lion	attire in bend	10	0.0213119192007
+ReceivesAction	length	field of view	11	0.020529133842
+ReceivesAction	century	loss of life	7	0.019394500166
+ReceivesAction	general	medal of honor	8	0.0187725029228
+ReceivesAction	cycle	declaration of love	8	0.0182868689007
+ReceivesAction	angle	center of pressure	10	0.017895797640599998
+ReceivesAction	line	direction of travel	7	0.017500615027400003
+ReceivesAction	member	period of time	8	0.016606670939
+ReceivesAction	dark energy	equation of state	7	0.014461802162
+ReceivesAction	average	inch of snow	13	0.013922676486500002
+ReceivesAction	independent press	freedom of speech	7	0.013621158166799999
+ReceivesAction	governor	removal from office	8	0.0128142877474
+ReceivesAction	evidence	capital of song luy	8	0.0119936296266
+ReceivesAction	film	king of jazz	9	0.011780006643000001
+ReceivesAction	name	center of town	7	0.011633205551400001
+ReceivesAction	subset	element of s	8	0.0107971231
+ReceivesAction	case	head of state	11	0.010630451734499998
+ReceivesAction	sea	part of town	9	0.010627335220700002
+ReceivesAction	board	control over financial policy	13	0.010603206126299999
+ReceivesAction	pass	line of scrimmage	11	0.0090648169236
+ReceivesAction	land	source of public revenue	7	0.00884316992134
+ReceivesAction	electric chair	method of execution	7	0.007969108304239999
+ReceivesAction	area	amount of sunshine year	15	0.0074924601011
+ReceivesAction	class	variety of old patrol	31	0.00745296116176
+ReceivesAction	number	risk of death	8	0.006137232430189999
+ReceivesAction	village	access from exit	15	0.005632470842810001
+ReceivesAction	chair	method of execution	7	0.00462490176838
+ReceivesAction	candidate	theory of everything	7	0.00456220526012
+ReceivesAction	wing	center of gravity	8	0.004400724940770001
+ReceivesAction	play	point of view	9	0.00435213281007
+ReceivesAction	letter	head of state	8	0.00416785688833
+ReceivesAction	use	language of instruction	7	0.00410981228177
+ReceivesAction	press	freedom of assembly	9	0.00298301686743
+ReceivesAction	circuit	part of county government	25	0.00228127103832
+ReceivesAction	author	art of war	7	0.0021985135990900003
+ReceivesAction	fruit	tree of knowledge	7	0.00178839730334
+IsA	anxiety	obsessive-compulsive disorder	8	0.986853341442
+IsA	city	major hub	19	0.986126728206
+IsA	public sector	capital	7	0.9818196512880001
+IsA	professional hockey	league	17	0.9817249725120001
+IsA	hockey team	football	9	0.970691405835
+IsA	population total	significant size	102	0.968094300191
+IsA	social status	society	10	0.947114774723
+IsA	experience	desire for sexual activity	7	0.944689053284
+IsA	constant temperature	gas	9	0.920000478527
+IsA	american farmer	politician	14	0.910982856586
+IsA	aztec mythology	goddess	9	0.9092393080779999
+IsA	american film	company	10	0.898241058923
+IsA	henricus rex	obverse	9	0.897469631296
+IsA	short period	time	413	0.892919563073
+IsA	first port	call	15	0.88373534566
+IsA	status	income tax	8	0.876406215689
+IsA	example	user interface	10	0.865274339728
+IsA	government	two-party system	8	0.862882341933
+IsA	computer hardware	system	14	0.85853369543
+IsA	tax	real estate	18	0.857383860977
+IsA	schizophrenia	major depressive disorder	8	0.8499141524860001
+IsA	coconut milk	meat	9	0.8466633522399999
+IsA	dialect	albanian language	7	0.8361128869560001
+IsA	classic rock	song	11	0.814883641461
+IsA	public opinion	system	7	0.810882833547
+IsA	low cost	quality	11	0.8106454915700001
+IsA	serial number	name	7	0.808818855643
+IsA	district	19th century	48	0.783967671059
+IsA	short story	novel	54	0.769930694225
+IsA	positive feedback	output	13	0.7662209744390001
+IsA	chemistry	computer science	25	0.749803254876
+IsA	waste management	government	8	0.748095110414
+IsA	serial killer	murder	24	0.74470292112
+IsA	19th century	colony	38	0.744092341525
+IsA	germanic tribe	century	14	0.743022944146
+IsA	atomic nucleus	atom	7	0.73744924903
+IsA	company	chief engineer	9	0.737312152123
+IsA	motion	first time	9	0.736987666707
+IsA	modern city	name	11	0.719850114622
+IsA	american composer	producer	10	0.687858873265
+IsA	space station	satellite	7	0.6867627648450001
+IsA	nationalist government	kmt	7	0.676173356249
+IsA	land surveyor	boundary	7	0.6699971625760001
+IsA	island	reserve for marine life	9	0.6627792255039999
+IsA	market economy	capitalism	7	0.659384632803
+IsA	first time	leader	30	0.646430637866
+IsA	newspaper	news website	8	0.6448616507020001
+IsA	glucose	source of energy	8	0.6431829393330001
+IsA	connection	telephone network	10	0.641184234256
+IsA	nineteenth century	source	7	0.638449281475
+IsA	tax	state income	20	0.638017702744
+IsA	dictatorship	political power	7	0.630393381032
+IsA	thermodynamic equilibrium	state	24	0.6288553226210001
+IsA	web site	news	12	0.627215136045
+IsA	poetry	13th century	13	0.626790969362
+IsA	kindergarten	grade school	11	0.625302200186
+IsA	suppression of enemy	sead	12	0.613803821571
+IsA	language	eastern part	8	0.609536344132
+IsA	invention	18th century	11	0.606827444814
+IsA	business plan	company	11	0.605339337109
+IsA	first combat	aircraft	12	0.598309027597
+IsA	community center	pool	10	0.597626869871
+IsA	care	health education	12	0.5827546874399999
+IsA	coil	magnetic core	9	0.581903615889
+IsA	electronic warfare	system	10	0.576930346332
+IsA	satellite	cable channel	8	0.5714585893249999
+IsA	coal mining	iron	9	0.5680121836990001
+IsA	acoustic guitar	sound	18	0.567892473895
+IsA	programming language	part	11	0.566658175205
+IsA	federal level	state	20	0.560656547402
+IsA	example	8th century	7	0.555603060117
+IsA	electromagnetic radiation	light	54	0.5223627348040001
+IsA	shade of blue	flag	7	0.517397082864
+IsA	town	rural community	9	0.505498649105
+IsA	mission	critical importance	10	0.49587240098700003
+IsA	race	television series	8	0.49527202771300005
+IsA	series	critical acclaim	35	0.49472285426000007
+IsA	form	greek name	8	0.493717434397
+IsA	exposure limit	average	7	0.49250975705899996
+IsA	former hamlet	part	9	0.484456541413
+IsA	successor	prime minister	25	0.484297875744
+IsA	birth rate	growth	10	0.47973159680699995
+IsA	political movement	time	7	0.474920828909
+IsA	english philosopher	philosophy	10	0.474716534188
+IsA	lithic reduction	stone	8	0.47044251460500003
+IsA	drama	romantic comedy	10	0.46990347759499995
+IsA	state	thermodynamic equilibrium	36	0.468639190655
+IsA	company	joint venture	56	0.457569507792
+IsA	full employment	state	7	0.449778954068
+IsA	prey	peregrine falcon	13	0.447923603944
+IsA	first row	permutation	7	0.43901124905100003
+IsA	law	11th century	8	0.438372621117
+IsA	sound	soul music	13	0.434481885501
+IsA	gold	crystal vessel	7	0.428838189623
+IsA	mobile phone	company	16	0.425295467731
+IsA	first place	race	7	0.424043339114
+IsA	date	lunisolar calendar	8	0.41918253735399996
+IsA	large portion	business	10	0.417246212341
+IsA	reputation	wide range	9	0.416450517267
+IsA	thermal resistance	flow	9	0.41228196755400004
+IsA	growth	birth rate	12	0.406332462338
+IsA	coroner	county government	26	0.39694384498400004
+IsA	ventricle	mitral valve	11	0.396301720483
+IsA	mountain biking	horse	7	0.390740934701
+IsA	first time	information	13	0.388805998355
+IsA	building	former residence	7	0.387751179408
+IsA	eye	depth perception	11	0.387119902551
+IsA	station	railway network	16	0.374285914636
+IsA	constitutional right	government	7	0.36869882583400004
+IsA	tumor suppressor	cell	8	0.36560805771300003
+IsA	next year	coast	8	0.36396453780999993
+IsA	business	consumer demand	7	0.35819407785400004
+IsA	animation	voice acting	7	0.35597783804300004
+IsA	position	order of precedence	11	0.35080744912100004
+IsA	marriage	domestic partnership	14	0.348163715391
+IsA	punk rock	hardcore	26	0.34460987544699995
+IsA	writing	first novel	10	0.344563841559
+IsA	disdained lover	part	9	0.337080282199
+IsA	debut	comedy film	8	0.336157288665
+IsA	place	late 19th century	13	0.33016045666099997
+IsA	wide range	law	13	0.328089526646
+IsA	candidate	incumbent president	7	0.325577821508
+IsA	character encoding	system	7	0.324109468459
+IsA	same time	portion	12	0.316413801481
+IsA	time	world record	33	0.31570659249
+IsA	rhythm section	bassist	14	0.314154293114
+IsA	buddhist in implication	lifetime	9	0.31090133834100003
+IsA	growth rate	number	8	0.308521313884
+IsA	control	electric power	12	0.30789272682700003
+IsA	first time	man	43	0.299322884204
+IsA	film	cartoon series	7	0.29814561929600003
+IsA	term	widespread use	27	0.297032564228
+IsA	beginning	first episode	8	0.296324828612
+IsA	therapy	social work	10	0.294200262135
+IsA	township	three-member board	16	0.29344065234
+IsA	commanding officer	admiral	14	0.28899305981400003
+IsA	legitimate son	heir	19	0.287809315138
+IsA	province	southwestern part	12	0.28673058646899996
+IsA	agriculture	climate change	13	0.286093058537
+IsA	health	care reform	11	0.283874758864
+IsA	system	important part	14	0.281319901741
+IsA	father	royal family	23	0.28094106900800003
+IsA	western swing	music	7	0.279023060344
+IsA	great deal	credit	7	0.275256589349
+IsA	democratic nomination	district	8	0.273132378545
+IsA	pulp	20th century	9	0.270208972918
+IsA	original cast	award	8	0.269132967451
+IsA	first class	training	9	0.266793446222
+IsA	ice hockey	player	27	0.265324027938
+IsA	wheat	sugar beet	14	0.26277657696
+IsA	market	20th century	35	0.260185274057
+IsA	mother	illegitimate son	7	0.259942228531
+IsA	hockey league	nhl	188	0.257922577936
+IsA	election	first woman	25	0.25617731373799996
+IsA	new testament	person	10	0.25536739299899996
+IsA	meeting	general election	15	0.250783748185
+IsA	banking sector	bank	7	0.243545181507
+IsA	episode	future self	7	0.24296918965199998
+IsA	stage actress	role	7	0.24258311434500002
+IsA	bombing	car bomb	10	0.238417107474
+IsA	coal mining	production	27	0.23555998540800002
+IsA	19th century	spirit	12	0.23031558729200002
+IsA	local government	collection	8	0.227512363222
+IsA	ice hockey	century	7	0.224094947568
+IsA	community	first post office	8	0.22211817929900002
+IsA	model	first generation	7	0.221546140236
+IsA	world music	reggae	9	0.217180898558
+IsA	combined total	year	8	0.214042688427
+IsA	borough	police department	14	0.211838645584
+IsA	american actor	host	36	0.21084956743900002
+IsA	system	6th century	8	0.207044300026
+IsA	art	21st century	29	0.202526487867
+IsA	article	legislative assembly	7	0.201261336193
+IsA	war	independent state	20	0.19616629138500002
+IsA	bombing	war crime	7	0.195800375911
+IsA	database	query language	8	0.18678469414700002
+IsA	same name	province	16	0.182475162278
+IsA	company	telephone service	9	0.177899793858
+IsA	painting	subject matter	14	0.176072879971
+IsA	river valley	town	10	0.175487637959
+IsA	single track	train	8	0.17250870567600002
+IsA	basketball	volleyball court	15	0.17070164662300003
+IsA	order	take control	8	0.16845130032400002
+IsA	peripheral neuropathy	pain	7	0.163046142492
+IsA	13th century	point	7	0.158458269499
+IsA	20th century	sculpture	14	0.154867315103
+IsA	video game	producer	11	0.15428199307
+IsA	power plant	coal	7	0.150094706188
+IsA	technology	law enforcement	10	0.149742491012
+IsA	landing	next day	10	0.145295806114
+IsA	19th century	supply	21	0.144949630915
+IsA	official date	mandate	12	0.144928151767
+IsA	site	present day	67	0.144135566888
+IsA	morning news	program	15	0.143909581013
+IsA	ground	first time	20	0.14151763182
+IsA	action potential	node	19	0.13940114912999998
+IsA	fictional character	protagonist	23	0.138117176695
+IsA	western part	town	304	0.136129938954
+IsA	last concert	tour	10	0.130363817806
+IsA	season	starting quarterback	7	0.127443280406
+IsA	video game	century	7	0.12622773559699998
+IsA	political power	family	14	0.1244955117
+IsA	north side	community	9	0.11999853085300001
+IsA	land area	state	51	0.119118941986
+IsA	tv series	man	21	0.118901264888
+IsA	season	professional football	9	0.118450298812
+IsA	east-central part	town	7	0.118026525794
+IsA	foreign policy	intervention	13	0.11614474895
+IsA	large amount	interest	11	0.11453333045499998
+IsA	steady decline	population	20	0.113875964385
+IsA	mobile phone	satellite	8	0.111015258999
+IsA	time	foreign minister	10	0.10992602032299999
+IsA	film studio	company	19	0.108004456101
+IsA	computational complexity	set	7	0.107493029004
+IsA	fire support	infantry	13	0.107066559708
+IsA	new evidence	murder	8	0.106328800113
+IsA	financial crisis	support	8	0.104718791693
+IsA	addition	chamber music	8	0.0986129645067
+IsA	vehicle	fuel economy	8	0.0982670364982
+IsA	title	tenth round	10	0.0962925770765
+IsA	store	trading post	7	0.0943173229883
+IsA	civil parish	southwest	10	0.09407933517799999
+IsA	world	important role	9	0.0923287423322
+IsA	human presence	bc	14	0.0909398283629
+IsA	album	progressive rock	88	0.0874128091353
+IsA	state degree	title	19	0.08680904770390001
+IsA	bottom half	table	7	0.0845054122453
+IsA	monetary policy	cycle	7	0.0840574793285
+IsA	nature	general public	8	0.08236214879039999
+IsA	vapor pressure	fraction	7	0.0790666476116
+IsA	case	miscarriage of justice	8	0.07817618057
+IsA	field of play	goal	7	0.0761896478388
+IsA	light rail	lrt	11	0.0757251189756
+IsA	other hand	subject	10	0.0756425093853
+IsA	system	vast majority	14	0.0719072761276
+IsA	federal government	marriage	19	0.0707033089313
+IsA	web page	category	10	0.0705428875919
+IsA	last name	mother	15	0.06980113550210001
+IsA	civil defense	attack	8	0.0687829345886
+IsA	gothic architecture	period	11	0.0670583894551
+IsA	vast majority	use	22	0.0635384810509
+IsA	breast cancer	year	8	0.0609773900408
+IsA	area	rail service	14	0.0606770007328
+IsA	constitutional amendment	church	11	0.059796244886300004
+IsA	surveyor	court clerk	83	0.0575906881829
+IsA	electric charge	current	9	0.0524578864464
+IsA	existence	set theory	14	0.050832476413900006
+IsA	game show	truth	7	0.0494936092602
+IsA	first person	term	13	0.0486252221642
+IsA	century	romantic nationalism	9	0.0481406320735
+IsA	same time	wife	14	0.047740700658099995
+IsA	online service	content	10	0.0473525441474
+IsA	other hand	animal	8	0.0461105614847
+IsA	tournament	world tour	8	0.04411372311509999
+IsA	iron ore	world	17	0.0436613639286
+IsA	same accounting	income	9	0.0434359138248
+IsA	demand	marginal utility	11	0.042611642732
+IsA	key figure	music	7	0.0398046507248
+IsA	film on region	dvd	7	0.036478750252
+IsA	order parameter	symmetry	9	0.0362829788629
+IsA	music video	content	7	0.035086311358
+IsA	community service	year	7	0.0345297668404
+IsA	other hand	pressure	16	0.0336865613167
+IsA	flower	effect on health	10	0.033015316495500005
+IsA	northern half	population	8	0.0319702360573
+IsA	common practice	ground	8	0.031856140542
+IsA	result	magnetic field	14	0.0313111990484
+IsA	murder	crown prince	7	0.0264849369973
+IsA	research	magnetic field	11	0.0256218338518
+IsA	20th century	theatre	26	0.0246616525734
+IsA	discount	face value	12	0.023106740909700003
+IsA	studio album	time	32	0.022110471481900002
+IsA	processor	new value	7	0.020544693115299998
+IsA	lie	group g	9	0.017853225817799998
+IsA	price	reduce output	9	0.016307828830799998
+IsA	environment	fluid flow	8	0.0159287283693
+IsA	boundary	adjacent city	21	0.0158621230795
+IsA	version	radio station	7	0.015811339413100003
+IsA	film	development hell	16	0.0147083730435
+IsA	sacrifice fly	run	8	0.014668289588999999
+IsA	hydrogen atom	group	10	0.0138890130226
+IsA	conservation	tropical rainforest	10	0.013237277749999998
+IsA	enough money	home	10	0.011895017186200002
+IsA	infant	mortality rate	7	0.0116115398236
+IsA	use	english-speaking world	11	0.0108907705475
+IsA	industry	oil field	7	0.009830598653709999
+IsA	same year	actor	27	0.00908761897474
+IsA	river	western end	8	0.00841648449912
+IsA	science fiction	opera	42	0.0074369065108900005
+IsA	source code	tree	8	0.005800692882909999
+IsA	use	mustard gas	14	0.00523468861163
+IsA	garden	public park	7	0.00447518996283
+IsA	software	sound card	8	0.00339184303574
+IsA	own police	hall	8	0.00317510947231
+IsA	design	field of view	8	0.00218460741436
+IsA	red link	page	14	0.00217440386219
+IsA	record label	pop	23	0.00214595338102
+IsA	line	north town	20	0.000697390318057
+IsA	project	rail line	15	0.000307498480652
+IsA	key role	city	12	5.89640964124e-05
+HasA	couple	sexual intercourse	7	0.996924312959
+HasA	electric bass	double bass	15	0.978933646502
+HasA	woman	sexual intercourse	16	0.974364057576
+HasA	member	former president	9	0.9266010147570001
+HasA	the city	industrial center	26	0.9222427414640001
+HasA	that player	hand	10	0.8946797671369999
+HasA	that time	civilization	7	0.8618892011920001
+HasA	liver	kidney disease	12	0.825300956023
+HasA	nearby town	area	9	0.7894467845149999
+HasA	the committee	administration	7	0.774247666307
+HasA	social environment	development	7	0.75714486393
+HasA	the expression	sense	11	0.731940920345
+HasA	company	different name	8	0.729145255696
+HasA	hand	index finger	30	0.7248087796279999
+HasA	only state	county	8	0.7172501668179999
+HasA	film	climactic scene	7	0.696610883397
+HasA	soil	organic matter	69	0.675219334862
+HasA	an officer	duty	11	0.673101721563
+HasA	the author	reputation	12	0.670174451241
+HasA	the dissolution	population	8	0.667265452147
+HasA	the family	problem	7	0.6654073852310001
+HasA	the site	gate	20	0.6527699999750001
+HasA	northern hemisphere	south	9	0.633669670387
+HasA	the importance	conservation	14	0.61001952805
+HasA	hard rock	metal	147	0.609782346594
+HasA	the suit	court	44	0.60678072752
+HasA	the public	video	15	0.606284613135
+HasA	the city	platform	12	0.579958271671
+HasA	the situation	incident	7	0.571254732008
+HasA	the future	information	17	0.548938003887
+HasA	the clock	line	14	0.529268965431
+HasA	the section	group	7	0.519848701073
+HasA	the frequency	wave	34	0.516646572631
+HasA	globular cluster	magnitude	16	0.505793702551
+HasA	political philosophy	century	8	0.503488524215
+HasA	the factory	pattern	9	0.499593160482
+HasA	the plane	ground	52	0.492772126001
+HasA	the use	lot	7	0.45729378959399997
+HasA	the right	result	16	0.449529014956
+HasA	an album	time	36	0.44120709298
+HasA	wide range	government	22	0.432785242498
+HasA	mediterranean climate	month	8	0.431550363367
+HasA	the ice	spring	12	0.425178235862
+HasA	the police	government	57	0.42024537061800005
+HasA	the development	business	74	0.41864545891099997
+HasA	an office	name	7	0.415396514305
+HasA	20th century	route	15	0.410281247764
+HasA	the rise	value	7	0.406741891914
+HasA	the region	tobacco	15	0.403348065467
+HasA	champion	boxing history	7	0.390007077406
+HasA	south	mountain range	20	0.38778942548900003
+HasA	the divorce	custody	8	0.38406419697800004
+HasA	the country	political stability	8	0.38369732239
+HasA	the country	foreign investment	15	0.36448497354000003
+HasA	legislative assembly	law	18	0.364409782206
+HasA	sexual activity	risk	15	0.36412432166
+HasA	the summer	stream	8	0.359322459473
+HasA	drinking water	ground	7	0.356121537519
+HasA	this system	amount	9	0.35401685428
+HasA	hospital	acute care	13	0.350180819316
+HasA	the beginning	contribution	11	0.334355618986
+HasA	band	six studio	12	0.332257449961
+HasA	20th century	steel	44	0.33091274754
+HasA	legislative assembly	year	18	0.320152869646
+HasA	the family	taxon	9	0.319030815932
+HasA	high school	home	70	0.31640391048300004
+HasA	orbit	same time	15	0.31282962261799996
+HasA	the airport	route	43	0.30877506155400003
+HasA	the year	castle	7	0.303495963421
+HasA	the target	velocity	7	0.300126075278
+HasA	the formation	alliance	22	0.297414769741
+HasA	the base	foot	10	0.294800215788
+HasA	logo	graphic design	7	0.288545142489
+HasA	the clock	part	12	0.283464813849
+HasA	the province	railway	10	0.28194673607799997
+HasA	series	analytic function	15	0.275471411392
+HasA	hockey	association football	11	0.26620037679
+HasA	the player	game	765	0.264177377395
+HasA	royal court	family	9	0.260045288066
+HasA	only son	heir	34	0.256466450266
+HasA	the world	jurisdiction	10	0.256174389369
+HasA	the product	oil	13	0.253911009929
+HasA	the supertype	subtype	7	0.253192414491
+HasA	tree	last level	7	0.250744079574
+HasA	the series	star	48	0.249988253119
+HasA	total area	part	15	0.24962013618599999
+HasA	agent	case officer	10	0.246029703857
+HasA	limited partnership	limited liability	8	0.243738715341
+HasA	the band	roll	38	0.22066021468000002
+HasA	the ship	operator	7	0.218926063016
+HasA	episode	air date	12	0.218828700629
+HasA	the tradition	community	11	0.216827052127
+HasA	navigation	guidance system	9	0.204777569752
+HasA	cc	injection sohc	12	0.20262607875799998
+HasA	the country	talent	7	0.202532248609
+HasA	armoured brigade	infantry	7	0.20237313530099998
+HasA	the massacre	army	8	0.20075322777
+HasA	accordance	islamic law	7	0.199480127775
+HasA	this naming	name	8	0.198330053801
+HasA	the nation	opposition	9	0.194227917511
+HasA	the foreskin	circumcision	7	0.189710267909
+HasA	bomber	strategic bombing	13	0.18351197589999999
+HasA	the design	importance	11	0.183121074221
+HasA	bass	dicentrarchus labrax	7	0.182740935969
+HasA	the presence	shape	19	0.182208280084
+HasA	the reduction	control	8	0.170820397105
+HasA	tertiary education	campus	7	0.170370745492
+HasA	the magnification	length	9	0.17023396054200002
+HasA	host city	bid	7	0.167517309243
+HasA	the state	convention	66	0.165802873744
+HasA	the land	front	12	0.163362221682
+HasA	an example	continuity	9	0.161877930549
+HasA	live action	motion	7	0.16002247025
+HasA	the time	latitude	11	0.159854993153
+HasA	the town	close proximity	11	0.15740008237
+HasA	the violin	viola	38	0.155139049324
+HasA	the problem	subject	11	0.155051825649
+HasA	the level	design	8	0.153199631416
+HasA	the suppression	system	9	0.152726376917
+HasA	the course	long career	8	0.152300249363
+HasA	the rest	gauge	10	0.150032033112
+HasA	the principle	respect	10	0.147605234571
+HasA	the street	speed	11	0.14682228077099999
+HasA	the throat	breathing	7	0.146239883785
+HasA	the writer	century	8	0.14352207648499998
+HasA	the audience	building	8	0.141840886886
+HasA	the harbour	island	13	0.14130607810999998
+HasA	the life	moment	11	0.13809434472100002
+HasA	the printing	paper	29	0.13802177664
+HasA	the post	name	178	0.131555176647
+HasA	home	21st century	11	0.13086203966499999
+HasA	the turn	half	10	0.130459343565
+HasA	the right	gas	8	0.130286294228
+HasA	the distinction	language	36	0.129966592346
+HasA	the prefecture	same territory	10	0.128788160293
+HasA	the resolution	process	10	0.125868050983
+HasA	drinking	water treatment	7	0.123562068967
+HasA	the siege	arrival	11	0.122856562647
+HasA	the city	administrator	29	0.121792560701
+HasA	the definition	rule	13	0.121528480399
+HasA	the shore	fishing	8	0.12114508007099999
+HasA	the life	part	30	0.120504191308
+HasA	the development	competition	16	0.119638520668
+HasA	the future	successor	8	0.11469787896400001
+HasA	the beach	home	15	0.111960243517
+HasA	the end	internet	11	0.106520635637
+HasA	revenue	central government	7	0.10614174391799999
+HasA	flag	naval ensign	13	0.104672644176
+HasA	the leader	team	61	0.103418694748
+HasA	noise pop	rock	8	0.10290216737600001
+HasA	this temple	period	8	0.10094837517000001
+HasA	the part	producer	8	0.0998796837015
+HasA	the truth	system	8	0.0981933975515
+HasA	the city	long time	17	0.0973630690125
+HasA	the town	landmark	47	0.097293393368
+HasA	the city	other side	21	0.0971591880204
+HasA	church	high school	11	0.0965526253665
+HasA	trading post	today	8	0.0944319068953
+HasA	the study	calculus	16	0.09430229604219999
+HasA	the coat	image	7	0.09409415178710001
+HasA	the possibility	assault	7	0.09405715386590001
+HasA	the strength	direction	17	0.0937544763249
+HasA	contemporary gospel	music	12	0.0904813706057
+HasA	the soil	development	10	0.090375622381
+HasA	the game	table	33	0.09015095079339999
+HasA	academy award	screenplay	7	0.0898942641302
+HasA	this trade	century	10	0.08829125411419998
+HasA	new generation	state	8	0.0872378761365
+HasA	the rise	opposition	16	0.0827461076332
+HasA	the format	story	12	0.0815852585905
+HasA	the extent	source	11	0.0806649227867
+HasA	the heat	landing	8	0.08057862641819999
+HasA	this period	left	7	0.0769774241048
+HasA	the world	tourist	49	0.0762039746879
+HasA	the name	copyright	13	0.07562353514999999
+HasA	the university	collaboration	12	0.07549330227710001
+HasA	metal	alternative rock	38	0.0732325653086
+HasA	the text	case	16	0.07323198570089999
+HasA	the value	government	30	0.0709284907368
+HasA	the patronage	king	14	0.0703712460208
+HasA	storm	hurricane season	29	0.0688649914172
+HasA	game	first person	17	0.06391886125230001
+HasA	this time	break	8	0.06383153328890001
+HasA	20th century	poet	27	0.0633271062724
+HasA	the group	crime	9	0.0632256518256
+HasA	stage name	group	9	0.0630981740761
+HasA	the use	violence	110	0.0629771466342
+HasA	the beginning	memory	9	0.062907173949
+HasA	the latter	memory	8	0.062055278043999997
+HasA	an apartment	residence	9	0.0610359254103
+HasA	death	long time	14	0.057093544553500006
+HasA	the cause	way	21	0.0564665994679
+HasA	displacement law	temperature	8	0.056158106169
+HasA	the character	second season	7	0.0556194005398
+HasA	the importance	battle	19	0.0544844013778
+HasA	the work	role	37	0.0540681575775
+HasA	the book	club	7	0.0533182862433
+HasA	the city	four-year term	22	0.0528901591792
+HasA	general manager	position	29	0.052028930104099994
+HasA	black death	century	7	0.050962755796300004
+HasA	unique sound	music	8	0.050907324234199997
+HasA	the decision	research	9	0.0508738307254
+HasA	child	law enforcement	8	0.0508326335035
+HasA	the practice	project	7	0.0482643671572
+HasA	the information	existence	7	0.0481648502666
+HasA	the operating	software	55	0.0447378886011
+HasA	last year	reign	17	0.044496057211300004
+HasA	the surface	bone	11	0.0431095936337
+HasA	the studio	demo	13	0.0422591240761
+HasA	the battle	mexican-american war	8	0.0420356922002
+HasA	the flag	centre	23	0.0414643343213
+HasA	particular interest	period	7	0.0413318638188
+HasA	the behaviour	light	11	0.040603003576
+HasA	this design	use	26	0.0391662486054
+HasA	acceptance	anniversary blog	25	0.03868798347480001
+HasA	the writer	movie	11	0.0373102748819
+HasA	the sociology	language	8	0.037220398585300005
+HasA	last edit	page	10	0.037083820370699995
+HasA	free trade	position	7	0.036594570413900004
+HasA	the intersection	diagonal	7	0.0352285979397
+HasA	the law	hand	12	0.0342473299748
+HasA	industry	foreign exchange	10	0.0328209235077
+HasA	the public	fall	10	0.030757581531700003
+HasA	the capital	name	120	0.030223854282
+HasA	brand	first time	13	0.029074066669
+HasA	career	record label	9	0.0282173010546
+HasA	voice	first time	15	0.0270182207029
+HasA	the usage	mode	8	0.027005563928200003
+HasA	space	golf course	7	0.0268957167213
+HasA	the parent	school	8	0.026668562872
+HasA	the substance	drug	7	0.0258592444136
+HasA	the intersection	exit	15	0.0252085360775
+HasA	this venture	success	7	0.025045369246700002
+HasA	the host	offspring	7	0.0244269481703
+HasA	the foundation	culture	27	0.0241827841719
+HasA	the bandwidth	noise	11	0.0238469371501
+HasA	the permission	order	7	0.022217427129099996
+HasA	the change	structure	13	0.020351087865500002
+HasA	the analysis	language	17	0.0199827972659
+HasA	historical tetralogy	version	7	0.0191293000942
+HasA	the foundation	career	13	0.019054972651400003
+HasA	stage name	music	10	0.018966474928099997
+HasA	the existence	state	107	0.0185792394983
+HasA	the war	preparation	12	0.0185550144593
+HasA	best actor	sound	9	0.0160275997576
+HasA	the influence	creation	8	0.0148913431086
+HasA	party conference	president	9	0.0145128646536
+HasA	address space	program	9	0.0137085680482
+HasA	the sense	existence	14	0.0136155871887
+HasA	the morning	office	7	0.013021694567
+HasA	the process	rest	15	0.0118976865939
+HasA	the aim	community	18	0.011739813941500001
+HasA	chest	pleural space	12	0.011733387600399998
+HasA	white king	check	9	0.011288949167500001
+HasA	point	angular momentum	7	0.0109313862495
+HasA	the game	host	29	0.010747215745999999
+HasA	the project	company	56	0.010730803133200002
+HasA	cycle	declaration of love	8	0.010614862236200001
+HasA	attack	ballistic missile	10	0.010111215320700001
+HasA	beginning	folk music	7	0.009697254089459999
+HasA	the border	process	8	0.00715271528836
+HasA	the origin	style	15	0.00608966022653
+HasA	the work	destruction	8	0.00550053442007
+HasA	the type	body	21	0.00516501977932
+HasA	rail system	metro	12	0.0051259387485100005
+HasA	noise	square root	9	0.00448134916016
+HasA	the track	bass	14	0.00446669774604
+HasA	the library	state	16	0.004304971838939999
+HasA	the end	guard	16	0.00357424578228
+HasA	the title	piece	22	0.0035327495183600003
+HasA	the name	leg	7	0.0034405984025
+HasA	access	main road	12	0.00344057976426
+HasA	the rod	fly	10	0.0033434991556
+HasA	surprise attack	attempt	8	0.0033216214374799996
+HasA	subject	indirect object	9	0.0033186284115700004
+HasA	season	contract extension	8	0.00318848415194
+HasA	home	lacrosse team	7	0.00317558558419
+HasA	the number	stream	9	0.0029683056743
+HasA	percent	presidential election	8	0.0029308027165500005
+HasA	use	public health	28	0.00292779158935
+HasA	social capital	concept	8	0.0024824333775700005
+HasA	safety	eye protection	7	0.00245912639023
+HasA	the project	movie	18	0.0024383846213
+HasA	the fall	reality	7	0.00210841300648
+HasA	box office	actress	13	0.00180382302242
+HasA	the charge	state	12	0.00170536452884
+HasA	the level	effort	12	0.00168513130276
+HasA	term	market economy	9	0.0016375818567100002
+HasA	an article	reason	15	0.00134604920178
+HasA	studio album	work	7	0.0013234695395200002
+HasA	mate	presidential candidate	7	0.00125476710639
+HasA	this instrument	field	9	0.0011952072640099998
+HasA	point	room temperature	10	0.0011047858505
+HasA	large number	game	32	0.0007223096763610001
+HasA	the word	plant	31	0.000551430758941
+HasA	an error	game	9	0.00039461826627299997
+HasA	name	parish church	8	0.0003875559110330001
+HasA	support	radio station	9	0.000120565753978
+HasA	start	head coach	10	7.50581224568e-05
+HasA	second leg	tour	27	4.16591146232e-05
+HasPrerequisite	make	take care	7	0.986743364743
+HasPrerequisite	television show	video	7	0.785832174656
+HasPrerequisite	interest income	tax	7	0.776597892218
+HasPrerequisite	baseball player	pitcher	10	0.7592940721600001
+HasPrerequisite	computer science	memory	17	0.732509419302
+HasPrerequisite	make use	water	10	0.7240296339569999
+HasPrerequisite	football team	player	8	0.627851682907
+HasPrerequisite	change	take place	34	0.607375618213
+HasPrerequisite	school	attend university	8	0.501916220336
+HasPrerequisite	water flow	power	9	0.495871603266
+HasPrerequisite	order	put pressure	9	0.43237695702
+HasPrerequisite	post system	method	8	0.336156062795
+HasPrerequisite	football player	team	36	0.317504498559
+HasPrerequisite	credit card	purchase	7	0.315174916151
+HasPrerequisite	family man	wife	11	0.29539571972399997
+HasPrerequisite	life	take place	8	0.258670902018
+HasPrerequisite	edge jump	foot	7	0.25398801491399997
+HasPrerequisite	bus service	centre	13	0.249304408059
+HasPrerequisite	vegetable protein	meat	7	0.247801830903
+HasPrerequisite	type system	code	7	0.236447110348
+HasPrerequisite	heart disease	blood pressure	11	0.21885264458700002
+HasPrerequisite	launch vehicle	system	10	0.205574122561
+HasPrerequisite	sonata form	movement	8	0.19923747906199998
+HasPrerequisite	burlink bus	route	10	0.189474297033
+HasPrerequisite	air force	pilot	11	0.176701110649
+HasPrerequisite	broadband internet	cable	7	0.17629301778200002
+HasPrerequisite	signal processing	control	22	0.172546316504
+HasPrerequisite	give birth	son	20	0.165365587549
+HasPrerequisite	costume design	lighting design	12	0.143811388191
+HasPrerequisite	driving arrest	investigation	7	0.135647399339
+HasPrerequisite	traffic control	safety	9	0.130617369324
+HasPrerequisite	energy conservation	gas	7	0.129518936186
+HasPrerequisite	radio program	television	9	0.129340668293
+HasPrerequisite	touchdown pass	play	15	0.112122095548
+HasPrerequisite	health insurance	policy	7	0.1113415398
+HasPrerequisite	compete in dog	tracking	7	0.107250300998
+HasPrerequisite	signal processing	analysis	24	0.105327338082
+HasPrerequisite	weight loss	appetite	14	0.100101634066
+HasPrerequisite	mass spectrometry	analysis	7	0.08988305980519999
+HasPrerequisite	market town	centre	46	0.0870323853104
+HasPrerequisite	drug use	alcohol	18	0.0865185509835
+HasPrerequisite	rock climbing	swimming	9	0.08628158820830001
+HasPrerequisite	solo career	member	12	0.0823344173527
+HasPrerequisite	box set	disc	10	0.07647679661330001
+HasPrerequisite	plurality voting	majority	12	0.07418344962060001
+HasPrerequisite	video signal	time	7	0.0692197334694
+HasPrerequisite	subsistence agriculture	fishing	7	0.068466117397
+HasPrerequisite	programming language	computing	11	0.06477619849119999
+HasPrerequisite	be part	group	35	0.0635362879721
+HasPrerequisite	x-ray radiography	imaging	8	0.0633175848546
+HasPrerequisite	gain insight	nature	8	0.062082454585300005
+HasPrerequisite	take part	campaign	22	0.06140806984680001
+HasPrerequisite	best actress	comedy	19	0.0612243253494
+HasPrerequisite	drinking water	exposure	8	0.058081049681199995
+HasPrerequisite	tv series	set	13	0.0569633125342
+HasPrerequisite	no import	duplicate info	8	0.0556320442639
+HasPrerequisite	tv channel	television	7	0.0537679292339
+HasPrerequisite	video game	industry	28	0.053109051269100004
+HasPrerequisite	welfare state	system	11	0.0467836189441
+HasPrerequisite	film	take place	27	0.0452022362617
+HasPrerequisite	surface area	water	37	0.0434764970383
+HasPrerequisite	take advantage	railroad	10	0.0421809153313
+HasPrerequisite	conjugate transpose	matrix	14	0.041235717756599996
+HasPrerequisite	drinking water	sanitation	14	0.0401938473006
+HasPrerequisite	text editor	user	11	0.0395377046825
+HasPrerequisite	jazz fusion	funk	8	0.038428868285199994
+HasPrerequisite	henricus rex	reverse	8	0.0376335520528
+HasPrerequisite	record producer	executive	13	0.0375039640366
+HasPrerequisite	lead guitarist	vocalist	18	0.0369983342607
+HasPrerequisite	twentieth century	power	9	0.036867203808199994
+HasPrerequisite	printing press	production	7	0.033696093579400004
+HasPrerequisite	climate change	mitigation	9	0.0334208194821
+HasPrerequisite	ice hockey	sailing	14	0.0309015438027
+HasPrerequisite	climate change	research	17	0.030019449125200003
+HasPrerequisite	contact information	domain	7	0.0283117404815
+HasPrerequisite	control column	stick	7	0.0274594903684
+HasPrerequisite	death penalty	act	11	0.0274140676792
+HasPrerequisite	probability density	pdf	7	0.0265359021961
+HasPrerequisite	conversion therapy	orientation	7	0.026443286337099997
+HasPrerequisite	card game	trading	14	0.0257746368118
+HasPrerequisite	hip hop	singing	7	0.0252658600082
+HasPrerequisite	set theory	arithmetic	15	0.0251947215399
+HasPrerequisite	time series	analysis	8	0.025111371610300002
+HasPrerequisite	video game	motion	8	0.0239087641083
+HasPrerequisite	jet engine	air	16	0.0235589114143
+HasPrerequisite	glass transition	material	9	0.0223874997174
+HasPrerequisite	template metaprogramming	code	7	0.0223184857314
+HasPrerequisite	world champion	history	16	0.0220542965859
+HasPrerequisite	savanna climate	köppen	22	0.021828984075799997
+HasPrerequisite	tower block	building	7	0.020952381519099998
+HasPrerequisite	glam rock	metal	12	0.0206191629429
+HasPrerequisite	bus service	station	90	0.0198344893632
+HasPrerequisite	trail head	access	7	0.0193176381363
+HasPrerequisite	formation process	pressure	7	0.019179194332
+HasPrerequisite	pore size	gel	8	0.0186343713958
+HasPrerequisite	overhead cam	engine	8	0.0185496432659
+HasPrerequisite	school district	transportation	30	0.0184827293918
+HasPrerequisite	phase modulation	pm	7	0.0178501715012
+HasPrerequisite	emergency fire	rescue	24	0.0176945478224
+HasPrerequisite	trading post	mouth	17	0.0176922917578
+HasPrerequisite	rush hour	lane	11	0.0170919607626
+HasPrerequisite	state constitution	right	9	0.0167647123489
+HasPrerequisite	mustard gas	chemical	8	0.0167359616799
+HasPrerequisite	climate classification	zone	32	0.016543365576200002
+HasPrerequisite	action figure	series	9	0.0156067357384
+HasPrerequisite	manufacturing plant	site	10	0.014873272545799999
+HasPrerequisite	business model	advertising	9	0.014680165068000002
+HasPrerequisite	computer science	learning	10	0.0144955465
+HasPrerequisite	building	take place	12	0.0142933689204
+HasPrerequisite	town square	center	12	0.013597764857100002
+HasPrerequisite	growth factor	kinase	10	0.0135731204544
+HasPrerequisite	world record	course	9	0.0130375615991
+HasPrerequisite	box office	hit	16	0.0129748195261
+HasPrerequisite	book form	title	13	0.0128673160424
+HasPrerequisite	equilibrium constant	reaction	17	0.0125335912144
+HasPrerequisite	information technology	science	22	0.0117703521922
+HasPrerequisite	race track	racing	12	0.011732262139099999
+HasPrerequisite	control system	rocket	7	0.011468828477399998
+HasPrerequisite	printing press	literature	7	0.011456378679500001
+HasPrerequisite	city commission	government	20	0.011292302519
+HasPrerequisite	governing party	motion	7	0.010824876943299998
+HasPrerequisite	voter registration	voting	18	0.010114205167799999
+HasPrerequisite	set list	tour	7	0.0099022849731
+HasPrerequisite	state history	etc	246	0.00989007626168
+HasPrerequisite	speed record	aircraft	10	0.00988354551563
+HasPrerequisite	music video	soundtrack	15	0.00978136464063
+HasPrerequisite	vitamin c	milk	7	0.009768096650010001
+HasPrerequisite	reference frame	space	13	0.00956218443699
+HasPrerequisite	art history	work	7	0.00955366697735
+HasPrerequisite	state government	governor	19	0.00931648310822
+HasPrerequisite	label argent	azure	10	0.00899583717306
+HasPrerequisite	game theory	player	12	0.0088796314097
+HasPrerequisite	telephone number	subscriber	7	0.008742818086459998
+HasPrerequisite	heat transfer	fluid	24	0.00870257252586
+HasPrerequisite	power series	value	10	0.008047123113499999
+HasPrerequisite	vector space	functor	7	0.00766005085396
+HasPrerequisite	television series	comedy	26	0.0076003299584899995
+HasPrerequisite	coup d	support	16	0.00750538718828
+HasPrerequisite	association football	sport	33	0.0073163588168
+HasPrerequisite	lingua franca	century	8	0.00699502868082
+HasPrerequisite	cross country	school	7	0.006913253300420001
+HasPrerequisite	set x	element	18	0.00590242307809
+HasPrerequisite	air conditioning	fire	8	0.005799129669260001
+HasPrerequisite	feature film	part	16	0.00578025853659
+HasPrerequisite	file system	control	8	0.005729088218910001
+HasPrerequisite	script editor	series	7	0.00546263496161
+HasPrerequisite	destination address	header	13	0.0053271151699100005
+HasPrerequisite	signal processing	delay	7	0.0052766082970900005
+HasPrerequisite	flood control	dam	9	0.00517211465358
+HasPrerequisite	steel frame	building	9	0.00515040727882
+HasPrerequisite	blood pressure	organ	10	0.0051485776305
+HasPrerequisite	f-16 fighting	fighter unit	7	0.00492640976478
+HasPrerequisite	passenger rail	commuter rail	9	0.0047912776391
+HasPrerequisite	gene transfer	organism	13	0.004681749822479999
+HasPrerequisite	heart disease	risk	15	0.00456979434029
+HasPrerequisite	radio station	building	9	0.00437025651363
+HasPrerequisite	glucose level	blood	8	0.004317280475560001
+HasPrerequisite	fitness center	pool	9	0.00420510750297
+HasPrerequisite	plane wave	vector	8	0.00412211042115
+HasPrerequisite	basketball court	playground equipment	9	0.00401884188565
+HasPrerequisite	transaction set	health care	7	0.00393321402732
+HasPrerequisite	government	make way	9	0.00386026013469
+HasPrerequisite	programming language	concept	8	0.0037593292086999996
+HasPrerequisite	town line	ny-8	7	0.00365061879472
+HasPrerequisite	mainline jet	service	7	0.0035104221481599995
+HasPrerequisite	doubling piccolo	bass	7	0.00346752952129
+HasPrerequisite	noun phrase	np	10	0.0034312655779900002
+HasPrerequisite	play bass	album	13	0.0033767250180000005
+HasPrerequisite	country music	part	7	0.00329500066967
+HasPrerequisite	town centre	junction	16	0.00329346877538
+HasPrerequisite	league record	career	7	0.0030860628976300004
+HasPrerequisite	trip hop	rock	9	0.00299184077016
+HasPrerequisite	manifold m	bundle	20	0.00277752239955
+HasPrerequisite	railway station	mainline	12	0.0027749719864800003
+HasPrerequisite	debut album	genre	9	0.00256678193619
+HasPrerequisite	folk rock	song	11	0.00247086240977
+HasPrerequisite	state legislator	businessman	7	0.00244723546412
+HasPrerequisite	56k modem	card reader	11	0.00228403051107
+HasPrerequisite	science fiction	figure	11	0.0022498812228000003
+HasPrerequisite	electron affinity	atom	11	0.00210101618223
+HasPrerequisite	tornado activity	state	10	0.00210020114693
+HasPrerequisite	shopping mall	floor	11	0.00195991716918
+HasPrerequisite	sulfur dioxide	acid	37	0.0018848910783599998
+HasPrerequisite	church	make way	13	0.00185067541305
+HasPrerequisite	hip hop	industry	16	0.00184983760662
+HasPrerequisite	television series	period	9	0.00182784013026
+HasPrerequisite	flight attendant	plane	17	0.00182695539422
+HasPrerequisite	surface area	flow	7	0.00170301563307
+HasPrerequisite	swimming pool	area	28	0.0015804363555199999
+HasPrerequisite	tv series	history	17	0.00156618170729
+HasPrerequisite	cooling system	air	15	0.0015587113814900001
+HasPrerequisite	power supply	ground	11	0.0014988603771
+HasPrerequisite	title character	song	8	0.00143764916868
+HasPrerequisite	junior varsity	team	8	0.0014195345834100003
+HasPrerequisite	poverty rate	percent	7	0.00130941173188
+HasPrerequisite	bus station	number	7	0.00128125449906
+HasPrerequisite	market price	gold	7	0.00128046306755
+HasPrerequisite	wedding ceremony	groom	12	0.00125305580858
+HasPrerequisite	backing vocalist	band	13	0.00124504108871
+HasPrerequisite	opera house	fire	12	0.0011917473826400001
+HasPrerequisite	name area	volume	11	0.0011655388461600002
+HasPrerequisite	property tax	approval	85	0.001111510811
+HasPrerequisite	emmy award	performance	10	0.00110933551773
+HasPrerequisite	voltage	spark plug	7	0.00105719179923
+HasPrerequisite	railway station	town centre	58	0.0010126231093200001
+HasPrerequisite	source code	assembly	14	0.0010109280412499999
+HasPrerequisite	nitrogen dioxide	acid	12	0.0008952319175089999
+HasPrerequisite	child custody	divorce	7	0.000883262710983
+HasPrerequisite	tv series	title	21	0.0008572523036619999
+HasPrerequisite	transportation system	traffic	9	0.000839308796234
+HasPrerequisite	year author	publisher	11	0.00080277337116
+HasPrerequisite	town centre	north	24	0.000780673595997
+HasPrerequisite	football ground	home	8	0.0007630333867879999
+HasPrerequisite	state championship	football	12	0.000754395558053
+HasPrerequisite	noise figure	signal	7	0.0007360748595269999
+HasPrerequisite	bank robbery	history	7	0.000725735566546
+HasPrerequisite	hardcore punk	album	10	0.0006725168734959999
+HasPrerequisite	tv series	home	17	0.0006148083015490001
+HasPrerequisite	health care	percent	8	0.000565626831779
+HasPrerequisite	theme song	program	9	0.000565022763866
+HasPrerequisite	academy award	score	12	0.000562117229235
+HasPrerequisite	ball carrier	ground	10	0.000560365676512
+HasPrerequisite	town centre	focus	9	0.000551804229742
+HasPrerequisite	tissue culture	cell	7	0.000551233896884
+HasPrerequisite	theme music	episode	11	0.000521480703119
+HasPrerequisite	rocket motor	thrust	12	0.000511545880486
+HasPrerequisite	rail station	line	15	0.000509600211089
+HasPrerequisite	internet access	home	7	0.000485305657737
+HasPrerequisite	punk scene	rock	11	0.000463054740942
+HasPrerequisite	road racing	race	7	0.00045630687774600003
+HasPrerequisite	crew chief	race	9	0.00043851048416800005
+HasPrerequisite	glass transition	temperature	9	0.000434863894154
+HasPrerequisite	rail link	service	7	0.000409908592079
+HasPrerequisite	vice president	member	20	0.000407811042552
+HasPrerequisite	debut album	music	48	0.000352477793571
+HasPrerequisite	police force	village	7	0.000306422020478
+HasPrerequisite	studio album	pop	22	0.00029320066613800004
+HasPrerequisite	best world	album	8	0.000288079615196
+HasPrerequisite	football team	name	20	0.00027141018144700004
+HasPrerequisite	mountain range	island	21	0.000269824553227
+HasPrerequisite	century bc	order	10	0.000269209982309
+HasPrerequisite	space group	dna	7	0.000257132586127
+HasPrerequisite	algebra g	lie	7	0.00024020520573
+HasPrerequisite	breeding range	winter	13	0.00022870179265799997
+HasPrerequisite	office space	city	10	0.00022535460288900002
+HasPrerequisite	relief pitcher	season	9	0.000204631042152
+HasPrerequisite	football club	city	43	0.000182444545418
+HasPrerequisite	lieutenant governor	party	12	0.00017220107869200002
+HasPrerequisite	pop music	success	16	0.000162552384449
+HasPrerequisite	sugar industry	century	8	0.00014741430149200002
+HasPrerequisite	user interface	engine	9	0.00013950355461399999
+HasPrerequisite	head coach	baseball team	14	0.00013075577887000002
+HasPrerequisite	post office	confusion	11	0.00012942563592
+HasPrerequisite	slave trade	sale	10	0.000129333228311
+HasPrerequisite	film role	award	9	0.00011883169551100002
+HasPrerequisite	editorial board	magazine	9	0.000118257105802
+HasPrerequisite	liver failure	death	8	0.000116979096876
+HasPrerequisite	gold medal	history	11	0.00010905973303700001
+HasPrerequisite	phrase structure	sentence	8	0.000105647312281
+HasPrerequisite	debut studio	rock	42	0.00010352466396400001
+HasPrerequisite	basketball player	actor	8	9.49936122314e-05
+HasPrerequisite	century ad	invasion	8	9.44883830124e-05
+HasPrerequisite	title defense	fight	9	8.41594062843e-05
+HasPrerequisite	tourist attraction	village	11	8.35620278477e-05
+HasPrerequisite	time	give birth	12	8.21462294038e-05
+HasPrerequisite	railway station	capital	7	7.12470390559e-05
+HasPrerequisite	newspaper editor	politician	21	6.80861229046e-05
+HasPrerequisite	aircraft carrier	assault	12	6.75935791657e-05
+HasPrerequisite	engine supplier	team	7	5.45696644181e-05
+HasPrerequisite	microwave oven	food	11	5.19669611072e-05
+HasPrerequisite	theme song	game	16	5.09693158167e-05
+HasPrerequisite	film festival	city	10	5.03556440827e-05
+HasPrerequisite	reform movement	church	7	4.937978537200001e-05
+HasPrerequisite	flight simulator	game	7	4.67860254979e-05
+HasPrerequisite	solo career	studio	8	4.59677563752e-05
+HasPrerequisite	highway system	traffic	7	4.48271962183e-05
+HasPrerequisite	zip code	city	41	3.61081150856e-05
+HasPrerequisite	century	see history	8	3.43336657713e-05
+HasPrerequisite	ground level	sea	20	3.13094168425e-05
+HasPrerequisite	title sequence	music	16	2.77449556181e-05
+HasPrerequisite	hydrogen bond	oh	9	2.45561867299e-05
+HasPrerequisite	country music	steel	8	2.41969614575e-05
+HasPrerequisite	youth league	party	8	2.26675991464e-05
+HasPrerequisite	forest gardening	food	12	1.84671970081e-05
+HasPrerequisite	carrier wave	signal	13	1.69116941456e-05
+HasPrerequisite	sky father	earth mother	9	1.37461993212e-05
+HasPrerequisite	arcade system	game	8	1.27116702945e-05
+HasPrerequisite	steel industry	city	7	1.21542689978e-05
+HasPrerequisite	sea level	south	47	1.16388851171e-05
+HasPrerequisite	business district	south	10	1.00710918704e-05
+HasPrerequisite	plate system	state	17	9.5850423428e-06
+HasPrerequisite	town hall	market	22	8.228627933369999e-06
+HasPrerequisite	doom metal	music	13	8.16278967414e-06
+HasPrerequisite	bronze star	award	9	7.643641080119999e-06
+HasPrerequisite	anime series	universe	8	4.9859498648e-06
+HasPrerequisite	clock rate	performance	8	4.47635664981e-06
+HasPrerequisite	city government	sewer	7	4.25240836309e-06
+HasPrerequisite	observation deck	tower	7	3.14174006315e-07
+HasPrerequisite	title page	play	13	2.0668037638099998e-07
+HasPrerequisite	desert island	story	14	1.50721386905e-07
+CapableOf	radiation	low frequency	7	0.9596267323190001
+CapableOf	income	amount of tax	7	0.944589317818
+CapableOf	desktop	power supply	7	0.9191355217799999
+CapableOf	caller	telephone number	13	0.866259206902
+CapableOf	music	rock sound	17	0.8566646571359999
+CapableOf	medal	honor recipient	7	0.825377023378
+CapableOf	rock music	punk rock	13	0.771448566936
+CapableOf	renewable energy	energy efficiency	18	0.7435094519159999
+CapableOf	character	voice actor	16	0.708998697631
+CapableOf	voltage	power dissipation	8	0.698975083144
+CapableOf	quarterback	head coach	15	0.6863244030050001
+CapableOf	service	bus line	13	0.6833660866600001
+CapableOf	mtdna	nadh dehydrogenase	8	0.680813244207
+CapableOf	law	capital punishment	21	0.674389077217
+CapableOf	part	second wave	13	0.656703994311
+CapableOf	college	law school	7	0.652254286068
+CapableOf	gas	high pressure	27	0.639979616204
+CapableOf	example	certain number	10	0.639824773237
+CapableOf	executive	central government	7	0.634379515621
+CapableOf	form	scientific method	7	0.591429359229
+CapableOf	series	lead actress	11	0.584293393995
+CapableOf	system	high speed	25	0.5839747711
+CapableOf	series	season premiere	8	0.5814040160639999
+CapableOf	order	keep track	9	0.578742309635
+CapableOf	creation	air force	8	0.576368285927
+CapableOf	rsd	dar rch dov	7	0.541821261118
+CapableOf	company	public domain	7	0.539352224335
+CapableOf	age	second term	7	0.529281707189
+CapableOf	series	third episode	14	0.522393157446
+CapableOf	process	surface area	8	0.501396230024
+CapableOf	count	model year	9	0.49649395607
+CapableOf	season	low humidity	13	0.464041634362
+CapableOf	success	general election	17	0.45015754523999996
+CapableOf	concept	opportunity cost	7	0.438054648742
+CapableOf	knowledge	human condition	7	0.406541362759
+CapableOf	space	point of view	8	0.40230484496799995
+CapableOf	government spending	tax revenue	7	0.40128099663
+CapableOf	right	own body	8	0.38082670151500003
+CapableOf	award	outstanding guest	12	0.37503841774999996
+CapableOf	service	large number	21	0.372706083617
+CapableOf	edition	prayer book	7	0.362284387752
+CapableOf	money	tax evasion	11	0.333307613572
+CapableOf	college	secondary school	16	0.332600776698
+CapableOf	knowledge	be able	31	0.327667414254
+CapableOf	section	railway line	12	0.320619831094
+CapableOf	oscillator	incoming signal	7	0.319425605604
+CapableOf	actress	award nomination	36	0.310630623015
+CapableOf	mentor	father figure	8	0.288842574174
+CapableOf	intake	heart disease	8	0.28667881882199997
+CapableOf	development	tax base	8	0.27598212699999997
+CapableOf	society	political system	14	0.275935492122
+CapableOf	technology	high speed	13	0.275763039396
+CapableOf	movie	animated film	7	0.27074759774
+CapableOf	fleet	passenger aircraft	8	0.269005393337
+CapableOf	game	single player	20	0.258524294005
+CapableOf	mother	illegitimate daughter	10	0.253188589381
+CapableOf	order	enough money	10	0.249576683878
+CapableOf	country	central government	10	0.24330037503199997
+CapableOf	government	day-to-day management	7	0.239937457458
+CapableOf	use	double entendre	7	0.238051843677
+CapableOf	test	small amount	10	0.233390431425
+CapableOf	junction	southern end	7	0.228804639531
+CapableOf	result	world war	8	0.228531430589
+CapableOf	group	semidirect product	15	0.2242495521
+CapableOf	performance	music video	10	0.21810293286200003
+CapableOf	artillery	infantry fire	8	0.21531243934
+CapableOf	source	be available	9	0.213358589194
+CapableOf	crisis	state of emergency	9	0.212177393837
+CapableOf	group	normal subgroup	58	0.209828008447
+CapableOf	historian	4th century	8	0.209439173879
+CapableOf	award	best directorst	18	0.198320454284
+CapableOf	means	labor shortage	9	0.196689238191
+CapableOf	centaur	upper stage	11	0.193498876347
+CapableOf	alliance	civil war	10	0.189046096052
+CapableOf	result	21st century	11	0.18545614621
+CapableOf	information	point of view	14	0.185105926687
+CapableOf	amino	α-keto acid	7	0.184877061302
+CapableOf	gas	water vapor	20	0.181166365016
+CapableOf	town	major centre	13	0.17652993375599998
+CapableOf	form	military service	12	0.173485210593
+CapableOf	team	total time	16	0.166461274508
+CapableOf	authentication	access point	10	0.16470099920999998
+CapableOf	psychology	quantitative analysis	7	0.16436180559
+CapableOf	rank	field marshal	60	0.16274713639900001
+CapableOf	system	keep track	14	0.162469622141
+CapableOf	word	present participle	8	0.16238909867999998
+CapableOf	victim	own success	8	0.161181086612
+CapableOf	hospital	care facility	12	0.157874276064
+CapableOf	prime minister	governor general	16	0.150223452037
+CapableOf	band	live album	158	0.150158140548
+CapableOf	award	pop collaboration	9	0.145424206407
+CapableOf	disorder	immune system	9	0.14516506896700002
+CapableOf	scandal	general election	7	0.143839471481
+CapableOf	iso	currency code	22	0.142916575788
+CapableOf	geoid	mean sea	13	0.141920714281
+CapableOf	resignation	general election	29	0.140830656674
+CapableOf	government	tourist destination	10	0.139849498095
+CapableOf	site	department store	13	0.137195001609
+CapableOf	mining	18th century	19	0.135486527815
+CapableOf	missile	launch tube	16	0.13093999986500002
+CapableOf	sculptor	century bc	9	0.129806968009
+CapableOf	winter	average temperature	14	0.12956411506100002
+CapableOf	popularity	21st century	19	0.129418445322
+CapableOf	proof	value theorem	12	0.12202417567299999
+CapableOf	reader	power adapter connector	7	0.12082778555500001
+CapableOf	road	railroad line	11	0.11782854218599999
+CapableOf	bytecode	virtual machine	22	0.11245262076
+CapableOf	club	home venue	8	0.112151031306
+CapableOf	race	fifth place	8	0.111724005681
+CapableOf	conversion	7th century	8	0.11029472728800001
+CapableOf	fishing	source of income	11	0.10949742175300001
+CapableOf	country	national anthem	39	0.107873185282
+CapableOf	year	great deal	8	0.10782603127999998
+CapableOf	pot	low hand	9	0.10775893546599999
+CapableOf	spacecraft	human spaceflight	7	0.10763257869899999
+CapableOf	period	high point	9	0.107402184262
+CapableOf	pseudonym	real name	7	0.10723635135199999
+CapableOf	history	neolithic period	7	0.104382270237
+CapableOf	number	previous row	13	0.102498481049
+CapableOf	organization	same name	14	0.101661694641
+CapableOf	surface	dew point	7	0.101107658322
+CapableOf	view	be true	11	0.100043210844
+CapableOf	opening	same year	8	0.09822883261780001
+CapableOf	freight	20th century	7	0.0981959894723
+CapableOf	album	second time	20	0.09810672358010002
+CapableOf	economist	civil servant	12	0.09799566228430001
+CapableOf	church	original site	7	0.0969480792365
+CapableOf	time	deterministic turing	7	0.096068698631
+CapableOf	velocity	center of mass	9	0.095713615774
+CapableOf	period	great number	9	0.0929758361082
+CapableOf	training	first aid	36	0.0920949543268
+CapableOf	category	left adjoint	11	0.0918936128918
+CapableOf	system	make sure	11	0.09141179853980001
+CapableOf	anemia	chronic disease	9	0.08957514125350001
+CapableOf	use	large scale	29	0.0884296032353
+CapableOf	league	batting average	16	0.0883882523095
+CapableOf	bcs	college football	7	0.0880077798089
+CapableOf	law	full force	8	0.0842051627056
+CapableOf	molecule	negative charge	9	0.0832105474382
+CapableOf	support	religious freedom	7	0.0825870962561
+CapableOf	service	next year	7	0.0824531927808
+CapableOf	town	slow decline	7	0.0791076124841
+CapableOf	radio	be able	15	0.0787126475443
+CapableOf	carbon	nitric oxide	10	0.0759400582533
+CapableOf	garden	tree of life	7	0.0754150302917
+CapableOf	flag	red stripe	14	0.0732292286027
+CapableOf	band	worldwide tour	11	0.0721139867807
+CapableOf	vocalist	alternative rock	13	0.0698431436077
+CapableOf	logic	boolean algebra	15	0.0697157691945
+CapableOf	establishment	new state	10	0.0692137112792
+CapableOf	radiation	thermal equilibrium	11	0.0691179337301
+CapableOf	aircraft	centre of gravity	8	0.0674228058221
+CapableOf	interview	radio show	19	0.06699081120080001
+CapableOf	authority	third party	7	0.06646628953530001
+CapableOf	town	historic district	34	0.06507427159990001
+CapableOf	system	ballistic missile	30	0.06456582504380001
+CapableOf	century	same name	34	0.0639110741385
+CapableOf	access	drinking water	31	0.0638852686051
+CapableOf	hospital	long term	11	0.06274024409210001
+CapableOf	fantasy	role-playing game	7	0.0624493549856
+CapableOf	association football	field hockey	7	0.0616246028786
+CapableOf	nucleus	gamma ray	7	0.061539386136400004
+CapableOf	concept	theory of relativity	7	0.060998977675
+CapableOf	level	extra time	15	0.060647486839199995
+CapableOf	addition	new testament	10	0.06023866976969999
+CapableOf	science	high school	36	0.05982763194630001
+CapableOf	example	left hand	13	0.0587619668764
+CapableOf	office	large part	8	0.057362149650600006
+CapableOf	anime	animated series	7	0.05708713900640001
+CapableOf	time	other half	24	0.056254316792400005
+CapableOf	playoff	college football	11	0.052562826090699996
+CapableOf	century	eyvindr skáldaspillir	7	0.05212040158319999
+CapableOf	appointment	general election	8	0.0518881175525
+CapableOf	locus	science fiction	19	0.0507938226839
+CapableOf	interview	talk show	9	0.0490192459164
+CapableOf	soundtrack	video game	42	0.045503814863
+CapableOf	route	straight line	7	0.0448092188409
+CapableOf	stage	best actor	9	0.044136652317300004
+CapableOf	series	city centre	8	0.043297192880300005
+CapableOf	information	speed of light	17	0.042542268423
+CapableOf	fan	low-pressure compressor	8	0.042453881243500004
+CapableOf	part	grammar school	10	0.0412283158761
+CapableOf	highway	intersection with u	7	0.0400793666097
+CapableOf	aftermath	world war	16	0.0400537358041
+CapableOf	world	second half	21	0.0395909697188
+CapableOf	tape	playback head	7	0.03942615024169999
+CapableOf	iron	melting point	7	0.039286820027800005
+CapableOf	control	large portion	7	0.0389834753667
+CapableOf	time	place of origin	8	0.038828191999800005
+CapableOf	geometry	coordinate system	13	0.038010033861099995
+CapableOf	office	new town	11	0.037786248434599996
+CapableOf	effect	interstate commerce	10	0.0376784803061
+CapableOf	century	important trade	15	0.0344410087846
+CapableOf	method	sulfuric acid	11	0.0337994568596
+CapableOf	version	special edition	23	0.0323638239249
+CapableOf	alcohol	first time	9	0.032137300928599996
+CapableOf	election	legislative assembly	59	0.0320829710138
+CapableOf	history	mid-20th century	13	0.031041255936500003
+CapableOf	school	algebraic geometry	12	0.030923488355
+CapableOf	place	total area	97	0.0305343486423
+CapableOf	affiliate	independent station	16	0.029220025519999998
+CapableOf	century	summer resort	16	0.0289832842256
+CapableOf	show	opening theme	13	0.028900730716499998
+CapableOf	work	early history	8	0.028875344729400003
+CapableOf	category	terminal object	20	0.028565236064299997
+CapableOf	interest	number theory	12	0.025961944049
+CapableOf	station	railway bridge	8	0.0255290230815
+CapableOf	sum	normal distribution	9	0.0252496017704
+CapableOf	name	polish word	9	0.0248733390613
+CapableOf	science	graduate program	11	0.024802749556299998
+CapableOf	season	new home	13	0.0244582482813
+CapableOf	season	series finale	42	0.0240754126501
+CapableOf	honor	high school	11	0.0239445798897
+CapableOf	award	actress category	7	0.023378410802599996
+CapableOf	engine	second stage	7	0.023116266036400004
+CapableOf	atom	ion source	34	0.0226742447541
+CapableOf	celebration	first time	9	0.0223947701111
+CapableOf	town	municipal judge	7	0.022359029448
+CapableOf	tract	unorganized territory	10	0.022333094014400003
+CapableOf	hall	meeting place	10	0.0222127365367
+CapableOf	century	second half	75	0.0220619096462
+CapableOf	representation	lie group	20	0.022020038300799998
+CapableOf	round	former champion	8	0.0203377445812
+CapableOf	space	group operation	7	0.019440718828599997
+CapableOf	school	dramatic art	7	0.0193079858272
+CapableOf	field	vector space	60	0.01912842586
+CapableOf	year	vice president	8	0.018981286489099997
+CapableOf	work	century ad	15	0.018884789601
+CapableOf	group	hydrogen bond	11	0.0181067674491
+CapableOf	landscape	19th century	20	0.0180611968485
+CapableOf	science	action film	21	0.018028889909900002
+CapableOf	character	cameo appearance	11	0.0178726399895
+CapableOf	crown	russian legation	8	0.0178440429525
+CapableOf	term	other person	7	0.0177392839236
+CapableOf	land	shopping center	11	0.017418884575099998
+CapableOf	description	2nd century	7	0.0171039756522
+CapableOf	album	limited edition	39	0.017065787
+CapableOf	captain	gold medal	7	0.0161792798953
+CapableOf	word	secondary stress	7	0.016088696381899997
+CapableOf	name	17th century	84	0.015968591418
+CapableOf	request	prime minister	9	0.0155206665112
+CapableOf	annual college	bowl game	8	0.014815137838600001
+CapableOf	period	economic development	18	0.0137144894799
+CapableOf	movie	same name	199	0.0125303136711
+CapableOf	number	degree n	8	0.0123692831892
+CapableOf	script	arabic alphabet	10	0.0119216530849
+CapableOf	album	song contest	7	0.0118135902544
+CapableOf	universe	microwave background radiation	7	0.0115518792961
+CapableOf	influence	19th century	97	0.011343985959
+CapableOf	construction	railway network	12	0.010923186954999999
+CapableOf	song	instant hit	10	0.010579053293899998
+CapableOf	line	large number	20	0.0103658264251
+CapableOf	slavery	18th century	10	0.0102376465861
+CapableOf	software	development team	10	0.0100233355911
+CapableOf	calendar	first day	26	0.00979162668214
+CapableOf	number	second round	7	0.00961541476477
+CapableOf	term	same way	28	0.00939615301009
+CapableOf	title	english translation	9	0.00920677632495
+CapableOf	world	21st century	38	0.009021927579450001
+CapableOf	title	heavyweight championship	12	0.008347010279999999
+CapableOf	county	school system	20	0.0072253510537100005
+CapableOf	role	repair of parish	8	0.006826817459990001
+CapableOf	bar	practiced law	10	0.006548698328270001
+CapableOf	work	jewish law	12	0.005964663401149999
+CapableOf	world	15th century	11	0.005466161312400001
+CapableOf	home	roller derby league	9	0.00528945126614
+CapableOf	library	art collection	13	0.00520267615399
+CapableOf	boundary	western part	26	0.00404308987685
+CapableOf	case	proper noun	8	0.00354080983115
+CapableOf	town	natural beauty	15	0.0035040258175100003
+CapableOf	town	northern edge	21	0.00348465826458
+CapableOf	area	northern boundary	10	0.00347739678221
+CapableOf	hardware	management unit	8	0.0032172790225700005
+CapableOf	season	broken leg	7	0.00290379567689
+CapableOf	strike	first base	9	0.00287448061201
+CapableOf	attack	enemy line	8	0.0027361309655600003
+CapableOf	film	first season	20	0.00272672367015
+CapableOf	attention	20th century	16	0.0026193564072399997
+CapableOf	album	30th anniversary	19	0.0023224600054800003
+CapableOf	way	prime minister	13	0.00223428423612
+CapableOf	film	source material	15	0.0021737828479699997
+CapableOf	title sequence	theme music	9	0.00212330555078
+CapableOf	south	city centre	41	0.00200113440379
+CapableOf	reunion	studio album	8	0.0019415752183900002
+CapableOf	muscle	motor neuron	18	0.00175749636868
+CapableOf	guest appearance	television series	15	0.00169652336917
+CapableOf	industry	railway station	7	0.00156456048492
+CapableOf	case	same year	7	0.00155661181631
+CapableOf	film	10th anniversary	12	0.00148093639436
+CapableOf	courthouse	public square	10	0.0013796626121
+CapableOf	field	nervous system	8	0.00121664164964
+CapableOf	radio	black hole	7	0.00105898343374
+CapableOf	album	dvd release	8	0.000995486355607
+CapableOf	release	video game	38	0.000827944367407
+CapableOf	role	british television	13	0.0007095253842360001
+CapableOf	song	national football	7	0.00037969961561099995
+CapableOf	cycle	city centre	13	0.000218770943169
+CapableOf	studio	american rapper	18	4.59271363293e-05
+CapableOf	chair	moral philosophy	8	1.60346922078e-05
+CapableOf	talk	television station	7	8.25245052228e-06
+HasProperty	an attempt	likely	11	0.994121418117
+HasProperty	theory	able to explain	7	0.961130275441
+HasProperty	the task	important	7	0.9489974941120001
+HasProperty	the concept	independent	37	0.922219897117
+HasProperty	trolley bus	diesel	7	0.9135289318619999
+HasProperty	significant role	first	7	0.906313990229
+HasProperty	negative number	positive	9	0.890608974869
+HasProperty	electric charge	magnetic	18	0.866070080959
+HasProperty	the monopoly	first	8	0.865746714296
+HasProperty	the runner	next	12	0.861496241901
+HasProperty	the crystal	high	8	0.8591318921050001
+HasProperty	the decade	next	9	0.8406035973729999
+HasProperty	the value	valuable	12	0.831889480216
+HasProperty	fossil record	common	12	0.8268126547319999
+HasProperty	the defendant	full	8	0.738371604155
+HasProperty	major league	all-time	10	0.7050076643150001
+HasProperty	the size	high	38	0.70060410713
+HasProperty	the trip	short	7	0.687948291708
+HasProperty	latent image	visible	10	0.683877671982
+HasProperty	first president	second	9	0.677779323675
+HasProperty	equivalence relation	equivalent	12	0.6581807303939999
+HasProperty	two-party system	dominant	25	0.653268066673
+HasProperty	the military	next	10	0.651415378905
+HasProperty	the festival	traditional	42	0.641545910434
+HasProperty	the port	british	28	0.63773018633
+HasProperty	the climate	significant	7	0.611959718558
+HasProperty	the extent	local	21	0.580994552154
+HasProperty	the agency	current	14	0.576423667303
+HasProperty	an aircraft	low	13	0.575441482184
+HasProperty	the loss	poor	16	0.56753911451
+HasProperty	school of thought	political	7	0.563806817428
+HasProperty	the book	famous	65	0.540088544129
+HasProperty	small passerine	old	16	0.5202314174830001
+HasProperty	creative team	musical	8	0.516525820962
+HasProperty	the district	square	7	0.49949601175499997
+HasProperty	the cost	standard	9	0.48600248703000004
+HasProperty	the organisation	third	7	0.469545567953
+HasProperty	target	terrorist attack	8	0.457078957385
+HasProperty	the middle	eastern	25	0.450562119294
+HasProperty	the source	possible	21	0.44323595323700005
+HasProperty	horned owl	snowy	7	0.44107713669299997
+HasProperty	risk	preterm birth	24	0.434168110459
+HasProperty	philosophy	political theory	13	0.42047201050800004
+HasProperty	southern part	historic	9	0.416334540925
+HasProperty	visible light	radiation	51	0.40985726622100005
+HasProperty	monoamine oxidase	maoi	9	0.40562508620399995
+HasProperty	the regiment	british	15	0.40040383945200003
+HasProperty	the trade	last	7	0.38907904849799996
+HasProperty	climate	high elevation	20	0.38472187122
+HasProperty	wide range	research	38	0.383725965941
+HasProperty	immune system	virus	12	0.382477574675
+HasProperty	river	east coast	7	0.381953530771
+HasProperty	road	eastern terminus	7	0.374243806501
+HasProperty	member	regional council	16	0.37363468456
+HasProperty	the construction	north	21	0.371276662202
+HasProperty	the town	preparatory	10	0.361849741725
+HasProperty	the region	19th	93	0.35950156241400005
+HasProperty	company	official name	8	0.358717351831
+HasProperty	league	american football	22	0.356384326784
+HasProperty	the library	same	24	0.35246924570200006
+HasProperty	painting	black and white	8	0.346282689437
+HasProperty	the committee	equal	10	0.34254318413
+HasProperty	the outbreak	confederate	24	0.338051208585
+HasProperty	other hand	external	8	0.333934371804
+HasProperty	the result	hot	13	0.33313242540300003
+HasProperty	the cover	second	28	0.331235168616
+HasProperty	military coup	control	8	0.323770871305
+HasProperty	the fighting	german	18	0.320929005019
+HasProperty	time	genetic drift	8	0.3200858475
+HasProperty	life	very large	9	0.32001620446
+HasProperty	the park	year-round	9	0.311001657204
+HasProperty	an ep	american	10	0.30994885425700003
+HasProperty	mile	east side	7	0.309262385953
+HasProperty	all time	musical	7	0.308172381798
+HasProperty	the station	close	19	0.301543083114
+HasProperty	adipose tissue	blood	9	0.293786278954
+HasProperty	the height	british	13	0.291949462748
+HasProperty	this idea	small	9	0.287913526686
+HasProperty	the rest	common	45	0.286956399505
+HasProperty	the arrival	traditional	21	0.2829488853
+HasProperty	the time	ill	19	0.278721482154
+HasProperty	the publication	long	9	0.278617001363
+HasProperty	natural selection	evolutionary	29	0.277860170569
+HasProperty	the knowledge	scientific	9	0.276071122876
+HasProperty	this group	few	7	0.258862897274
+HasProperty	the threat	british	34	0.25398574089299997
+HasProperty	traditional music	rock	13	0.252116210565
+HasProperty	lead singer	successful	14	0.244188370423
+HasProperty	city centre	century	24	0.242042172048
+HasProperty	the land	foreign	11	0.24092642780999998
+HasProperty	normal temperature	air	8	0.233244459208
+HasProperty	middle school	same	20	0.23279569438900002
+HasProperty	the group	front	8	0.231720223102
+HasProperty	the group	brief	23	0.229665767443
+HasProperty	first time	future	37	0.22212670244399998
+HasProperty	16th century	complete	8	0.221009865854
+HasProperty	land	very similar	7	0.216531277234
+HasProperty	international airport	aircraft	11	0.21390078528999998
+HasProperty	income generation	distribution	15	0.209054735874
+HasProperty	regime	political power	8	0.2073873138
+HasProperty	cost	natural gas	8	0.204676556041
+HasProperty	anomalous monism	physical	8	0.20155013258499999
+HasProperty	the car	american	8	0.19087696378
+HasProperty	the range	necessary	7	0.18750200464800001
+HasProperty	the township	nearby	23	0.187462961493
+HasProperty	the cartoon	several	11	0.183296409248
+HasProperty	change	enthalpy of formation	7	0.17899568085099998
+HasProperty	the show	second	256	0.17749980725900003
+HasProperty	the rate	related	9	0.17485982546
+HasProperty	health care	labour	7	0.17477718138300002
+HasProperty	second album	late	11	0.168552638906
+HasProperty	the destroyer	american	7	0.16593775462500002
+HasProperty	time	special edition	8	0.165264293526
+HasProperty	american version	factor	8	0.163748663554
+HasProperty	the collision	kinetic	8	0.161660149996
+HasProperty	momentum	speed of light	9	0.159091162216
+HasProperty	cell body	neuron	14	0.155249575033
+HasProperty	professional basketball	member	8	0.154418055271
+HasProperty	the request	last	7	0.15381991399800002
+HasProperty	the loss	long	17	0.152672856202
+HasProperty	government	unilateral declaration	12	0.152241154491
+HasProperty	the creation	direct	18	0.152101461456
+HasProperty	the address	indirect	7	0.150573544639
+HasProperty	hereditary title	nobility	10	0.150077840047
+HasProperty	role	first president	8	0.1492703535
+HasProperty	faculty	political science	8	0.146156316533
+HasProperty	vector bundle	manifold	11	0.145314486966
+HasProperty	contact	16th century	19	0.144211778224
+HasProperty	20th century	colour	9	0.139036864155
+HasProperty	mechanical research	grant	8	0.135864699367
+HasProperty	southern portion	township	21	0.134742149892
+HasProperty	sign language	russian	14	0.13154697897700002
+HasProperty	the work	dutch	14	0.13100630407400002
+HasProperty	the backbone	new	9	0.130536200786
+HasProperty	the band	unreleased	68	0.12985840393
+HasProperty	the fort	nearby	19	0.126623337856
+HasProperty	the control	imperial	7	0.12464528410700002
+HasProperty	first day	month	99	0.12290420963
+HasProperty	clitoral orgasm	female	11	0.121917742415
+HasProperty	the city	homeless	23	0.11964119607000001
+HasProperty	hunting	wild boar	12	0.117067917242
+HasProperty	faction	prime minister	18	0.115394479315
+HasProperty	the poem	novel	7	0.113791431524
+HasProperty	society	21st century	9	0.11300324480799999
+HasProperty	best director	drama	10	0.11048202881100001
+HasProperty	the condition	medical	8	0.10866573258
+HasProperty	the outbreak	official	7	0.10801115361500001
+HasProperty	air temperature	speed	7	0.101226063696
+HasProperty	ruling	19th century	7	0.100887432742
+HasProperty	19th century	pattern	8	0.0976771307832
+HasProperty	the term	closed	10	0.09722962423530002
+HasProperty	household size	average	13	0.0971332575138
+HasProperty	newspaper	19th century	11	0.09533085207460001
+HasProperty	coalition	presidential election	10	0.09241384287789998
+HasProperty	school	french immersion	8	0.09205495587910001
+HasProperty	each year	additional	11	0.08932589116550001
+HasProperty	latter part	number	9	0.08892947029819999
+HasProperty	rebellion	19th century	7	0.0872417039446
+HasProperty	prolactin level	seizure	7	0.0862464880057
+HasProperty	same time	white	19	0.08621025667469999
+HasProperty	the name	marshy	8	0.0849852630223
+HasProperty	basin	accordance with subdivision	8	0.08385447714580001
+HasProperty	electrical signal	sound	18	0.08240050803139999
+HasProperty	process	key role	7	0.0810595909097
+HasProperty	book	7th century	7	0.0808570682362
+HasProperty	the state	medieval	11	0.0798362333792
+HasProperty	debut	first season	8	0.078633280477
+HasProperty	the construction	substantial	7	0.0780881011338
+HasProperty	third eye	forehead	11	0.07440675085989999
+HasProperty	institutes	apostolic life	8	0.073419125332
+HasProperty	education	public service	16	0.0677776598232
+HasProperty	important role	political	34	0.06723430644259999
+HasProperty	the government	easy	8	0.0672103745776
+HasProperty	the use	friendly	8	0.066377544405
+HasProperty	important role	production	17	0.061214053186999996
+HasProperty	programming	regional news	7	0.058088524211
+HasProperty	epic	19th century	8	0.057836944644
+HasProperty	flood plain	flooding	14	0.0545160765554
+HasProperty	output voltage	supply	11	0.0544043609049
+HasProperty	the ring	present	7	0.0527907265324
+HasProperty	solitary confinement	form	7	0.0518350408808
+HasProperty	government	armed resistance	9	0.0514080507881
+HasProperty	prosperity	20th century	15	0.0490993113219
+HasProperty	band	different sound	7	0.04625794156
+HasProperty	round	right hand	20	0.045848190813800004
+HasProperty	mitochondrial dna	human	10	0.0458116993932
+HasProperty	architecture	civil engineering	14	0.0453550159614
+HasProperty	administrative structure	government	9	0.0450683338583
+HasProperty	time travel	general	8	0.0447870679361
+HasProperty	the centre	agricultural	26	0.0441163806272
+HasProperty	baroreceptor firing	stimulation	8	0.0412580594966
+HasProperty	number	magnetic field	21	0.038698082152400004
+HasProperty	other side	village	10	0.0372454456744
+HasProperty	foreign policy	potential	8	0.0371229540728
+HasProperty	life	short story	12	0.0349345884469
+HasProperty	either party	primary	22	0.032888127623700004
+HasProperty	level	upper bowl	7	0.0324286063876
+HasProperty	turret	vertical launch	8	0.0318980844587
+HasProperty	work	manual labor	13	0.0313195376536
+HasProperty	wide range	city	26	0.030525270608099998
+HasProperty	tactical voting	system	7	0.027534684760000004
+HasProperty	field hockey	ball	8	0.0265607321484
+HasProperty	support	british rule	7	0.025677998531999997
+HasProperty	economic development	construction	16	0.025203662540099998
+HasProperty	district	metropolitan area	25	0.0249817126099
+HasProperty	the world	same-sex	25	0.0246289574642
+HasProperty	linear momentum	system	7	0.024294507716200002
+HasProperty	message passing	communication	10	0.024285860811700002
+HasProperty	15th century	order	19	0.023756425282400004
+HasProperty	ship	same year	7	0.022519853664700003
+HasProperty	the movie	additional	9	0.021998501950400002
+HasProperty	the field	opposite	10	0.0212423199173
+HasProperty	black text	background	11	0.0207121112832
+HasProperty	city center	street	9	0.0207103849287
+HasProperty	television adaptation	novel	11	0.0198109448828
+HasProperty	fishing village	area	13	0.019588019710799997
+HasProperty	american artist	art	11	0.019461993756699998
+HasProperty	song	same time	16	0.0187888457367
+HasProperty	science fiction	artist	9	0.0187484557108
+HasProperty	large number	paper	11	0.017335444536
+HasProperty	throne	same time	8	0.0171175392795
+HasProperty	this article	diplomatic	7	0.0167856472389
+HasProperty	the particle	potential	12	0.0167544719405
+HasProperty	feature film	scene	8	0.0161849442207
+HasProperty	the program	current	32	0.0157045119441
+HasProperty	calcium	second messenger	8	0.0155568260568
+HasProperty	popular music	era	19	0.0154579931954
+HasProperty	american historian	history	12	0.014508805394600002
+HasProperty	world	lightweight champion	19	0.014141574025900001
+HasProperty	18th century	author	11	0.0130808422728
+HasProperty	british comedian	writer	8	0.012840583451399998
+HasProperty	swimming pool	range	12	0.0126946899022
+HasProperty	campus	further education	9	0.012351588166
+HasProperty	important role	position	9	0.011930929379100001
+HasProperty	fissile material	chain	10	0.0117830019013
+HasProperty	school system	library	7	0.010493135776
+HasProperty	computer vision	recognition	13	0.00953967000506
+HasProperty	transaction processing	system	18	0.00944611708474
+HasProperty	northernmost part	northern	7	0.00905883018274
+HasProperty	home	public health	11	0.0089304906435
+HasProperty	the need	chinese	17	0.008558504994
+HasProperty	small community	site	8	0.00842335119524
+HasProperty	first day	moon	25	0.00830398213174
+HasProperty	swing music	style	7	0.007957599158
+HasProperty	first time	transport	7	0.006964843298310001
+HasProperty	top division	time	8	0.0068643387557
+HasProperty	couple	first time	10	0.006863909482109999
+HasProperty	music video	time	31	0.00686175716257
+HasProperty	the construction	rapid	20	0.0064702230036899995
+HasProperty	free trade	drug	8	0.0059991306575
+HasProperty	great deal	government	20	0.0059125255669
+HasProperty	city	present name	22	0.00557851418318
+HasProperty	anime series	movie	7	0.00521169890639
+HasProperty	the south	primary	8	0.0049730625119300004
+HasProperty	decade	economic growth	12	0.00496716722124
+HasProperty	award for best	novel	75	0.004891105138520001
+HasProperty	instruction set	version	9	0.0048419021404799995
+HasProperty	anniversary edition	album	24	0.00481935361688
+HasProperty	art rock	progressive	8	0.00470210126381
+HasProperty	hair	upper lip	7	0.00469342848333
+HasProperty	time	public library	7	0.00459470740117
+HasProperty	party leader	support	16	0.004417528181010001
+HasProperty	state	northeast corner	7	0.004113609556369999
+HasProperty	the release	european	14	0.00409782771594
+HasProperty	second incompleteness	arithmetic	9	0.00405187974492
+HasProperty	other hand	bank	8	0.00353742337812
+HasProperty	production aircraft	service	10	0.00345840074531
+HasProperty	parallel transport	connection	8	0.0034070943668300002
+HasProperty	baltic sea	century	9	0.00325852738515
+HasProperty	14th century	literature	10	0.0031665474011
+HasProperty	control tower	terminal	19	0.0027361968428499996
+HasProperty	immune response	host	7	0.0027133561332499997
+HasProperty	music industry	pop	14	0.0025063396447600004
+HasProperty	feature film	opposite	7	0.00223398096691
+HasProperty	large portion	music	9	0.0021017195207200003
+HasProperty	chest pain	shortness	17	0.00209391502878
+HasProperty	sunshine year	pressure	20	0.00206092904132
+HasProperty	the head	spanish	9	0.00188540578428
+HasProperty	five-pointed star	center	10	0.0017980406534400001
+HasProperty	french historian	history	8	0.0017741969734800002
+HasProperty	17th century	space	7	0.0017062678962100001
+HasProperty	wide range	theatre	10	0.0014798112141400002
+HasProperty	hip hop	rhythm	11	0.00133832824704
+HasProperty	murder	same year	7	0.00131607138358
+HasProperty	electric charge	opposite	7	0.0010952444587
+HasProperty	numerous radio	market	12	0.000932093800167
+HasProperty	paternal grandson	wife	10	0.000798732190022
+HasProperty	motor unit	muscle	8	0.000670843739024
+HasProperty	main entrance	station	12	0.000358670012319
+HasProperty	this time	total	25	0.00034733352586400004
+HasProperty	partisan basis	office	12	0.000329719785306
+HasProperty	16th century	rest	7	0.000251462857143
+HasProperty	formal education	father	7	0.00023671138539600002
+HasProperty	total length	river	15	0.000130937093657
+HasProperty	community room	football	8	0.000129906531956
+HasProperty	high definition	video	14	0.000126534696239
+HasProperty	civil parish	home	11	0.000123724076714
+HasProperty	first film	murder	8	0.000118729307377
+HasProperty	physical education	music	10	6.96445170916e-05
+HasProperty	overall pick	team	9	5.12742015028e-05
+Causes	gas	ambient pressure	16	0.840941725166
+Causes	disease	mental illness	7	0.724481569575
+Causes	news program	time	7	0.609983526209
+Causes	eurasian eagle-owl	bubo	8	0.588026856836
+Causes	law	foreign policy	8	0.584192587702
+Causes	music video	rap	8	0.582618760048
+Causes	use	instrumental music	10	0.532212351097
+Causes	early period	time	11	0.5138256356490001
+Causes	show	30th anniversary	12	0.49164077171099996
+Causes	project	economic development	8	0.395249550326
+Causes	season	low humidity	13	0.36566446023000004
+Causes	driving arrest	investigation	7	0.363787383006
+Causes	effect	economic development	10	0.321804862147
+Causes	film	silent version	7	0.303345980395
+Causes	other hand	exchange	8	0.30303021734200003
+Causes	power	electrical energy	17	0.301692711532
+Causes	debate	presidential election	7	0.287923587401
+Causes	game	leisure suit	7	0.279135127158
+Causes	free speech	association	7	0.26935479674699997
+Causes	raise awareness	cancer	15	0.240432781152
+Causes	new generation	production	7	0.226983629347
+Causes	take place	evening	9	0.16705853128599998
+Causes	urban design	architecture	11	0.138978882458
+Causes	force	next day	11	0.137190699164
+Causes	economic activity	population	8	0.13233156423599998
+Causes	skin friction	drag	11	0.125132194287
+Causes	binding energy	nucleon	21	0.122187268872
+Causes	nitric oxide	vasodilator	8	0.121066977743
+Causes	set	finite subset	12	0.11496874375499999
+Causes	x-ray	emission tomography	7	0.113935484989
+Causes	public order	morality	8	0.10936692682
+Causes	parachute brigade	battalion	10	0.108945958814
+Causes	se	special edition	8	0.10773194223799999
+Causes	studio analyst	coverage	9	0.10196283397
+Causes	health care	legislation	14	0.0976561748346
+Causes	take place	house	7	0.0947922056673
+Causes	job	high school	22	0.0905491797885
+Causes	solution	linear system	9	0.08741530096820001
+Causes	west	north bank	10	0.0851811660492
+Causes	first voyage	expedition	7	0.08490083538769999
+Causes	anthem	star-spangled banner	13	0.08425087554539999
+Causes	pop	mainstream popularity	7	0.08000361416780001
+Causes	growth	vascular cambium	8	0.07987636702610001
+Causes	speed	same amount	8	0.0797452305415
+Causes	overwhelming majority	opposition	8	0.07916820315289999
+Causes	thirteenth	fourteenth century	10	0.077769646459
+Causes	beginning	modern era	11	0.0732326773993
+Causes	winter	dry summer	7	0.0726751051871
+Causes	language	indigenous population	11	0.0649334818356
+Causes	simd	single instruction	9	0.0648122358777
+Causes	public health	community	11	0.0640945678615
+Causes	hard problem	consciousness	16	0.0632967172277
+Causes	neurotransmitter	presynaptic neuron	13	0.0627205621295
+Causes	insulin resistance	metabolic syndrome	10	0.0591204574705
+Causes	compound form	action	7	0.0589542188992
+Causes	archaeological evidence	population	11	0.058888046717300004
+Causes	honorary doctorate	law	18	0.0499912408968
+Causes	line-up	world tour	11	0.0496920539942
+Causes	short time	end	8	0.0494811694349
+Causes	organized crime	smuggling	7	0.0487798982142
+Causes	estrogen	replacement therapy	9	0.043089715403199995
+Causes	plant	heavy water	10	0.041648514375199994
+Causes	right leg	foot	10	0.040899611784099996
+Causes	arterial blood	oxygen	7	0.0387243047115
+Causes	music	limited edition	9	0.0380511371058
+Causes	word processing	publishing	11	0.0376850286416
+Causes	political power	war	8	0.0350237210907
+Causes	government	civil society	49	0.0341069629464
+Causes	direct rule	government	10	0.032752076171
+Causes	special act	legislature	9	0.0324538523532
+Causes	recorded history	bc	7	0.0318972637997
+Causes	new testament	salvation	9	0.0318305041864
+Causes	power flow	link	7	0.0300635824155
+Causes	policy	economic crisis	7	0.0297950212682
+Causes	long tradition	time	8	0.0295696939657
+Causes	army	fighting force	14	0.0279334550179
+Causes	brain	spinal cord	152	0.0262679684533
+Causes	great-uncle	first cousin	7	0.026262039194299997
+Causes	cytoplasm	cell membrane	7	0.025942054021200003
+Causes	route	broad gauge	7	0.0256692625841
+Causes	season	minor league	36	0.023976804540900003
+Causes	high school	athlete	10	0.0233560642288
+Causes	20th century	living	14	0.022910526773799997
+Causes	k-4	high school	7	0.0228009055889
+Causes	treatment	surgical removal	15	0.0227229836897
+Causes	judicial branch	law	7	0.0225610323788
+Causes	childhood	old age	11	0.0221654647584
+Causes	majority party	majority coalition	7	0.0215728966018
+Causes	biographical film	actor	9	0.020731258241900002
+Causes	anterior pituitary	hormone	9	0.0207234719415
+Causes	neutron emission	fission	7	0.020641386533
+Causes	music	record company	15	0.020481903413499997
+Causes	first season	end	17	0.0203944815964
+Causes	area	high density	19	0.018949922073400002
+Causes	landing	first time	7	0.0187269663272
+Causes	natural history	interest	10	0.0186566549342
+Causes	radiation	cosmic ray	7	0.017727048816799998
+Causes	education	public health	30	0.017469526263
+Causes	wine	strong drink	7	0.0159742074633
+Causes	movie	big screen	7	0.0156833426129
+Causes	work	5th century	14	0.0155884801785
+Causes	precipitation	entire year	7	0.015374110957200001
+Causes	land	political power	9	0.0141065231794
+Causes	right	free speech	47	0.0141013179229
+Causes	seahorse hippocampus	caution	7	0.0139322373804
+Causes	transaction set	health care	7	0.0128946008108
+Causes	rest mass	speed	9	0.012641595721799999
+Causes	award	previous year	25	0.0126111822681
+Causes	bc	fourth century	9	0.0124143446306
+Causes	link	heart disease	8	0.0121179438662
+Causes	oxygen demand	bod	8	0.0119354131964
+Causes	playoff	championship game	10	0.0117645686147
+Causes	air defense	artillery	7	0.0114128936124
+Causes	first weekend	celebration	9	0.011321528286299998
+Causes	animated movie	film	9	0.011320249505200003
+Causes	frozen lake	ice	7	0.011253972124
+Causes	incidental music	theme	10	0.011188169373800001
+Causes	former football	coach	8	0.0107159426303
+Causes	chloroplast	cell membrane	7	0.009689598080389999
+Causes	take part	election	17	0.00956748878095
+Causes	film	rock band	20	0.009469732077120001
+Causes	data link	protocol	11	0.00936995688269
+Causes	eastern part	range	15	0.00930412909557
+Causes	ra	sun god	10	0.0092856145361
+Causes	channel	affiliate ksbi-tv	7	0.00876861541511
+Causes	growth	coal mining	8	0.00854250055242
+Causes	civil war	role	14	0.00849359860651
+Causes	association football	time	9	0.00798966738792
+Causes	function	topological space	30	0.007772043051889999
+Causes	personal union	end	8	0.0075948024805
+Causes	double helix	dna	48	0.00747073239828
+Causes	come-out roll	bet	10	0.0073225470052099995
+Causes	live action	game	11	0.00710995048066
+Causes	addition	title track	7	0.00708057870383
+Causes	book	printing press	12	0.00698835599257
+Causes	income	state level	85	0.006873745050680001
+Causes	today	major industry	7	0.00670882374957
+Causes	small number	range	10	0.00667850594118
+Causes	vacuum	time interval	8	0.005695021809680001
+Causes	major role	conflict	7	0.005647883170350001
+Causes	part	special status	9	0.00555561289189
+Causes	award	leading actor	31	0.00552734258086
+Causes	diagram	lie algebra	9	0.005206763879359999
+Causes	time period	activity	7	0.00511796034646
+Causes	field	electric current	45	0.00492510223724
+Causes	punk rock	band	64	0.00489428324545
+Causes	honorary doctorate	year	8	0.0047640821245699995
+Causes	character	best actor	7	0.00472438483075
+Causes	same time	release	19	0.00466186368247
+Causes	history	historical museum	12	0.00456558881834
+Causes	threat	territorial integrity	9	0.004533654406930001
+Causes	name	american rapper	47	0.00429479058899
+Causes	legislative body	term	8	0.00417638242755
+Causes	american musician	artist	12	0.0040192119636
+Causes	performance	national anthem	20	0.00381751880189
+Causes	series	variable x	8	0.00373993362224
+Causes	high energy	particle	12	0.00366624711473
+Causes	game	mobile phone	9	0.00353955083582
+Causes	battle	british commander	7	0.00338407554723
+Causes	episode	season finale	12	0.00327671199662
+Causes	18th century	government	55	0.0032109018962800003
+Causes	product	unit interval	7	0.0032100021833299996
+Causes	introduction	representation theory	7	0.003075275772
+Causes	head	next day	12	0.00306724937511
+Causes	individual liberty	state	7	0.0029726962121799996
+Causes	municipality	local government	60	0.0029559508384699998
+Causes	mobility command	air	17	0.00269319919736
+Causes	general certificate	education	9	0.00266258513631
+Causes	past	hondt method	8	0.00256843781147
+Causes	state legislature	plan	8	0.0025102111249600003
+Causes	war	american merchant	8	0.0023132128751
+Causes	small number	home	8	0.0022501711595
+Causes	length overall	load	33	0.00220989292347
+Causes	family	tv series	11	0.00219327855166
+Causes	development	mid-20th century	7	0.00216972188362
+Causes	number	scale model	8	0.0021329679810300002
+Causes	19th century	instruction	8	0.00212104784028
+Causes	context	same time	11	0.00199134249602
+Causes	12th century	government	15	0.0019498617763599997
+Causes	band	main lyricist	7	0.00188384535475
+Causes	total population	municipality	22	0.00188216194939
+Causes	target	assassination attempt	19	0.001858352476
+Causes	military governor	control	7	0.0018559232
+Causes	area	administrative centre	11	0.00185554351429
+Causes	democratic republic	war	9	0.00184638629664
+Causes	iron ore	steel industry	7	0.0017859001334400001
+Causes	leadership convention	candidate	7	0.0017003932659
+Causes	marriage	12th century	9	0.00161581095759
+Causes	national defence	security	9	0.00160819042966
+Causes	dragon	ien lung	8	0.00156770751982
+Causes	interchange	north side	8	0.00155926744178
+Causes	city	unincorporated land	8	0.0015460058445
+Causes	historical center	site	7	0.0015127835795899999
+Causes	day	popular culture	7	0.00150549942457
+Causes	server	session id	10	0.00147827553949
+Causes	famine	19th century	11	0.0014392787960099999
+Causes	jewish community	concentration	10	0.0013969786794200002
+Causes	cover	title track	13	0.0013283904523599998
+Causes	southern part	municipality	43	0.0013201232900599998
+Causes	president	absolute majority	16	0.00131455278743
+Causes	14th century	example	12	0.0013095521384400002
+Causes	blacksmith shop	church	11	0.00126642596803
+Causes	hardcore punk	rock	30	0.0012578739426400002
+Causes	breast	radiation therapy	7	0.00119999681194
+Causes	first trial	place	8	0.00119223449983
+Causes	governor	own right	35	0.00117869587465
+Causes	flood	first time	7	0.00117304233505
+Causes	aircraft	air travel	8	0.00117121528185
+Causes	bronze	4th century	9	0.001067256692
+Causes	italian singer	songwriter	7	0.00105829824855
+Causes	database	data model	7	0.00102182788029
+Causes	playoff	wild card	12	0.00102126271281
+Causes	9th century	number	11	0.000987024978499
+Causes	quantum field	symmetry	9	0.0009746771420269999
+Causes	naval architect	design	7	0.000882445293685
+Causes	northern end	north	12	0.0008415002214439999
+Causes	path	quantum field	8	0.0008216112265549999
+Causes	first time	race	52	0.0008039554647879999
+Causes	contest	take part	9	0.0007984175914570001
+Causes	home	main campus	69	0.000791148248055
+Causes	temperate climate	country	17	0.0007588217636669999
+Causes	name	same root	16	0.0007557857449530001
+Causes	common law	territory	7	0.0007465720353010001
+Causes	first composer	music	8	0.000725786507771
+Causes	association football	popular sport	15	0.000703359348157
+Causes	secondary school	community	16	0.0006979526559760001
+Causes	total	final round	12	0.0006958381346230001
+Causes	important video	game	8	0.000682232180197
+Causes	agriculture	land use	7	0.0006366207640569999
+Causes	local government	form	9	0.0005424196324559999
+Causes	airport	first time	12	0.000537343171544
+Causes	literary critic	art	7	0.000462618165248
+Causes	product line	brand	8	0.0004524504447930001
+Causes	main thoroughfare	downtown	8	0.000438509725507
+Causes	industrial area	oil	8	0.000434599932872
+Causes	government	land grant	12	0.000433134193353
+Causes	courthouse	located downtown	13	0.000405850460618
+Causes	settlement	mile west	7	0.000390967817509
+Causes	mid-19th century	construction	8	0.00037315696934199993
+Causes	head	first woman	7	0.00037087620801599995
+Causes	group	television series	17	0.000368144893006
+Causes	magnetic field	body	8	0.00036492848472300006
+Causes	technology	motion picture	8	0.000363164485052
+Causes	profession	19th century	10	0.00034797590889400004
+Causes	church	twelfth century	8	0.000330634040801
+Causes	same period	group	7	0.000317867607278
+Causes	editorial board	magazine	9	0.00031546051389099995
+Causes	relationship	first child	8	0.000285987212288
+Causes	coordinate system	distance	7	0.000284060073226
+Causes	aisle	14th century	9	0.000266561741804
+Causes	law firm	office	8	0.000251831907258
+Causes	unincorporated section	town	9	0.000245886350404
+Causes	control system	engine	13	0.000243241185286
+Causes	wild card	seed	10	0.00022747679571
+Causes	file sharing	internet	7	0.000224733359025
+Causes	player	top scorer	7	0.00022020288291900003
+Causes	runner	first base	38	0.00020515156164900003
+Causes	great adventure	park	12	0.000204813907901
+Causes	exhibition	regular season	13	0.00020271514839900002
+Causes	best art	costume	18	0.000177106181841
+Causes	cameo appearance	season	22	0.000176388558579
+Causes	town	north west	16	0.000155202174826
+Causes	20th century	rail	41	0.000146771365542
+Causes	code	paper tape	13	0.000145085313579
+Causes	magnetic field	iron	19	0.000136536652866
+Causes	american singer	trumpet	11	0.000135408170451
+Causes	wide circle	energy	30	0.00012186675282799999
+Causes	national front	country	8	0.000115974271407
+Causes	rail station	service	7	9.17558589485e-05
+Causes	same time	transport	10	8.51704054147e-05
+Causes	corner	town line	11	8.32490997041e-05
+Causes	anthracite coal	region	7	7.19455021467e-05
+Causes	shopping district	area	8	7.02052314561e-05
+Causes	role	same time	28	6.71320863637e-05
+Causes	economic growth	region	21	6.645173926600001e-05
+Causes	railroad line	area	21	6.19647476592e-05
+Causes	heavy industry	plant	7	5.42572240955e-05
+Causes	19th century	performance	15	5.19811736764e-05
+Causes	19th century	ore	18	5.13504394475e-05
+Causes	region	star formation	9	4.96730828779e-05
+Causes	21st century	market	13	3.94409187642e-05
+Causes	same year	court	23	3.87188947722e-05
+Causes	musical	film version	7	3.42725637344e-05
+Causes	county seat	state capital	10	2.74231235211e-05
+Causes	radio station	day	22	2.57721852145e-05
+Causes	east side	railroad	13	2.26163807194e-05
+Causes	carrier	air defense	8	2.01892936457e-05
+Causes	original series	television	10	1.5842814292e-05
+Causes	city council	party	8	1.43141314568e-05
+Causes	central section	plain	7	1.27541743179e-05
+Causes	radio career	station	8	1.20007935886e-05
+Causes	prefectural level	city	7	1.02436981845e-05
+Causes	french word	dance	8	8.53430873568e-06
+Causes	short distance	corner	8	7.46837733107e-06
+Causes	climate	food supply	7	7.33070895328e-06
+Causes	stream	west town	9	5.94938677517e-06
+Causes	19th century	farm	16	2.75239909752e-06
+Causes	stone	south side	8	2.7097865389400003e-06
+Causes	jockey	radio station	15	8.742671404789999e-08
+Causes	political career	seat	17	3.59643621924e-08

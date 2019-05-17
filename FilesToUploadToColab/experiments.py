@@ -12,13 +12,15 @@ import requests
 import json
 from nltk import pos_tag
 import nltk
+import pandas as pd
 from pathlib import Path
+from copy import deepcopy
 import spacy
 # pip install pattern should work
 from pattern.en import conjugate, PARTICIPLE, referenced, INDEFINITE, pluralize
 
 class CommonsenseTuples(Dataset):
-    def __init__(self, tuple_dir, mask_head, mask_tail, device):
+    def __init__(self, tuple_dir, mask_head, mask_tail, device, language_model = None):
         """
         Args:
             tuple_dir (string): Path to the csv file with commonsense tuples
@@ -35,8 +37,13 @@ class CommonsenseTuples(Dataset):
         self.pad_token = '[PAD]'
 
         self.max_len = 20
-
+        self.stop_tokens = ['the', 'a', 'an']
         self.device = device
+
+        self.model = language_model
+        if self.model is not None:
+            self.model.eval()
+            self.model.to(self.device)
 
         # Load tuples
         with open(tuple_dir) as tsvfile:
@@ -88,7 +95,8 @@ class CommonsenseTuples(Dataset):
                 match.append(tokenized_masked[idx_sent+idx_mask] == tokenized_to_mask[idx_mask])
             if all(match):
                 for idx_mask in range(len(tokenized_to_mask)):
-                    tokenized_masked[idx_sent+idx_mask] = self.mask_token
+                    if tokenized_masked[idx_sent+idx_mask] not in self.stop_tokens:
+                        tokenized_masked[idx_sent+idx_mask] = self.mask_token
         return tokenized_masked
 
     def mask_sentence(self, tokenized_sent, tokenized_t1, tokenized_t2):
@@ -205,15 +213,11 @@ class SurfaceTexts(CommonsenseTuples):
                     torch.tensor(segments_ids), int(label)
 
 class EnumeratedTemplate(CommonsenseTuples):
-    def __init__(self, *args, template_loc='relation_map_multiple.json'):
-        super().__init__(*args)
+    def __init__(self, *args, language_model = None, template_loc='./relation_map_multiple.json'):
+        super().__init__(*args, language_model = language_model)
         self.nlp = spacy.load('en_core_web_sm', disable=['parser', 'ner'])
         self.enc = GPT2Tokenizer.from_pretrained('gpt2')
-        self.model = GPT2LMHeadModel.from_pretrained('gpt2')
-        self.model.eval()
-        self.model.to(self.device)
 
-        template_loc = "./" + template_loc
         with open(template_loc, 'r') as f:
             self.templates = json.load(f)
 
@@ -298,72 +302,94 @@ class EnumeratedTemplate(CommonsenseTuples):
         return sentence_log_prob.item() / (len(tokens)**0.2)
 
 
-def predict(sent, masked, ids, tail_masked_ids, bert):
-    logprob = 0
-    for m_id in tail_masked_ids:
-        #get correct token id
-        masked_token_id = sent[m_id]
-        # make prediction
-        pred = bert(masked.reshape(1,-1),ids.reshape(1,-1)).log_softmax(2)
-        logprob = logprob + pred[0, m_id, masked_token_id]
-        masked[m_id] =  masked_token_id
-    return logprob
+class KnowledgeMiner:
+    def __init__(self, dev_data_path, device, Template, bert, template_loc = None, language_model = None):
+        self.sentences_mask_tail = Template(
+            dev_data_path,
+            False,
+            True,
+            device,
+            template_loc = template_loc,
+            language_model = language_model
+        )
+        self.sentences_mask_head = Template(
+            dev_data_path,
+            True,
+            False,
+            device,
+            template_loc = template_loc,
+            language_model = language_model
+        )
+        self.sentences_mask_both = Template(
+            dev_data_path,
+            True,
+            True,
+            device,
+            template_loc = template_loc,
+            language_model = language_model
+        )
 
-def bert_predictions(sentences_conditional, sentences_joint, bert):
-    data = []
-    for idx, ((sent, masked_cond, ids, label), (_, masked_joint, _, _)) \
-            in enumerate(zip(sentences_conditional, sentences_joint)):
-        tail_masked_ids = [idx for idx, token in enumerate(masked_cond) if token == 103]
+        bert.eval()
+        bert.to(device)
+        self.bert = bert
 
-        # conditional
-        logprob_conditional = predict(sent, masked_cond, ids, tail_masked_ids, bert)
-        # marginal
-        logprob_marginal = predict(sent, masked_joint, ids, tail_masked_ids, bert)
+        self.device = device
+        self.results = []
 
-        NLL = -logprob_conditional/len(tail_masked_ids)
+    def make_predictions(self):
+        data = []
+        for idx, ((sent, masked_tail, ids, label), (_, masked_head, _, _), (_, masked_both, _, _)) \
+                in enumerate(zip(self.sentences_mask_tail, self.sentences_mask_head, self.sentences_mask_both)):
+            tail_masked_ids = [idx for idx, token in enumerate(masked_tail) if token == 103]
+            head_masked_ids = [idx for idx, token in enumerate(masked_head) if token == 103]
 
-        mutual_inf = logprob_conditional - logprob_marginal
-        try:
-            print(idx, (NLL.item(), mutual_inf.item(), label, sentences_conditional.id_to_text(sent)))
-            data.append((NLL.item(), mutual_inf.item(), label, sentences_conditional.id_to_text(sent)))
-        except AttributeError:
-            print(idx, (NLL, mutual_inf, label, sentences_conditional.id_to_text(sent)))
-            data.append((NLL, mutual_inf, label, sentences_conditional.id_to_text(sent)))
-    # prep data
-    df = pd.DataFrame(data, columns = ('nll','mut_inf','label','sent'))
-    return df
+            # conditional
+            logprob_tail_conditional = self.predict(sent, masked_tail, ids, tail_masked_ids)
+            logprob_head_conditional = self.predict(sent, masked_head, ids, head_masked_ids)
+            # marginal
+            logprob_tail_marginal = self.predict(sent, masked_both, ids, tail_masked_ids)
+            logprob_head_marginal = self.predict(sent, masked_both, ids, head_masked_ids)
 
-def experiment(Template, dev_data_path, test_data_path, bert):
-    # get dev sentences
-    sentences_conditional = Template(dev_data_path, False, True, 'cuda')
-    sentences_joint = Template(dev_data_path, True, True, 'cuda')
+            NLL = -logprob_tail_conditional/len(tail_masked_ids)
 
-    df_train = bert_predictions(sentences_conditional, sentences_joint, bert)
+            mutual_inf = logprob_tail_conditional - logprob_tail_marginal
+            mutual_inf += logprob_head_conditional - logprob_head_marginal
+            mutual_inf /= 2.
+            try:
+                print(idx, (NLL.item(), mutual_inf.item(), label, self.sentences_mask_tail.id_to_text(sent)))
+                data.append((NLL.item(), logprob_tail_conditional.item(), logprob_tail_marginal.item(),
+                             logprob_head_conditional.item(), logprob_head_marginal.item(),
+                             mutual_inf.item(), label, self.sentences_mask_tail.id_to_text(sent)))
+            except AttributeError:
+                print(idx, (NLL, mutual_inf, label, self.sentences_mask_tail.id_to_text(sent)))
+                data.append((NLL,  logprob_tail_conditional.item(), logprob_tail_marginal.item(),
+                             logprob_head_conditional.item(), logprob_head_marginal.item(),
+                             mutual_inf.item(), label, self.sentences_mask_tail.id_to_text(sent)))
+        # prep data
+        df = pd.DataFrame(data, columns = ('nll','tail_conditional','tail_marginal',
+                                           'head_conditional','head_marginal','mut_inf','label','sent'))
+        self.results = df
+        return df
 
-    # prep data
-    X_train = df_train[['nll','mut_inf']].values
-    y_train = df_train['label'].values
+    def predict(self, sent, masked, ids, masked_ids):
+        logprob = 0
+        masked = deepcopy(masked)
+        masked_ids = masked_ids.copy()
+        for _ in range(len(masked_ids)):
+            # make prediction
+            pred = self.bert(masked.reshape(1,-1),ids.reshape(1,-1)).log_softmax(2)
 
-    #fit log reg
-    mms = MinMaxScaler()
-    X_train = mms.fit_transform(X_train)
-    model = LogisticRegression(random_state=0, solver='lbfgs',max_iter = 1000).fit(X_train, y_train)
+            # get log probs for each token
+            max_log_prob = -np.inf
 
-    # get test sentences
-    sentences_conditional = Template(test_data_path, False, True, 'cuda')
-    sentences_joint = Template(test_data_path, True, True, 'cuda')
+            for idx in masked_ids:
+                if pred[0, idx, sent[idx]] > max_log_prob:
+                    most_likely_idx = idx
+                    max_log_prob = pred[0, idx, sent[idx]]
 
-    df_test = bert_predictions(sentences_conditional, sentences_joint, bert)
-
-    X_test = df_test[['nll','mut_inf']].values
-    y_test = df_test['label'].values
-
-    df_test['pred'] = model.predict(X_test)
-    df_test['prob'] = model.predict_proba(X_test)[:,1]
-    return df_test
-
-if __name__ == "__main__":
-    tuple_dir = '../Data/dev1.txt'
-    sentences_conditional = PredefinedTemplate(tuple_dir, False, True)
-    for sent, _, _, label in sentences_conditional:
-        print(f"label {label}: ", sentences_conditional.id_to_text(sent))
+            logprob += max_log_prob
+            masked[most_likely_idx] = sent[most_likely_idx]
+            masked_ids.remove(most_likely_idx)
+            print(self.sentences_mask_tail.id_to_text(pred[0, most_likely_idx,:].topk(10)[1]))
+            print(self.sentences_mask_tail.id_to_text(sent[most_likely_idx:most_likely_idx+1]))
+        return logprob
