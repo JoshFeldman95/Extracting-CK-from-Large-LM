@@ -20,16 +20,13 @@ import spacy
 from pattern.en import conjugate, PARTICIPLE, referenced, INDEFINITE, pluralize
 
 class CommonsenseTuples(Dataset):
-    def __init__(self, tuple_dir, mask_head, mask_tail, device, language_model = None):
+    def __init__(self, tuple_dir, device, language_model = None):
         """
         Args:
             tuple_dir (string): Path to the csv file with commonsense tuples
         """
         # Load pre-trained model tokenizer (vocabulary)
         self.tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-
-        self.mask_head = mask_head
-        self.mask_tail = mask_tail
 
         self.sep_token = '[SEP]'
         self.start_token = '[CLS]'
@@ -71,18 +68,22 @@ class CommonsenseTuples(Dataset):
         tokenized_t2 = self.tokenizer.tokenize(t2)
 
         # mask sentence
-        tokenized_masked = self.mask_sentence(tokenized_sent, tokenized_t1, tokenized_t2)
+        masked_sent_list = self.mask_sentence(tokenized_sent, tokenized_t1, tokenized_t2)
 
         # get segment ids
         segments_ids = self.get_segment_ids(tokenized_sent)
 
         # convert tokens to ids
         indexed_sent = self.tokenizer.convert_tokens_to_ids(tokenized_sent)
-        indexed_masked = self.tokenizer.convert_tokens_to_ids(tokenized_masked)
+        indexed_masked_list = [self.tokenizer.convert_tokens_to_ids(m) for m in masked_sent_list]
 
         return (
             torch.tensor(indexed_sent, device=self.device),
-            torch.tensor(indexed_masked, device=self.device),
+            (
+                torch.tensor(indexed_masked_list[0], device=self.device),
+                torch.tensor(indexed_masked_list[1], device=self.device),
+                torch.tensor(indexed_masked_list[2], device=self.device)
+            ),
             torch.tensor(segments_ids, device=self.device),
             int(label)
         )
@@ -100,11 +101,15 @@ class CommonsenseTuples(Dataset):
         return tokenized_masked
 
     def mask_sentence(self, tokenized_sent, tokenized_t1, tokenized_t2):
-        if self.mask_head:
-            tokenized_sent = self.mask(tokenized_sent, tokenized_t1)
-        if self.mask_tail:
-            tokenized_sent = self.mask(tokenized_sent, tokenized_t2)
-        return tokenized_sent
+        masked_sent_list = []
+        # mask head
+        masked_sent_list.append(self.mask(tokenized_sent, tokenized_t2))
+        # mask tail
+        masked_sent_list.append(self.mask(tokenized_sent, tokenized_t1))
+        # mask both
+        tokenized_sent = self.mask(tokenized_sent, tokenized_t1)
+        masked_sent_list.append(self.mask(tokenized_sent, tokenized_t2))
+        return masked_sent_list
 
     def get_segment_ids(self, tokenized_sent):
         segments_ids = []
@@ -304,26 +309,8 @@ class EnumeratedTemplate(CommonsenseTuples):
 
 class KnowledgeMiner:
     def __init__(self, dev_data_path, device, Template, bert, template_loc = None, language_model = None):
-        self.sentences_mask_tail = Template(
+        self.sentences = Template(
             dev_data_path,
-            False,
-            True,
-            device,
-            template_loc = template_loc,
-            language_model = language_model
-        )
-        self.sentences_mask_head = Template(
-            dev_data_path,
-            True,
-            False,
-            device,
-            template_loc = template_loc,
-            language_model = language_model
-        )
-        self.sentences_mask_both = Template(
-            dev_data_path,
-            True,
-            True,
             device,
             template_loc = template_loc,
             language_model = language_model
@@ -338,8 +325,7 @@ class KnowledgeMiner:
 
     def make_predictions(self):
         data = []
-        for idx, ((sent, masked_tail, ids, label), (_, masked_head, _, _), (_, masked_both, _, _)) \
-                in enumerate(zip(self.sentences_mask_tail, self.sentences_mask_head, self.sentences_mask_both)):
+        for idx, (sent, (masked_head, masked_tail, masked_both), ids, label) in enumerate(self.sentences):
             tail_masked_ids = [idx for idx, token in enumerate(masked_tail) if token == 103]
             head_masked_ids = [idx for idx, token in enumerate(masked_head) if token == 103]
 
@@ -356,15 +342,15 @@ class KnowledgeMiner:
             mutual_inf += logprob_head_conditional - logprob_head_marginal
             mutual_inf /= 2.
             try:
-                print(idx, (NLL.item(), mutual_inf.item(), label, self.sentences_mask_tail.id_to_text(sent)))
+                print(idx, (NLL.item(), mutual_inf.item(), label, self.sentences.id_to_text(sent)))
                 data.append((NLL.item(), logprob_tail_conditional.item(), logprob_tail_marginal.item(),
                              logprob_head_conditional.item(), logprob_head_marginal.item(),
-                             mutual_inf.item(), label, self.sentences_mask_tail.id_to_text(sent)))
+                             mutual_inf.item(), label, self.sentences.id_to_text(sent)))
             except AttributeError:
-                print(idx, (NLL, mutual_inf, label, self.sentences_mask_tail.id_to_text(sent)))
+                print(idx, (NLL, mutual_inf, label, self.sentences.id_to_text(sent)))
                 data.append((NLL,  logprob_tail_conditional.item(), logprob_tail_marginal.item(),
                              logprob_head_conditional.item(), logprob_head_marginal.item(),
-                             mutual_inf.item(), label, self.sentences_mask_tail.id_to_text(sent)))
+                             mutual_inf.item(), label, self.sentences.id_to_text(sent)))
         # prep data
         df = pd.DataFrame(data, columns = ('nll','tail_conditional','tail_marginal',
                                            'head_conditional','head_marginal','mut_inf','label','sent'))
@@ -390,6 +376,4 @@ class KnowledgeMiner:
             logprob += max_log_prob
             masked[most_likely_idx] = sent[most_likely_idx]
             masked_ids.remove(most_likely_idx)
-            print(self.sentences_mask_tail.id_to_text(pred[0, most_likely_idx,:].topk(10)[1]))
-            print(self.sentences_mask_tail.id_to_text(sent[most_likely_idx:most_likely_idx+1]))
         return logprob

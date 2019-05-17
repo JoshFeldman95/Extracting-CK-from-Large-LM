@@ -73,7 +73,7 @@
     "Something that might happen when you {0} is {1}",
     "One of the things you do when you {1} is {0}",
     "Something that might happen when you {1} is {0}",
-    "When you {0}, you {1}"
+    "You {1} when you {0}"
   ],
   "HasFirstSubevent": [
     "the first thing you do when you {0} is {1}"
