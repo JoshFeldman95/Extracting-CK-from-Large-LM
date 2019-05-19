@@ -20,7 +20,7 @@ import spacy
 from pattern.en import conjugate, PARTICIPLE, referenced, INDEFINITE, pluralize
 
 class CommonsenseTuples(Dataset):
-    def __init__(self, tuple_dir, device, language_model = None):
+    def __init__(self, tuple_dir, device, language_model = None, template_loc = None):
         """
         Args:
             tuple_dir (string): Path to the csv file with commonsense tuples
@@ -41,6 +41,8 @@ class CommonsenseTuples(Dataset):
         if self.model is not None:
             self.model.eval()
             self.model.to(self.device)
+
+        self.template_loc = template_loc
 
         # Load tuples
         with open(tuple_dir) as tsvfile:
@@ -134,8 +136,8 @@ class CommonsenseTuples(Dataset):
 
 class DirectTemplate(CommonsenseTuples):
 
-    def __init__(self, *args):
-        super().__init__(*args)
+    def __init__(self, *args, template_loc = None, language_model = None):
+        super().__init__(*args, template_loc = template_loc, language_model = language_model)
         self.regex = '[A-Z][^A-Z]*'
 
     def apply_template(self, relation, head, tail):
@@ -219,11 +221,11 @@ class SurfaceTexts(CommonsenseTuples):
 
 class EnumeratedTemplate(CommonsenseTuples):
     def __init__(self, *args, language_model = None, template_loc='./relation_map_multiple.json'):
-        super().__init__(*args, language_model = language_model)
+        super().__init__(*args, language_model = language_model, template_loc=template_loc)
         self.nlp = spacy.load('en_core_web_sm', disable=['parser', 'ner'])
         self.enc = GPT2Tokenizer.from_pretrained('gpt2')
 
-        with open(template_loc, 'r') as f:
+        with open(self.template_loc, 'r') as f:
             self.templates = json.load(f)
 
     def apply_template(self, relation, head, tail):
