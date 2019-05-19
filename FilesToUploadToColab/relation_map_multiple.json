@@ -52,8 +52,8 @@
     "{0} often {1}"
   ],
   "AtLocation": [
-    "You are likely to find {0} in {1}",
-    "You are likely to find {0} at {1}",
+    "The place you are likely to find {0} is in {1}",
+    "The place you are likely to find {0} at {1}",
     "Something you find on {1} is {0}",
     "Something you find in {1} is {0}",
     "Something you find at {1} is {0}",
@@ -158,9 +158,9 @@
     "{0} are made of {1}"
   ],
   "ReceivesAction": [
-    "{0} can be {1} ",
+    "{0} can be {1}",
     "{0} is something that you can {1}",
-    "{0} can receive {1}"
+    "{1} can be done to {0}"
   ],
   "InstanceOf": [
     "{0} is an example of {1}"
