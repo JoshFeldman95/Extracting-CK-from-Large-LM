@@ -57,13 +57,13 @@
     "Something you find on {1} is {0}",
     "Something you find in {1} is {0}",
     "Something you find at {1} is {0}",
-    "Somewhere {0} can be is {1}",
-    "Something you find under {1} is {0}"
+    "Somewhere {0} can be is {1}"
   ],
   "Causes": [
     "Sometimes {0} causes {1}",
     "Something that might happen as a consequence of {0} is {1}",
     "Sometimes {0} causes you to {1}",
+    "{0} causes {1}",
     "The effect of {0} is {1}"
   ],
   "HasSubevent": [
