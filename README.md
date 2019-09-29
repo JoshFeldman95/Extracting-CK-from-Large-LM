@@ -1,2 +1,3 @@
-# Extracting-CK-from-Large-LM
-Experiments for the paper draft "Extracting Commonsense Knowledge from Large Language Models"
+# Commonsense Knowledge Mining from Pretrained Models
+This repo contains the experiments from the paper "Commonsense Knowledge Mining from Pretrained Models
+" by Joshua Feldman, Joe Davison, and Sasha Rush
