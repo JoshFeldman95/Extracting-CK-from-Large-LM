@@ -6,7 +6,7 @@ This repo contains the experiments from the paper "Commonsense Knowledge Mining 
 **to do**
 ## Wikipedia Experiments
 
-To run the wikipedia experiments input `python wikipedia_experiments.py -cpu` or `python wikipedia_experiments.py -cuda` into your terminal based on your hardware.
+To reproduce the wikipedia experiments, run `python wikipedia_experiments.py -cpu` or `python wikipedia_experiments.py -cuda`.
 
 This script will put 4 datasets in the `data` repo: `wiki_concat.csv`,`wiki_template.csv`,`wiki_template_grammar.csv`, and `wiki_coherency.csv`. These files correspond to the concatenation, template, template + grammar, and coherency ranking experiments in the paper. The data fields are defined as follows:
 - **nll**: The negative log likelihood (p(T|H,r)/len(T)).
