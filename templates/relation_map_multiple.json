@@ -1,0 +1,186 @@
+{
+  "RelatedTo": [
+    "{0} is like {1}",
+    "{1} is related to {0}",
+    "{0} is related to {1}"
+  ],
+  "ExternalURL": [
+    "{0} is described at the following URL {1}"
+  ],
+  "FormOf": [
+    "{0} is a form of the word {1}"
+  ],
+  "IsA": [
+    "{0} is {1}",
+    "{0} is a type of {1}",
+    "{0} are {1}",
+    "{0} is a kind of {1}",
+    "{0} is a {1}"
+  ],
+  "NotIsA": [
+    "{0} is not {1}",
+    "{0} is not a type of {1}",
+    "{0} are not {1}",
+    "{0} is not a kind of {1}",
+    "{0} is not a {1}"
+  ],
+  "PartOf": [
+    "{1} has {0}",
+    "{0} is part of {1}",
+    "{0} is a part of {1}"
+  ],
+  "HasA": [
+    "{0} has {1}",
+    "{0} contains {1}",
+    "{0} have {1}"
+  ],
+  "UsedFor": [
+    "{0} is used for {1}",
+    "{0} is for {1}",
+    "You can use {0} to {1}",
+    "You can use {0} for {1}",
+    "{0} are used to {1}",
+    "{0} is used to {1}",
+    "{0} can be used to {1}",
+    "{0} can be used for {1}"
+  ],
+  "CapableOf": [
+    "{0} can {1}",
+    "{0} can be {1}",
+    "An activity {0} can do is {1}",
+    "{0} sometimes {1}",
+    "{0} often {1}"
+  ],
+  "AtLocation": [
+    "The place you are likely to find {0} is in {1}",
+    "The place you are likely to find {0} at {1}",
+    "Something you find on {1} is {0}",
+    "Something you find in {1} is {0}",
+    "Something you find at {1} is {0}",
+    "Somewhere {0} can be is {1}"
+  ],
+  "Causes": [
+    "Sometimes {0} causes {1}",
+    "Something that might happen as a consequence of {0} is {1}",
+    "Sometimes {0} causes you to {1}",
+    "{0} causes {1}",
+    "The effect of {0} is {1}"
+  ],
+  "HasSubevent": [
+    "Something you might do while {0} is {1}",
+    "One of the things you do when you {0} is {1}",
+    "Something that might happen while {0} is {1}",
+    "Something that might happen when you {0} is {1}",
+    "One of the things you do when you {1} is {0}",
+    "Something that might happen when you {1} is {0}",
+    "You {1} when you {0}"
+  ],
+  "HasFirstSubevent": [
+    "the first thing you do when you {0} is {1}"
+  ],
+  "HasLastSubevent": [
+    "the last thing you do when you {0} is {1}"
+  ],
+  "HasPrerequisite": [
+    "something you need to do before you {0} is {1}",
+    "If you want to {0} then you should {1}",
+    "{0} requires {1}"
+  ],
+  "HasProperty": [
+    "{0} is {1}",
+    "{0} are {1}",
+    "{0} can be {1}"
+  ],
+  "MotivatedByGoal": [
+    "You would {0} because you want to {1}",
+    "You would {0} because you want {1}",
+    "You would {0} because {1}"
+  ],
+  "ObstructedBy": [
+    "{0} can be prevented by {1}"
+  ],
+  "Desires": [
+    "{0} wants {1}",
+    "{0} wants to {1}",
+    "{0} like to {1}"
+  ],
+  "CreatedBy": [
+    "{0} is created by {1}"
+  ],
+  "Synonyms": [
+    "{0} and {1} are have similar meanings",
+    "{0} and {1} are similar"
+  ],
+  "Antonym": [
+    "{0} is the opposite of {1}"
+  ],
+  "DistinctFrom": [
+    "it cannot be both {0} and {1}"
+  ],
+  "DerivedFrom": [
+    "the word {0} is derived from the word {1}"
+  ],
+  "SymbolOf": [
+    "{0} is a symbol of {1}"
+  ],
+  "DefinedAs": [
+    "{0} is defined as {1}",
+    "{0} is the {1}"
+  ],
+  "Entails": [
+    "if {0} is happening, {1} is also happening"
+  ],
+  "MannerOf": [
+    "{0} is a specific way of doing {1}"
+  ],
+  "LocatedNear": [
+    "{0} is located near {1}"
+  ],
+  "dbpedia": [
+    "{0} is conceptually related to {1}"
+  ],
+  "SimlarTo": [
+    "{0} is similar to {1}"
+  ],
+  "EtymologicallyRelatedTo": [
+    "the word {0} and the word {1} have the same origin"
+  ],
+  "EtymologicallyDerivedFrom": [
+    "the word {0} comes from the word {1}"
+  ],
+  "CausesDesire": [
+    "{0} makes people want {1}",
+    "{0} would make you want to {1}"
+  ],
+  "MadeOf": [
+    "{0} is made of {1}",
+    "{0} can be made of {1}",
+    "{0} are made of {1}"
+  ],
+  "ReceivesAction": [
+    "{0} can be {1}",
+    "{0} is something that you can {1}",
+    "{1} can be done to {0}"
+  ],
+  "InstanceOf": [
+    "{0} is an example of {1}"
+  ],
+  "NotDesires": [
+    "{0} does not want {1}",
+    "{0} doesn't want to {1}",
+    "{0} doesn't want {1}"
+  ],
+  "NotUsedFor": [
+    "{0} is not used for {1}"
+  ],
+  "NotCapableOf": [
+    "{0} is not capable of {1}",
+    "{0} do not {1}"
+  ],
+  "NotHasProperty": [
+    "{0} does not have the property of {1}"
+  ],
+  "NotMadeOf": [
+    "{0} is not made of {1}"
+  ]
+}
