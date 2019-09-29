@@ -147,7 +147,7 @@ class DirectTemplate(CommonsenseTuples):
 
 class PredefinedTemplate(CommonsenseTuples):
 
-    def __init__(self, *args, template_loc='relation_map.json', grammar = False):
+    def __init__(self, *args, template_loc='relation_map.json', grammar = False, language_model = None):
         super().__init__(*args)
         self.nlp = spacy.load('en_core_web_sm', disable=['parser', 'ner'])
         template_loc  = Path(__file__).parent / template_loc
@@ -310,12 +310,11 @@ class EnumeratedTemplate(CommonsenseTuples):
 
 
 class KnowledgeMiner:
-    def __init__(self, dev_data_path, device, Template, bert, template_loc = None, language_model = None):
+    def __init__(self, dev_data_path, device, Template, bert, **kwarg):
         self.sentences = Template(
             dev_data_path,
             device,
-            template_loc = template_loc,
-            language_model = language_model
+            **kwarg
         )
 
         bert.eval()
