@@ -1,1 +1,3 @@
-data/
+__pycache__
+old_stuff
+.DC_Store

@@ -1,3 +1,7 @@
+"""
+Collection of classes for use in generating sentences from relational triples
+"""
+
 from torch.utils.data import Dataset, DataLoader
 from torch import nn
 from pytorch_pretrained_bert import BertTokenizer, BertModel, BertForMaskedLM, \
@@ -12,15 +16,16 @@ import requests
 import json
 from nltk import pos_tag
 import nltk
-import pandas as pd
 from pathlib import Path
-from copy import deepcopy
 import spacy
 # pip install pattern should work
 from pattern.en import conjugate, PARTICIPLE, referenced, INDEFINITE, pluralize
 
+
 class CommonsenseTuples(Dataset):
-    def __init__(self, tuple_dir, device, language_model = None, template_loc = None):
+    """ Base class for generating sentences from relational triples """
+
+    def __init__(self, tuple_dir, device, language_model=None, template_loc=None):
         """
         Args:
             tuple_dir (string): Path to the csv file with commonsense tuples
@@ -135,9 +140,11 @@ class CommonsenseTuples(Dataset):
 
 
 class DirectTemplate(CommonsenseTuples):
+    """ Sentence generation approach via direct concatenation. I.e., head and
+    tail are concatenated to the ends of the relation as strings """
 
-    def __init__(self, *args, template_loc = None, language_model = None):
-        super().__init__(*args, template_loc = template_loc, language_model = language_model)
+    def __init__(self, *args, template_loc=None, language_model=None):
+        super().__init__(*args, template_loc=template_loc, language_model=language_model)
         self.regex = '[A-Z][^A-Z]*'
 
     def apply_template(self, relation, head, tail):
@@ -146,8 +153,9 @@ class DirectTemplate(CommonsenseTuples):
 
 
 class PredefinedTemplate(CommonsenseTuples):
+    """ Sentence generation via predefined template for each relation """
 
-    def __init__(self, *args, template_loc='relation_map.json', grammar = False, language_model = None):
+    def __init__(self, *args, template_loc='relation_map.json', grammar=False, language_model=None):
         super().__init__(*args)
         self.nlp = spacy.load('en_core_web_sm', disable=['parser', 'ner'])
         template_loc  = Path(__file__).parent / template_loc
@@ -175,53 +183,12 @@ class PredefinedTemplate(CommonsenseTuples):
         sent = self.templates[relation].format(head, tail)
         return sent, head, tail
 
-class SurfaceTexts(CommonsenseTuples):
-    def __init__(self, *args):
-        super().__init__(*args)
-
-    def apply_template(self, sent, head, tail):
-        head_or_tail = re.findall('\[\[.+?\]\]', sent)
-
-        head_new = [text for text in head_or_tail if head.split(' ')[0] in text.lower()][0]
-        tail_new = [text for text in head_or_tail if tail.split(' ')[0] in text.lower()][0]
-
-        head_clean, tail_clean, sent_clean = [re.sub('[\[\]\*\.]','', text) for text in (head_new, tail_new, sent)]
-
-        return sent_clean, head_clean, tail_clean
-
-    def __getitem__(self, idx):
-        # get tuple
-        r, t1, t2, label, sent = self.tuples[idx][:5]
-
-        # apply template
-        try:
-            sent, t1, t2 = self.apply_template(sent, t1, t2)
-        except (TypeError, json.JSONDecodeError) as e:
-            return (-1,-1,-1,-1)
-        # apply start and end tokens
-        sent = f"{self.start_token} {sent}. {self.sep_token}"
-
-        # tokenize sentences and t1 and t2
-        tokenized_sent = self.tokenizer.tokenize(sent)
-        tokenized_t1 = self.tokenizer.tokenize(t1)
-        tokenized_t2 = self.tokenizer.tokenize(t2)
-
-        # mask sentence
-        tokenized_masked = self.mask_sentence(tokenized_sent, tokenized_t1, tokenized_t2)
-
-        # get segment ids
-        segments_ids = self.get_segment_ids(tokenized_sent)
-
-        # convert tokens to ids
-        indexed_sent = self.tokenizer.convert_tokens_to_ids(tokenized_sent)
-        indexed_masked = self.tokenizer.convert_tokens_to_ids(tokenized_masked)
-
-        return torch.tensor(indexed_sent), torch.tensor(indexed_masked),\
-                    torch.tensor(segments_ids), int(label)
 
 class EnumeratedTemplate(CommonsenseTuples):
-    def __init__(self, *args, language_model = None, template_loc='./relation_map_multiple.json'):
-        super().__init__(*args, language_model = language_model, template_loc=template_loc)
+    """ Sentence generation with coherency ranking """
+
+    def __init__(self, *args, language_model=None, template_loc='./relation_map_multiple.json'):
+        super().__init__(*args, language_model=language_model, template_loc=template_loc)
         self.nlp = spacy.load('en_core_web_sm', disable=['parser', 'ner'])
         self.enc = GPT2Tokenizer.from_pretrained('gpt2')
 
@@ -243,6 +210,7 @@ class EnumeratedTemplate(CommonsenseTuples):
             for t in tails:
                 for temp in templates:
                     candidate_sents.append((temp.format(h, t), h, t))
+
         return candidate_sents
 
     def formats(self, phrase):
@@ -277,7 +245,6 @@ class EnumeratedTemplate(CommonsenseTuples):
             new_tokens[0] = tokens[0]
             new_phrases.append(' '.join(new_tokens))
 
-
         # account for numbers
         if first_word_POS == 'NUM' and len(tokens) > 1:
             new_tokens[1] = pluralize(tokens[1])
@@ -286,95 +253,24 @@ class EnumeratedTemplate(CommonsenseTuples):
 
     def get_best_candidate(self, candidate_sents):
         candidate_sents.sort(key=self.score_sent, reverse=True)
-
-        #print([s for s, _, _ in candidate_sents])
         return candidate_sents[0]
 
     def score_sent(self, candidate):
         sent, _, _ = candidate
         sent = ". "+sent
+
         try:
             tokens = self.enc.encode(sent)
         except KeyError:
             return 0
 
-        context = torch.tensor(tokens, dtype=torch.long, device = self.device).reshape(1,-1)
-
+        context = torch.tensor(tokens, dtype=torch.long, device=self.device).reshape(1,-1)
         logits, _ = self.model(context)
         log_probs = logits.log_softmax(2)
         sentence_log_prob = 0
+
         for idx, c in enumerate(tokens):
             if idx > 0:
                 sentence_log_prob += log_probs[0, idx-1, c]
+
         return sentence_log_prob.item() / (len(tokens)**0.2)
-
-
-class KnowledgeMiner:
-    def __init__(self, dev_data_path, device, Template, bert, **kwarg):
-        self.sentences = Template(
-            dev_data_path,
-            device,
-            **kwarg
-        )
-
-        bert.eval()
-        bert.to(device)
-        self.bert = bert
-
-        self.device = device
-        self.results = []
-
-    def make_predictions(self):
-        data = []
-        for idx, (sent, (masked_head, masked_tail, masked_both), ids, label) in enumerate(self.sentences):
-            tail_masked_ids = [idx for idx, token in enumerate(masked_tail) if token == 103]
-            head_masked_ids = [idx for idx, token in enumerate(masked_head) if token == 103]
-
-            # conditional
-            logprob_tail_conditional = self.predict(sent, masked_tail, ids, tail_masked_ids)
-            logprob_head_conditional = self.predict(sent, masked_head, ids, head_masked_ids)
-            # marginal
-            logprob_tail_marginal = self.predict(sent, masked_both, ids, tail_masked_ids)
-            logprob_head_marginal = self.predict(sent, masked_both, ids, head_masked_ids)
-
-            NLL = -logprob_tail_conditional/len(tail_masked_ids)
-
-            mutual_inf = logprob_tail_conditional - logprob_tail_marginal
-            mutual_inf += logprob_head_conditional - logprob_head_marginal
-            mutual_inf /= 2.
-            try:
-                print(idx, (NLL.item(), mutual_inf.item(), label, self.sentences.id_to_text(sent)))
-                data.append((NLL.item(), logprob_tail_conditional.item(), logprob_tail_marginal.item(),
-                             logprob_head_conditional.item(), logprob_head_marginal.item(),
-                             mutual_inf.item(), label, self.sentences.id_to_text(sent)))
-            except AttributeError:
-                print(idx, (NLL, mutual_inf, label, self.sentences.id_to_text(sent)))
-                data.append((NLL,  logprob_tail_conditional.item(), logprob_tail_marginal.item(),
-                             logprob_head_conditional.item(), logprob_head_marginal.item(),
-                             mutual_inf.item(), label, self.sentences.id_to_text(sent)))
-        # prep data
-        df = pd.DataFrame(data, columns = ('nll','tail_conditional','tail_marginal',
-                                           'head_conditional','head_marginal','mut_inf','label','sent'))
-        self.results = df
-        return df
-
-    def predict(self, sent, masked, ids, masked_ids):
-        logprob = 0
-        masked = deepcopy(masked)
-        masked_ids = masked_ids.copy()
-        for _ in range(len(masked_ids)):
-            # make prediction
-            pred = self.bert(masked.reshape(1,-1),ids.reshape(1,-1)).log_softmax(2)
-
-            # get log probs for each token
-            max_log_prob = -np.inf
-
-            for idx in masked_ids:
-                if pred[0, idx, sent[idx]] > max_log_prob:
-                    most_likely_idx = idx
-                    max_log_prob = pred[0, idx, sent[idx]]
-
-            logprob += max_log_prob
-            masked[most_likely_idx] = sent[most_likely_idx]
-            masked_ids.remove(most_likely_idx)
-        return logprob
