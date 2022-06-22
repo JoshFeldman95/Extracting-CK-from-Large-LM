@@ -11,7 +11,7 @@ matplotlib==3.3.3
 mock==4.0.3
 mypy_extensions==0.4.3
 nltk==3.5
-numpy==1.19.4
+numpy==1.22.0
 ordereddict==1.1
 pandas==1.2.0
 pattern==3.6
