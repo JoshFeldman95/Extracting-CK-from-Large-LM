@@ -6,7 +6,7 @@ importlib_metadata==3.3.0
 ipaddr==2.2.0
 keyring==21.8.0
 lockfile==0.12.2
-lxml==4.6.2
+lxml==4.9.1
 matplotlib==3.3.3
 mock==4.0.3
 mypy_extensions==0.4.3
