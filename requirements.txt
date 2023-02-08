@@ -1,5 +1,5 @@
 brotli==1.0.9
-cryptography==3.3.2
+cryptography==39.0.1
 Cython==0.29.21
 docutils==0.16
 importlib_metadata==3.3.0
